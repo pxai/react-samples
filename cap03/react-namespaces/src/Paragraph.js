@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Page from './Page';
 
-class Paragraph extends Component {
+export default Page.Paragraph = React.createClass({
   render() {
     return (
         <p className="App-intro">
@@ -8,7 +9,5 @@ class Paragraph extends Component {
         </p>
     );
   }
-}
-
-export default Paragraph;
+});
 

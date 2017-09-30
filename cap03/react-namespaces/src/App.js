@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header'
-import Paragraph from './Paragraph'
+import Page from './Page'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header logo={logo} />
-        <Paragraph />
-      </div>
+      <Page>
+        <Page.Header logo={logo} />
+        <Page.Paragraph />
+      </Page>
     );
   }
 }

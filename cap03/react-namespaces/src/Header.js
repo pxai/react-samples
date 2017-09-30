@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Page from './Page';
 
-class Header extends Component {
+export default Page.Header = React.createClass({
   render() {
     return (
         <header className="App-header">
@@ -9,6 +10,4 @@ class Header extends Component {
         </header>
     );
   }
-}
-
-export default Header;
+});
