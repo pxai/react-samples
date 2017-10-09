@@ -3,18 +3,41 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    console.log('App>constructor', this.state, this.props);
+  }
+
+  componentDidMount(){
+    console.log('App> componentDidMount', this.state, this.props);
+  }
+
+  componentWillReceiveProps(){
+    console.log('App> componentWillReceiveProps',this.state, this.props);
+  }
+
+  shouldComponentUpdate(){
+    console.log('App> shouldComponentUpdate', this.state, this.props);
+  }
+
+  componentWillUpdate(){
+    console.log('App> componentWillUpdate', this.state, this.props);
+  }
+
+  componentDidUpdate(){
+    console.log('App> componentDidUpdate', this.state, this.props);
+  }
   render() {
+    console.log('App> render> ', this.state, this.props);
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <button onClick={() => this.setState({name:'React'})}>
+          </button>
       </div>
     );
+  }
+
+  componentWillUmount(){
+    console.log('App> componentWillUmount', this.state, this.props);
   }
 }
 
