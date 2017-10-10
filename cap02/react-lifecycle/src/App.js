@@ -35,7 +35,7 @@ class App extends Component {
     console.log('App> render> ', this.state, this.props);
     return (
       <div className="App">
-          <button onClick={() => this.setState({name:'React'})}>
+          <button onClick={() => this.setState({name:Math.random()})}>
             Update
           </button>
       </div>
