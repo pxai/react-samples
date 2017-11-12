@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-const myText = 'This app rocks!';
-const doIt = () => { alert('It works')}; 
-
-ReactDOM.render(<App title='SuperApp' text={myText} fun={doIt} />, 
+ReactDOM.render(<App />, 
                             document.getElementById('root'));
 registerServiceWorker();
