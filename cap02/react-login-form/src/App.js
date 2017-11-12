@@ -5,10 +5,15 @@ class App extends Component {
 
   constructor(props) {
     super(props);
+    this.state = { login: '', password: '' }
   }
 
   handleSubmit=  (e) => {
-    console.log("Form submitted");
+    e.preventDefault();
+    this.setState({
+      login: this.refs.login.value,
+      password: this.refs.password.value
+    })
   }
 
   render() {
@@ -32,6 +37,8 @@ class App extends Component {
           </div>
           </form>
           </div>
+          <div>Login: {this.state.login}, password: {this.state.password}
+            </div>
       </div>
     );
   }
