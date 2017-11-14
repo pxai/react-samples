@@ -32,6 +32,18 @@ class App extends Component {
           <div>
             <input type="password" ref="password"/>
           </div>
+          <div><label>Description</label></div>
+          <div>
+            <textarea ref="description"></textarea> 
+          </div>
+          <div><label>Marital State</label></div>
+          <div>
+            <select ref="maritalState">
+              <option value="1">Single</option>
+              <option value="2">Multiple</option>
+              <option value="3">Married</option>
+            </select> 
+          </div>
           <div>
             <input type="submit" value="Login" />
           </div>
