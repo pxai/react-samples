@@ -44,6 +44,22 @@ class App extends Component {
               <option value="3">Married</option>
             </select> 
           </div>
+          <div><label>Studies</label></div>
+          <div>
+            <div><input type="checkbox" ref="studies[]" value="primary" id="s_primary" />
+            <label id="s_primary">Primary</label></div>
+            <div><input type="checkbox" ref="studies[]" value="bachelor" id="s_bachelor" />
+            <label id="s_bachelor">Bachelor</label></div>
+            <div><input type="checkbox" ref="studies[]" value="master" id="s_master" />
+            <label id="s_master">Master</label></div>
+          </div>
+          <div><label>Sex</label></div>
+          <div>
+            <div><input type="radio" ref="sex" value="male" id="s_nothing" />
+            <label id="s_nothing">Nothing</label></div>
+            <div><input type="radio" ref="sex" value="female" id="s_bachelor" />
+            <label id="s_bachelor">Bachelor</label></div>
+          </div>
           <div>
             <input type="submit" value="Login" />
           </div>

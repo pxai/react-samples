@@ -8,7 +8,7 @@ class App extends Component {
     this.state = {name: 'Default name'};
   }
 
-  handleChange=  (e) => {
+  handleChange = (e) => {
     this.setState({
       name: e.target.value
     });
@@ -25,6 +25,7 @@ class App extends Component {
           <div>
             <input type="text"
               value={this.state.name}
+              defaultValue='default text'
               onChange={this.handleChange} 
             />
           </div>
