@@ -5,14 +5,25 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { login: '', password: '' }
+    this.state = { username: '', password: '', description: '',
+                   maritalState: '',studies: [], sex: '' }
   }
 
   handleSubmit=  (e) => {
     e.preventDefault();
+
+    let studies = [];
+      for (let value of this.refs.form.studies) {
+          if (value.checked) { studies.push(value.value);}
+      }
+
     this.setState({
-      login: this.refs.login.value,
-      password: this.refs.password.value
+      username: this.refs.username.value,
+      password: this.refs.password.value,
+      description: this.refs.description.value,
+      maritalState: this.refs.maritalState.value,
+      studies: studies,
+      sex: this.refs.form.sex.value
     })
   }
 
@@ -22,11 +33,11 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Login form</h1>
         </header>
-        <div>
-          <form onSubmit={this.handleSubmit}>
-          <div><label>Login</label></div>
+        <div className="App-form">
+          <form onSubmit={this.handleSubmit} ref="form">
+          <div><label>Username</label></div>
           <div>
-            <input type="text" ref="login"/>
+            <input type="text" ref="username"/>
           </div>
           <div><label>Password</label></div>
           <div>
@@ -46,27 +57,28 @@ class App extends Component {
           </div>
           <div><label>Studies</label></div>
           <div>
-            <div><input type="checkbox" ref="studies[]" value="primary" id="s_primary" />
-            <label id="s_primary">Primary</label></div>
-            <div><input type="checkbox" ref="studies[]" value="bachelor" id="s_bachelor" />
-            <label id="s_bachelor">Bachelor</label></div>
-            <div><input type="checkbox" ref="studies[]" value="master" id="s_master" />
-            <label id="s_master">Master</label></div>
+            <div><input type="checkbox" name="studies" ref="s_primary" value="primary" id="s_primary" />
+            <label htmlFor="s_primary">Primary</label></div>
+            <div><input type="checkbox" name="studies" ref="s_bachelor" value="bachelor" id="s_bachelor" />
+            <label htmlFor="s_bachelor">Bachelor</label></div>
+            <div><input type="checkbox" name="studies" ref="s_master" value="master" id="s_master" />
+            <label htmlFor="s_master">Master</label></div>
           </div>
           <div><label>Sex</label></div>
           <div>
-            <div><input type="radio" ref="sex" value="male" id="s_nothing" />
-            <label id="s_nothing">Nothing</label></div>
-            <div><input type="radio" ref="sex" value="female" id="s_bachelor" />
-            <label id="s_bachelor">Bachelor</label></div>
+            <div><input type="radio" name="sex" value="male" id="male" />
+            <label htmlFor="male">Male</label></div>
+            <div><input type="radio" name="sex" value="female" id="female" />
+            <label htmlFor="female">Female</label></div>
           </div>
           <div>
             <input type="submit" value="Login" />
           </div>
           </form>
+          <div>{Object.keys(this.state).map( (key) => <div key={key}><b>{key}:</b> {this.state[key]}</div>)}
           </div>
-          <div>Login: {this.state.login}, password: {this.state.password}
-            </div>
+          </div>
+
       </div>
     );
   }
