@@ -6,25 +6,19 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { username: '', password: '', description: '',
-                   maritalState: '',studies: [], sex: '' }
+                   maritalState: '',s_primary: false, s_bachelor: false, 
+                   s_master: false, sex: '' }
   }
 
-  handleSubmit=  (e) => {
-    e.preventDefault();
+  handleChange = (event) => {
+    const target = event.target;
+    const value = (target.type === 'radio' )? target.checked : target.value;
+    const name = target.name;
 
-    let studies = [];
-      for (let value of this.refs.form.studies) {
-          if (value.checked) { studies.push(value.value);}
-      }
-
-    this.setState({
-      username: this.refs.username.value,
-      password: this.refs.password.value,
-      description: this.refs.description.value,
-      maritalState: this.refs.maritalState.value,
-      studies: studies,
-      sex: this.refs.form.sex.value
-    })
+    console.log(name + " : "+ target.checked + " : "+ target.value);
+    this.setState({ 
+      [name]: value
+    });
   }
 
   render() {
@@ -34,22 +28,33 @@ class App extends Component {
           <h1 className="App-title">Login form</h1>
         </header>
         <div className="App-form">
-          <form onSubmit={this.handleSubmit} ref="form">
+          <form onSubmit={this.handleSubmit}>
           <div><label>Username</label></div>
           <div>
-            <input type="text" ref="username"/>
+            <input type="text" 
+              name="username" 
+              value={this.state.username}
+              onChange={this.handleChange} />
           </div>
           <div><label>Password</label></div>
           <div>
-            <input type="password" ref="password"/>
+            <input type="password" 
+              name="password" 
+              value={this.state.password}
+              onChange={this.handleChange}/>
           </div>
           <div><label>Description</label></div>
           <div>
-            <textarea ref="description"></textarea> 
+            <textarea 
+              name="description" 
+              value={this.state.description}
+              onChange={this.handleChange}></textarea> 
           </div>
           <div><label>Marital State</label></div>
           <div>
-            <select ref="maritalState">
+            <select name="maritalState" 
+              value={this.state.username}
+              onChange={this.handleChange}>
               <option value="1">Single</option>
               <option value="2">Multiple</option>
               <option value="3">Married</option>
@@ -57,18 +62,28 @@ class App extends Component {
           </div>
           <div><label>Studies</label></div>
           <div>
-            <div><input type="checkbox" name="studies" ref="s_primary" value="primary" id="s_primary" />
+            <div><input type="checkbox" name="s_primary"  id="s_primary"
+                    value={this.state.s_primary}
+                    onChange={this.handleChange} />
             <label htmlFor="s_primary">Primary</label></div>
-            <div><input type="checkbox" name="studies" ref="s_bachelor" value="bachelor" id="s_bachelor" />
+            <div><input type="checkbox" name="s_bachelor"  id="s_bachelor" 
+                    value={this.state.s_bachelor}
+                    onChange={this.handleChange}/>
             <label htmlFor="s_bachelor">Bachelor</label></div>
-            <div><input type="checkbox" name="studies" ref="s_master" value="master" id="s_master" />
+            <div><input type="checkbox" name="s_master"  id="s_master" 
+                    value={this.state.s_master}
+                    onChange={this.handleChange}/>
             <label htmlFor="s_master">Master</label></div>
           </div>
           <div><label>Sex</label></div>
           <div>
-            <div><input type="radio" name="sex" value="male" id="male" />
+            <div><input type="radio" name="sex" id="male" 
+                    value={this.state.sex}
+                    onChange={this.handleChange}/>
             <label htmlFor="male">Male</label></div>
-            <div><input type="radio" name="sex" value="female" id="female" />
+            <div><input type="radio" name="sex"  id="female" 
+                    value={this.state.sex}
+                    onChange={this.handleChange}/>
             <label htmlFor="female">Female</label></div>
           </div>
           <div>
@@ -76,6 +91,7 @@ class App extends Component {
           </div>
           </form>
           <div>{Object.keys(this.state).map( (key) => <div key={key}><b>{key}:</b> {this.state[key]}</div>)}
+          {this.state.sex} - {this.state.s_master}
           </div>
           </div>
 
