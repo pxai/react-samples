@@ -16,7 +16,7 @@ class App extends Component {
         possessions = Object.keys(list).map( index => list[index].value);
 
         this.setState({
-            possession: possessions
+            possessions: possessions
         });
     }
 
@@ -78,10 +78,12 @@ class App extends Component {
             <input type="submit" value="Login" />
           </div>
           </form>
-          <div>{Object.keys(this.state.studies).map( (key) =>
-                <div key={key}><b>{key}:</b> {this.state.studies[key]}</div>)}
-          {this.state.sex} - {this.state.s_master}
-          </div>
+            <div>Pos: {Object.keys(this.state.possessions).map( (key) =>
+                <span key={key}>{this.state.possessions[key]},</span>)}
+            </div>
+            <div>Studies: {Object.keys(this.state.studies).map( (key) =>
+                <span key={key}>{this.state.studies[key]},</span>)}
+            </div>
           </div>
 
       </div>
