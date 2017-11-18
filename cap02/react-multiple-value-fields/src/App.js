@@ -10,18 +10,13 @@ class App extends Component {
   }
 
   handleChangeSelect = (event) => {
-        const target = event.target;
-        let possessions = this.state.possessions;
+        const list = event.target.selectedOptions;
+        let possessions = [];
 
-        console.log(target, possessions);
-        if (target.selected) {
-            possessions.push(target.value);
-        } else {
-            possessions.splice(possessions.indexOf(target.value),1);
-        }
+        possessions = Object.keys(list).map( index => list[index].value);
 
         this.setState({
-            [target.name]: possessions
+            possession: possessions
         });
     }
 
@@ -55,14 +50,10 @@ class App extends Component {
           <div><label>Possessions</label></div>
           <div>
             <select multiple onChange={this.handleChangeSelect}>
-              <option value="101"
-                      onChange={this.handleChangeSelect} >Smart Phone</option>
-              <option value="102"
-                      onSelect={this.handleChangeSelect} >Tablet</option>
-              <option value="103"
-                      onSelect={this.handleChangeSelect} >PC</option>
-              <option value="104"
-                      onSelect={this.handleChangeSelect} >Laptop</option>
+              <option value="101">Smart Phone</option>
+              <option value="102">Tablet</option>
+              <option value="103">PC</option>
+              <option value="104">Laptop</option>
             </select> 
           </div>
           <div><label>Studies</label></div>
