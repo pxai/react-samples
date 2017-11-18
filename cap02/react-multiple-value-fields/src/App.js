@@ -5,98 +5,90 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { username: '', password: '', description: '',
-                   maritalState: '',s_primary: false, s_bachelor: false, 
-                   s_master: false, sex: '' }
+    this.state = { possessions: [],
+                   studies: []}
   }
 
-  handleChange = (event) => {
-    const target = event.target;
-    let value =   target.value;
-    if (target.type === 'checkbox' && !target.checked ) {
-        value = '';
-    }
-    const name = target.name;
+  handleChangeSelect = (event) => {
+        const target = event.target;
+        let possessions = this.state.possessions;
 
-    this.setState({ 
-      [name]: value
-    });
+        console.log(target, possessions);
+        if (target.selected) {
+            possessions.push(target.value);
+        } else {
+            possessions.splice(possessions.indexOf(target.value),1);
+        }
+
+        this.setState({
+            [target.name]: possessions
+        });
+    }
+
+  handleChangeCheckbox = (event) => {
+    const target = event.target;
+    let studies = this.state.studies;
+
+      if (target.checked) {
+        studies.push(target.value);
+      } else {
+        studies.splice(studies.indexOf(target.value),1);
+      }
+
+      this.setState({
+          [target.name]: studies
+      });
+  }
+
+  inArray = (element) => {
+    return this.state.studies.indexOf(element) !== -1;
   }
 
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Complex Login form</h1>
+          <h1 className="App-title">Multiple value fileds</h1>
         </header>
         <div className="App-form">
           <form onSubmit={this.handleSubmit}>
-          <div><label>Username</label></div>
+          <div><label>Possessions</label></div>
           <div>
-            <input type="text" 
-              name="username" 
-              value={this.state.username}
-              onChange={this.handleChange} />
-          </div>
-          <div><label>Password</label></div>
-          <div>
-            <input type="password" 
-              name="password" 
-              value={this.state.password}
-              onChange={this.handleChange}/>
-          </div>
-          <div><label>Description</label></div>
-          <div>
-            <textarea 
-              name="description" 
-              value={this.state.description}
-              onChange={this.handleChange}></textarea> 
-          </div>
-          <div><label>Marital State</label></div>
-          <div>
-            <select name="maritalState" 
-              value={this.state.username}
-              onChange={this.handleChange}>
-              <option value="1">Single</option>
-              <option value="2">Multiple</option>
-              <option value="3">Married</option>
+            <select multiple onChange={this.handleChangeSelect}>
+              <option value="101"
+                      onChange={this.handleChangeSelect} >Smart Phone</option>
+              <option value="102"
+                      onSelect={this.handleChangeSelect} >Tablet</option>
+              <option value="103"
+                      onSelect={this.handleChangeSelect} >PC</option>
+              <option value="104"
+                      onSelect={this.handleChangeSelect} >Laptop</option>
             </select> 
           </div>
           <div><label>Studies</label></div>
           <div>
-            <div><input type="checkbox" name="s_primary" id="s_primary"
+            <div><input type="checkbox" id="s_primary"
                     value="s_primary" 
-                    checked={this.state.s_primary==='s_primary'}
-                    onChange={this.handleChange} />
+                    checked={this.inArray('s_primary')}
+                    onChange={this.handleChangeCheckbox} />
             <label htmlFor="s_primary">Primary</label></div>
-            <div><input type="checkbox" name="s_bachelor" id="s_bachelor" 
+            <div><input type="checkbox" id="s_bachelor"
                     value="s_bachelor"
-                    checked={this.state.s_bachelor==='s_bachelor'}
-                    onChange={this.handleChange}/>
+                    checked={this.inArray('s_bachelor')}
+                    onChange={this.handleChangeCheckbox}/>
             <label htmlFor="s_bachelor">Bachelor</label></div>
-            <div><input type="checkbox" name="s_master" id="s_master" 
+            <div><input type="checkbox" id="s_master"
                     value="s_master"
-                    checked={this.state.s_master==='s_master'}
-                    onChange={this.handleChange}/>
+                    checked={this.inArray('s_master')}
+                    onChange={this.handleChangeCheckbox}/>
             <label htmlFor="s_master">Master</label></div>
-          </div>
-          <div><label>Sex</label></div>
-          <div>
-            <div><input type="radio" name="sex" value="male" id="male" 
-                    checked={this.state.sex === 'male'}
-                    onChange={this.handleChange}/>
-            <label htmlFor="male">Male</label></div>
-            <div><input type="radio" name="sex" value="female" id="female" 
-                    checked={this.state.sex === 'female'}
-                    onChange={this.handleChange}/>
-            <label htmlFor="female">Female</label></div>
           </div>
           <div>
             <input type="submit" value="Login" />
           </div>
           </form>
-          <div>{Object.keys(this.state).map( (key) =>
-                <div key={key}><b>{key}:</b> {this.state[key]}</div>)}
+          <div>{Object.keys(this.state.studies).map( (key) =>
+                <div key={key}><b>{key}:</b> {this.state.studies[key]}</div>)}
           {this.state.sex} - {this.state.s_master}
           </div>
           </div>

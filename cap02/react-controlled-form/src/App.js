@@ -95,8 +95,7 @@ class App extends Component {
             <input type="submit" value="Login" />
           </div>
           </form>
-          <div>{Object.keys(this.state).map( (key) =>
-                <div key={key}><b>{key}:</b> {this.state[key]}</div>)}
+          <div>{Object.keys(this.state).map( (key) => <div key={key}><b>{key}:</b> {this.state[key]}</div>)}
           {this.state.sex} - {this.state.s_master}
           </div>
           </div>
