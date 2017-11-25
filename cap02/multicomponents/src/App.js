@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header logo={logo} />
-        <Paragraph onClick={() => this.showMsg('Hello')} />
+        <Paragraph shMsg={this.showMsg} />
       </div>
     );
   }
