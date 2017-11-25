@@ -5,11 +5,14 @@ import Header from './Header'
 import Paragraph from './Paragraph'
 
 class App extends Component {
+    showMsg (msg) {
+        alert('This button works: ' + msg);
+    }
   render() {
     return (
       <div className="App">
         <Header logo={logo} />
-        <Paragraph />
+        <Paragraph onClick={() => this.showMsg('Hello')} />
       </div>
     );
   }
