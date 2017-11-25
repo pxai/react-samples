@@ -1,14 +1,8 @@
-import { Component } from 'react';
-
-class Header extends Component {
-  render() {
+export default function Header ({ logo , title= "Welcome to React"}) {
     return (
         <header className="App-header">
-          <img src={this.props.logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">{title}</h1>
         </header>
     );
-  }
 }
-
-export default Header;
