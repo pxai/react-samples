@@ -1,5 +1,5 @@
 .App {
-  text-align: justify;
+  text-align: center;
 }
 
 .App-logo {
@@ -22,19 +22,15 @@
   font-size: large;
 }
 
-.App-form {
-  margin: 2em;
-  width: 70%;
-  min-width: 400px;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-label {
-  margin-top: 1em;
-  font-weight: bold;
+.error {
+  border: 1px solid lightcoral;
+  padding: 0.5em;
+  color: darksalmon;
+  width: 200px;
+  margin: 0 auto;
 }
-
