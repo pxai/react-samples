@@ -19,6 +19,8 @@ class Default extends Component {
               <Link to="/nowhere">Faulty link</Link> |
               <Link to="/category/movies">Category: movies</Link> |
               <Link to="/category/fail">Category: fail (will redirect)</Link> |
+                <Link to="/sample/42/isacc">Sample: 2 params</Link> |
+                <Link to="/sample/0/fail">Sample: fail (will redirect)</Link> |
             </div>
         </div>
       </div>

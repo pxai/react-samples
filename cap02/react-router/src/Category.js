@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import './App.css';
-
-
 
 class Category extends Component {
   render() {
@@ -18,8 +16,12 @@ class Category extends Component {
                     (
                         <div>This is the category page: {category}</div>
                     ) : (
-                        <Redirect to="/404" />
+                        <Redirect to={{
+                            pathname: '/404',
+                            state: { from: this.props.location, sample: 666 }
+                        }}/>
                     )
+
                 }
             </div>
         </div>
