@@ -15,8 +15,8 @@ class NotFound extends Component {
               <h1>NotFound component</h1>
             </div>
             <div>
-              <Link to="/">Home</Link> | 
-              <Link to="/about">About</Link> | 
+                That page was not found
+                <Link to="/">Back</Link>
             </div>
         </div>
       </div>

@@ -15,8 +15,9 @@ class About extends Component {
               <h1>About component</h1>
             </div>
             <div>
-              <Link to="/">Home</Link> | 
-              <Link to="/about">About</Link> | 
+                This is what the about page
+                is all about
+                <Link to="/">Back</Link>
             </div>
         </div>
       </div>

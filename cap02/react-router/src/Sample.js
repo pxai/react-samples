@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import './App.css';
 
 
@@ -15,8 +15,7 @@ class Sample extends Component {
               <h1>Sample component</h1>
             </div>
             <div>
-              <Link to="/">Home</Link> | 
-              <Link to="/about">About</Link> | 
+                <Redirect to="/404" />
             </div>
         </div>
       </div>
