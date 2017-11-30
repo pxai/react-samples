@@ -21,7 +21,6 @@ class Category extends Component {
                             state: { from: this.props.location, sample: 666 }
                         }}/>
                     )
-
                 }
             </div>
         </div>

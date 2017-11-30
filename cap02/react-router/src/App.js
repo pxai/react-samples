@@ -7,8 +7,6 @@ import About  from './About';
 import Category  from './Category';
 import './App.css';
 
-
-
 class App extends Component {
 
   render() {

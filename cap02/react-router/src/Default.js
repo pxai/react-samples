@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-
 class Default extends Component {
 
   render() {
@@ -11,7 +10,7 @@ class Default extends Component {
       <div className="app">
         <div className="app-header">
             <div className="lapp-header-title">
-              <h1>Home component</h1>
+              <h1>Default component</h1>
             </div>
             <div>
               <Link to="/">Home</Link> | 

@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import './App.css';
 
-
-
 class Sample extends Component {
 
     constructor (props) {
@@ -20,7 +18,7 @@ class Sample extends Component {
     const name = this.props.match.params.name;
 
     if (this.state.redirectToDefault) {
-          return <Redirect push to="/" />;
+          return <Redirect to="/" />;
     }
 
     return (
