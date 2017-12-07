@@ -2,10 +2,10 @@ import RequestHeaders from './headers'
 
 const url = 'http://localhost:3001';
 
-const Post = function () {
+const News = function () {
 
     this.getAll = function () {
-      return fetch(url + '/posts', {
+      return fetch(url + '/news', {
           method: 'GET', 
           headers: RequestHeaders
         }
@@ -14,7 +14,7 @@ const Post = function () {
    }
    
    this.get = function (id) {
-    return fetch(url +'/posts/' + id, {
+    return fetch(url +'/news/' + id, {
         method: 'GET', 
         headers: RequestHeaders
       }
@@ -23,7 +23,7 @@ const Post = function () {
   }
 
    this.getByCategory = function (category) {
-    return fetch(url + '/'+category+'/posts', {
+    return fetch(url + '/'+category+'/news', {
         method: 'GET', 
         headers: RequestHeaders
       }
@@ -31,10 +31,10 @@ const Post = function () {
     .then(result => result.json() )
   }
 
-  this.create = function (post) {
-    return fetch(url + '/posts', {
+  this.create = function (news) {
+    return fetch(url + '/news', {
         method: 'POST',        
-        body: JSON.stringify(post),
+        body: JSON.stringify(news),
         headers: RequestHeaders
       }
     )
@@ -42,7 +42,7 @@ const Post = function () {
   }
 
   this.vote = function (id, vote) {
-    return fetch(url + '/posts/' + id, {
+    return fetch(url + '/news/' + id, {
         method: 'POST',        
         body: JSON.stringify(vote),
         headers: RequestHeaders
@@ -51,10 +51,10 @@ const Post = function () {
     .then(result => result.json() )
   }
 
-  this.update = function (post, option) {
-    return fetch(url +'/posts/' + post.id, {
+  this.update = function (news, option) {
+    return fetch(url +'/news/' + news.id, {
         method: 'PUT',         
-        body: JSON.stringify(post),
+        body: JSON.stringify(news),
         headers: RequestHeaders
       }
     )
@@ -62,7 +62,7 @@ const Post = function () {
   }
 
   this.delete = function (id) {
-    return fetch(url +'/posts/' + id, {
+    return fetch(url +'/news/' + id, {
         method: 'DELETE', 
         headers: RequestHeaders
       }
@@ -70,4 +70,4 @@ const Post = function () {
   }
 }
 
-export default new Post();
+export default new News();

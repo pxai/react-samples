@@ -1,6 +1,6 @@
 import Category   from './category';
 import Comment from './comment';
-import News from './post';
+import News from './news';
 
 export  {
     Category,
