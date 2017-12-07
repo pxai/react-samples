@@ -1,96 +1,96 @@
-import  { Post }  from '../api';
+import  { News }  from '../api';
 
-export const GET_POST = 'GET_POST'
-export const GET_POSTS = 'GET_POSTS'
-export const GET_POSTS_BY_CATEGORY = 'GET_POSTS_BY_CATEGORY'
-export const ADD_POST = 'ADD_POST'
-export const DELETE_POST = 'DELETE_POST'
-export const UPDATE_POST = 'UPDATE_POST'
-export const VOTE_POST = 'VOTE_POST'
+export const GET_NEWS = 'GET_NEWS'
+export const GET_NEWSS = 'GET_NEWSS'
+export const GET_NEWSS_BY_CATEGORY = 'GET_NEWSS_BY_CATEGORY'
+export const ADD_NEWS = 'ADD_NEWS'
+export const DELETE_NEWS = 'DELETE_NEWS'
+export const UPDATE_NEWS = 'UPDATE_NEWS'
+export const VOTE_NEWS = 'VOTE_NEWS'
 
-export function getPost(post) {
+export function getNews(news) {
     return {
-        type: GET_POST,
-        post
+        type: GET_NEWS,
+        news
     }
 }
-export function getPostAsync(id) {
+export function getNewsAsync(id) {
     return dispatch => (
-        Post.get(id).then(post => dispatch(getPost(post)))
+        News.get(id).then(news => dispatch(getNews(news)))
     )
 }
 
-export function getPosts(posts) {
+export function getNews(news) {
     return {
-        type: GET_POSTS,
-        posts
+        type: GET_NEWSS,
+        news
     }
 }
 
-export function getPostsAsync() {
+export function getNewsAsync() {
     return dispatch => (
-        Post.getAll().then(posts => dispatch(getPosts(posts)))
+        News.getAll().then(news => dispatch(getNews(news)))
     )
 }
 
 
-export function getPostsByCategory(category) {
+export function getNewsByCategory(category) {
     return {
-        type: GET_POSTS_BY_CATEGORY,
+        type: GET_NEWSS_BY_CATEGORY,
         category
     }
 }
 
-export function addPost(post) {
+export function addNews(news) {
     return {
-        type: ADD_POST,
-        post
+        type: ADD_NEWS,
+        news
     }
 }
 
-export function addPostAsync(post) {
+export function addNewsAsync(news) {
     return dispatch => (
-        Post.create(post).then(() => dispatch(addPost(post)))
+        News.create(news).then(() => dispatch(addNews(news)))
     )
 }
 
-export function deletePost(id) {
+export function deleteNews(id) {
     return {
-        type: DELETE_POST,
+        type: DELETE_NEWS,
         id
     }
 }
 
 
-export function deletePostAsync(id) {
+export function deleteNewsAsync(id) {
     return dispatch => (
-        Post.delete(id).then(() => dispatch(deletePost(id)))
+        News.delete(id).then(() => dispatch(deleteNews(id)))
     )
 }
 
-export function updatePost (post) {
+export function updateNews (news) {
     return {
-        type: UPDATE_POST,
-        post
+        type: UPDATE_NEWS,
+        news
     }
 }
 
-export function updatePostAsync(post) {
-    console.log('Updating post : ', post);
+export function updateNewsAsync(news) {
+    console.log('Updating news : ', news);
     return dispatch => (
-        Post.update(post).then((post) => dispatch(updatePost(post)))
+        News.update(news).then((news) => dispatch(updateNews(news)))
     )
 }
 
-export function votePost (post) {
+export function voteNews (news) {
     return {
-        type: VOTE_POST,
-        post
+        type: VOTE_NEWS,
+        news
     }
 }
 
-export function votePostAsync(id, vote) {
+export function voteNewsAsync(id, vote) {
     return dispatch => (
-        Post.vote(id, vote).then((post) => dispatch(votePost(post)))
+        News.vote(id, vote).then((news) => dispatch(voteNews(news)))
     )
 }

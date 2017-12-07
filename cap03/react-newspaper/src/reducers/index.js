@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import post from './post'
+import news from './news'
 import comment from './comment'
 import category from './category'
 
 export default combineReducers({
-    post,
+    news,
     comment,
     category,
   })

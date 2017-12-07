@@ -5,61 +5,61 @@ import {
     ADD_POST,
     DELETE_POST,
     UPDATE_POST,
-    VOTE_POST 
-  } from '../actions/post'
-  
+    VOTE_POST
+  } from '../actions/news'
+
   const initialPostsState = {
-    posts: []
+    news: []
   };
-  
-  export default function post (state = initialPostsState, action) {
+
+  export default function news (state = initialPostsState, action) {
     switch (action.type) {
       case GET_POSTS:
-        return { posts: action.posts.filter(elem => !elem.deleted)};
+        return { news: action.news.filter(elem => !elem.deleted)};
       case GET_POST:
-        return { posts: [action.post]};
+        return { news: [action.news]};
       case GET_POSTS_BY_CATEGORY:
-        return { posts: state.posts.filter(elem => elem.category === action.category) };
+        return { news: state.news.filter(elem => elem.category === action.category) };
       case ADD_POST:
         return {
-              posts: [
-                ...state.posts,
-                action.post
+              news: [
+                ...state.news,
+                action.news
             ]
         };
       case VOTE_POST:
-        return { posts: 
-                  state.posts.map( (elem) => {
-                    if(elem.id !== action.post.id) {
+        return { news: 
+                  state.news.map( (elem) => {
+                    if(elem.id !== action.news.id) {
                         // This isn't the item we care about - keep it as-is
                         return elem;
                     }
-                    return action.post;
+                    return action.news;
                     // Otherwise, this is the one we want - return an updated value
                     /*return {
                         ...elem,
                         voteScore: 666
-                    };*/    
+                    };*/
                 })
               };
       case DELETE_POST:
-        return { posts: state.posts.filter(elem => elem.id !== action.id) };
+        return { news: state.news.filter(elem => elem.id !== action.id) };
       case UPDATE_POST:
-        return { posts: 
-                  state.posts.map( (elem) => {
-                  if(elem.id !== action.post.id) {
+        return { news: 
+                  state.news.map( (elem) => {
+                  if(elem.id !== action.news.id) {
                       // This isn't the item we care about - keep it as-is
                       return elem;
                   }
-                  
+
                   // Otherwise, this is the one we want - return an updated value
                   return {
                       ...elem,
-                      ...action.post
-                  };    
+                      ...action.news
+                  };
               })
             };
-      default: 
+      default:
           return state;
     }
   }

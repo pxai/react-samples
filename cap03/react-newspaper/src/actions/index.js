@@ -1,9 +1,9 @@
 import Category   from './category';
 import Comment from './comment';
-import Post from './post';
+import News from './news';
 
 export  {
     Category,
     Comment,
-    Post
+    News
 }
