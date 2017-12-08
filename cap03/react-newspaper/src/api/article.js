@@ -33,7 +33,7 @@ const Article = function () {
 
   this.create = function (article) {
     return fetch(url + '/articles', {
-        method: 'ARTICLE',
+        method: 'POST',
         body: JSON.stringify(article),
         headers: RequestHeaders
       }
@@ -43,7 +43,7 @@ const Article = function () {
 
   this.vote = function (id, vote) {
     return fetch(url + '/articles/' + id, {
-        method: 'ARTICLE',
+        method: 'POST',
         body: JSON.stringify(vote),
         headers: RequestHeaders
       }

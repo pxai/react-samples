@@ -35,85 +35,85 @@ function getData (token) {
 
 function getByCategory (token, category) {
   return new Promise((res) => {
-    let posts = getData(token)
-    let keys = Object.keys(posts)
-    let filtered_keys = keys.filter(key => posts[key].category === category && !posts[key].deleted)
-    res(filtered_keys.map(key => posts[key]))
+    let articles = getData(token)
+    let keys = Object.keys(articles)
+    let filtered_keys = keys.filter(key => articles[key].category === category && !articles[key].deleted)
+    res(filtered_keys.map(key => articles[key]))
   })
 }
 
 function get (token, id) {
   return new Promise((res) => {
-    const posts = getData(token)
+    const articles = getData(token)
     res(
-      posts[id].deleted 
+      articles[id].deleted 
         ? {}
-        : posts[id]
+        : articles[id]
     )
   })
 }
 
 function getAll (token) {
   return new Promise((res) => {
-    const posts = getData(token)
-    let keys = Object.keys(posts)
-    let filtered_keys = keys.filter(key => !posts.deleted)
-    res(filtered_keys.map(key => posts[key]))
+    const articles = getData(token)
+    let keys = Object.keys(articles)
+    let filtered_keys = keys.filter(key => !articles.deleted)
+    res(filtered_keys.map(key => articles[key]))
   })
 }
 
-function add (token, post) {
+function add (token, article) {
   return new Promise((res) => {
-    let posts = getData(token)
+    let articles = getData(token)
     
-    posts[post.id] = {
-      id: post.id,
-      timestamp: post.timestamp,
-      title: post.title,
-      body: post.body,
-      author: post.author,
-      category: post.category,
+    articles[article.id] = {
+      id: article.id,
+      timestamp: article.timestamp,
+      title: article.title,
+      body: article.body,
+      author: article.author,
+      category: article.category,
       voteScore: 1,
       deleted: false
     }
      
-    res(posts[post.id])
+    res(articles[article.id])
   })
 }
 
 function vote (token, id, option) {
   return new Promise((res) => {
-    let posts = getData(token)
-    post = posts[id]
+    let articles = getData(token)
+    article = articles[id]
     switch(option) {
         case "upVote":
-            post.voteScore = post.voteScore + 1
+            article.voteScore = article.voteScore + 1
             break
         case "downVote":
-            post.voteScore = post.voteScore - 1
+            article.voteScore = article.voteScore - 1
             break
         default:
-            console.log(`posts.vote received incorrect parameter: ${option}`)
+            console.log(`articles.vote received incorrect parameter: ${option}`)
     }
-    res(post)
+    res(article)
   })
 }
 
 function disable (token, id) {
     return new Promise((res) => {
-      let posts = getData(token)
-      posts[id].deleted = true
-      res(posts[id])
+      let articles = getData(token)
+      articles[id].deleted = true
+      res(articles[id])
     })
 }
 
-function edit (token, id, post) {
+function edit (token, id, article) {
     return new Promise((res) => {
-        let posts = getData(token)
-        for (prop in post) {
-            posts[id][prop] = post[prop]
+        let articles = getData(token)
+        for (prop in article) {
+            articles[id][prop] = article[prop]
         }
-        res(posts[id])
+        res(articles[id])
     })
 }
 

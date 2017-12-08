@@ -32,7 +32,7 @@ const Comment = function () {
 
   this.create = function (comment) {
     return fetch(url + '/comments', {
-        method: 'ARTICLE',
+        method: 'POST',
         body: JSON.stringify(comment),
         headers: RequestHeaders
       }
@@ -43,7 +43,7 @@ const Comment = function () {
 
   this.vote = function (id, vote) {
     return fetch(url + '/comments/' + id, {
-        method: 'ARTICLE',
+        method: 'POST',
         body: JSON.stringify(vote),
         headers: RequestHeaders
       }
