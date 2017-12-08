@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/posts.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/articles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/comments.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/server.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/article.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" />
-    </list>
+    <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -251,67 +244,7 @@
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
-              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,18 +297,17 @@
       <workItem from="1511992958987" duration="5153000" />
       <workItem from="1512079922808" duration="3281000" />
       <workItem from="1512721145172" duration="818000" />
-      <workItem from="1512752418434" duration="1597000" />
+      <workItem from="1512752418434" duration="2206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33732000" />
+    <option name="totallyTimeSpent" value="34341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="179" width="1920" height="1018" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
