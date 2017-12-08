@@ -2,10 +2,10 @@ import RequestHeaders from './headers'
 
 const url = 'http://localhost:3001';
 
-const News = function () {
+const Article = function () {
 
     this.getAll = function () {
-      return fetch(url + '/news', {
+      return fetch(url + '/articles', {
           method: 'GET', 
           headers: RequestHeaders
         }
@@ -14,7 +14,7 @@ const News = function () {
    }
    
    this.get = function (id) {
-    return fetch(url +'/news/' + id, {
+    return fetch(url +'/articles/' + id, {
         method: 'GET', 
         headers: RequestHeaders
       }
@@ -23,7 +23,7 @@ const News = function () {
   }
 
    this.getByCategory = function (category) {
-    return fetch(url + '/'+category+'/news', {
+    return fetch(url + '/'+category+'/articles', {
         method: 'GET', 
         headers: RequestHeaders
       }
@@ -31,10 +31,10 @@ const News = function () {
     .then(result => result.json() )
   }
 
-  this.create = function (news) {
-    return fetch(url + '/news', {
-        method: 'POST',        
-        body: JSON.stringify(news),
+  this.create = function (article) {
+    return fetch(url + '/articles', {
+        method: 'ARTICLE',
+        body: JSON.stringify(article),
         headers: RequestHeaders
       }
     )
@@ -42,8 +42,8 @@ const News = function () {
   }
 
   this.vote = function (id, vote) {
-    return fetch(url + '/news/' + id, {
-        method: 'POST',        
+    return fetch(url + '/articles/' + id, {
+        method: 'ARTICLE',
         body: JSON.stringify(vote),
         headers: RequestHeaders
       }
@@ -51,10 +51,10 @@ const News = function () {
     .then(result => result.json() )
   }
 
-  this.update = function (news, option) {
-    return fetch(url +'/news/' + news.id, {
+  this.update = function (article, option) {
+    return fetch(url +'/articles/' + article.id, {
         method: 'PUT',         
-        body: JSON.stringify(news),
+        body: JSON.stringify(article),
         headers: RequestHeaders
       }
     )
@@ -62,7 +62,7 @@ const News = function () {
   }
 
   this.delete = function (id) {
-    return fetch(url +'/news/' + id, {
+    return fetch(url +'/articles/' + id, {
         method: 'DELETE', 
         headers: RequestHeaders
       }
@@ -70,4 +70,4 @@ const News = function () {
   }
 }
 
-export default new News();
+export default new Article();

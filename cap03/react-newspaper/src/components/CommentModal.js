@@ -8,12 +8,12 @@ class CommentModal extends Component {
     e.preventDefault();
     const values = serializeForm(e.target, {hash: true})
     if (this.props.comment.id === undefined) {
-      console.log('Or coming here', this.props.comment);
+      console.log('Or coming here', this.props.comment);   
       values.timestamp = +Date.now();   // + makes valueOf to be returned
       values.id = uuid();
-      values.parentId = this.props.news.id;
+      values.parentId = this.props.article.id;
 
-    } else {
+    } else {   
       console.log('coming here', this.props.comment.id);
       values.id = this.props.comment.id;
     }
@@ -37,8 +37,8 @@ class CommentModal extends Component {
             <label htmlFor="author">Author</label>
             <input className="u-full-width" placeholder="Put yout name" name="author" id="author" type="text" defaultValue={comment.author} />
         </div>
-        <div>
-            <label htmlFor="body">News body</label>
+        <div>    
+            <label htmlFor="body">Article body</label>
             <textarea className="u-full-width" placeholder="I'm Batman, I'm awesome..." id="body" name="body" defaultValue={comment.body} ></textarea>
         </div>
         <div>

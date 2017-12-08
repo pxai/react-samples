@@ -14,17 +14,17 @@ export function getComment(id) {
     }
 }
 
-export function getByPost(postId,comments) {
+export function getByArticle(articleId,comments) {
     return {
         type: GET_COMMENTS,
-        postId,
+        articleId,
         comments
     }
 }
 
-export function getByPostAsync(id) {
+export function getByArticleAsync(id) {
     return dispatch => (
-        Comment.getByPost(id).then(comments => dispatch(getByPost(id,comments)))
+        Comment.getByArticle(id).then(comments => dispatch(getByArticle(id,comments)))
     )
 }
 

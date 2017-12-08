@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/NewsList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/news.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/news.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/News.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/NewsDetail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/NewsModal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/news.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/App.css" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/App.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/news.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/news.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/Comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/Comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/CommentModal.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/CommentModal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/NotFound.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/NotFound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/showpposts.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/showpposts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,112 +35,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-router/src/Category.js">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotFound.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-router/src/NotFound.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js">
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/actions/article.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/news.js">
+      <file leaf-file-name="posts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/actions/news.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-              <folding>
-                <marker date="1512721479972" expanded="true" signature="2113:2125" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1296">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/category.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Default.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-router/src/Default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-router/src/Sample.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,16 +79,20 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>newss</find>
       <find>post</find>
       <find>Post</find>
-      <find>newss</find>
+      <find>POST</find>
     </findStrings>
     <replaceStrings>
       <replace>News</replace>
+      <replace>article</replace>
+      <replace>Article</replace>
+      <replace>ARTICLE</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/cap03/react-newspaper/src</dir>
       <dir>$PROJECT_DIR$/cap03/react-newspaper</dir>
+      <dir>$PROJECT_DIR$/cap03/react-newspaper/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -178,6 +127,10 @@
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/news.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/actions/news.js" />
+        <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js" />
+        <option value="$PROJECT_DIR$/cap03/react-newspaper/src/App.css" />
+        <option value="$PROJECT_DIR$/cap03/react-newspaper/src/App.js" />
+        <option value="$PROJECT_DIR$/cap03/react-newspaper/src/actions/post.js" />
       </list>
     </option>
   </component>
@@ -205,6 +158,9 @@
     <handled-path value="$PROJECT_DIR$/cap02/react-properties/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-router/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-state/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/react-newspaper/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/react-newspaper/server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/simple-redux/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -227,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,6 +201,13 @@
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
               <item name="cap03" type="462c0819:PsiDirectoryNode" />
               <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap03" type="462c0819:PsiDirectoryNode" />
+              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
@@ -268,11 +232,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap03" type="462c0819:PsiDirectoryNode" />
+              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap03" type="462c0819:PsiDirectoryNode" />
+              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap03" type="462c0819:PsiDirectoryNode" />
+              <item name="react-newspaper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -319,15 +306,16 @@
       <workItem from="1511650446824" duration="2768000" />
       <workItem from="1511992958987" duration="5153000" />
       <workItem from="1512079922808" duration="3281000" />
-      <workItem from="1512721145172" duration="340000" />
+      <workItem from="1512721145172" duration="818000" />
+      <workItem from="1512752418434" duration="811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31657000" />
+    <option name="totallyTimeSpent" value="32946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
+    <frame x="0" y="179" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -363,37 +351,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap02/jsx-javascript/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-form-event/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -656,9 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,27 +660,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-router/src/NotFound.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="1296">
           <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
           <folding />
         </state>
@@ -754,21 +694,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js">
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/actions/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="432">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/actions/news.js">
+    <entry file="file://$PROJECT_DIR$/cap02/react-router/src/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <marker date="1512721479972" expanded="true" signature="2113:2125" ph="{...}" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/actions/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

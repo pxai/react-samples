@@ -19,8 +19,8 @@ class Comment extends Component {
           <h2>{comment.title}</h2>
           <div className='body'>
            {comment.body}
-           <div className='newsData'>
-           <i className="fa fa-star"></i> {comment.voteScore} - <i className="fa fa-user"></i> {comment.author}  -
+           <div className='articleData'>
+           <i className="fa fa-star"></i> {comment.voteScore} - <i className="fa fa-user"></i> {comment.author}  -  
            - <i className="fa fa-calendar"></i> {this.getReadableDate(comment.timestamp)} -
            <a onClick={this.deleteComment}><i className="fa fa-trash"></i> delete</a>
            <span className="span-button">

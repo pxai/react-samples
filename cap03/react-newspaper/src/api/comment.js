@@ -21,8 +21,8 @@ const Comment = function () {
     .then(result => result.json())
   }
 
-   this.getByPost = function (id) {
-    return fetch(url + '/posts/'+id+'/comments', {
+   this.getByArticle = function (id) {
+    return fetch(url + '/articles/'+id+'/comments', {
         method: 'GET', 
         headers: RequestHeaders
       }
@@ -32,7 +32,7 @@ const Comment = function () {
 
   this.create = function (comment) {
     return fetch(url + '/comments', {
-        method: 'POST', 
+        method: 'ARTICLE',
         body: JSON.stringify(comment),
         headers: RequestHeaders
       }
@@ -43,7 +43,7 @@ const Comment = function () {
 
   this.vote = function (id, vote) {
     return fetch(url + '/comments/' + id, {
-        method: 'POST', 
+        method: 'ARTICLE',
         body: JSON.stringify(vote),
         headers: RequestHeaders
       }

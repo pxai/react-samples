@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 class NotFound extends Component {
+
   render() {
     return (
       <div className='container'>
@@ -11,6 +12,8 @@ class NotFound extends Component {
             Ooops... page not found.
           </p>
         </div>
+
+  
       </div>
     )
   }

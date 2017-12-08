@@ -1,5 +1,5 @@
        { 
-            this.props.posts.map((post) =>
+            this.props.articles.map((article) =>
                 (
-                            <Post  post={post}  />
+                            <Article  article={article}  />
         ))}

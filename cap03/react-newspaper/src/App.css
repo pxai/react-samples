@@ -60,11 +60,11 @@ color: #a1a1a1;
   min-width: 500px;
 }
 
-.post {
+.article {
   margin: 2em 1em 3em 1em;
 }
 
-.postData {
+.articleData {
   font-size: 0.9em;
   color: gray;
   margin-bottom: 1em;

@@ -3,19 +3,19 @@ import { Redirect } from 'react-router';
 import Modal from 'react-modal'
 import { connect } from 'react-redux';
 import CommentModal from './CommentModal';
-import NewsModal from './NewsModal';
-import  { getByNewsAsync, addCommentAsync, deleteCommentAsync, voteCommentAsync, updateCommentAsync  }  from '../actions/comment';
-import  { getNewsAsync, voteNewsAsync, updateNewsAsync, deleteNewsAsync }  from '../actions/news';
+import ArticleModal from './ArticleModal';
+import  { getByArticleAsync, addCommentAsync, deleteCommentAsync, voteCommentAsync, updateCommentAsync  }  from '../actions/comment';
+import  { getArticleAsync, voteArticleAsync, updateArticleAsync, deleteArticleAsync }  from '../actions/article';
 import  { getCategoriesAsync }  from '../actions/category';
 import Comment from './Comment';
 import AlertContainer from 'react-alert'
 
-class News extends Component {
+class Article extends Component {
 
   state = {
-    newsModalOpen: false,
+    articleModalOpen: false,
     commentModalOpen: false,
-    news: {},
+    article: {},
     comment: {},
     commentUpdate: false,
     redirectAfterDelete: false
@@ -30,18 +30,18 @@ class News extends Component {
   }
 
   constructor ({match}) {
-    super();
+    super();        
   }
 
-  openNewsModal = () => {
+  openArticleModal = () => {
     this.setState(() => ({
-      newsModalOpen: true
+      articleModalOpen: true
     }))
   }
 
-  closeNewsModal = () => {
+  closeArticleModal = () => {
     this.setState(() => ({
-      newsModalOpen: false
+      articleModalOpen: false
     }))
   }
 
@@ -71,31 +71,31 @@ class News extends Component {
       this.props.addComment(comment);
       this.showMsg('Comment added');
     }
-  }
+  }  
 
   showMsg (msg) {
     this.msg.show(msg, { time: 2000, type: 'success'});
   }
-
+  
   deleteComment = (id) => {
     this.props.deleteComment(id);
     this.showMsg('Comment deleted');
   }
 
-  updateNews = (news) => {
-    this.props.updateNews(news);
-    this.showMsg('News updated');
+  updateArticle = (article) => {
+    this.props.updateArticle(article);
+    this.showMsg('Article updated');
   }
 
-  deleteNews = (id) => {
-    this.props.deleteNews(id);
+  deleteArticle = (id) => {
+    this.props.deleteArticle(id);
     console.log('Deleted...', id);
     this.setState({redirectAfterDelete: true});
   }
 
-  voteNews = (vote) => {
+  voteArticle = (vote) => {
     let option = {option: vote};
-    this.props.voteNews(this.props.newss[0].id, option);
+    this.props.voteArticle(this.props.articles[0].id, option);
   }
 
   voteComment = (id, vote) => {
@@ -110,9 +110,9 @@ class News extends Component {
 
   componentWillMount() {
     this.props.getCategories()
-    this.props.getNews(this.props.match.params.id);
+    this.props.getArticle(this.props.match.params.id);
   }
-
+  
   componentDidMount() {
     console.log('In Did mount ');
   }
@@ -123,30 +123,30 @@ class News extends Component {
       return <Redirect push to="/deleted"/>;
     }
 
-    if (this.props.newss.length === 0) {
+    if (this.props.articles.length === 0) {
       return <Redirect push to="/404"/>;
     }
 
-    const news = this.props.newss[0];
+    const article = this.props.articles[0];
     const comments = this.props.comments;
 
     return (
 
-      <div className='news'>
-          <h2>{news.title}</h2>
-          <div className='category'><i className="fa fa-tag"></i>  {news.category}</div>
+      <div className='article'>
+          <h2>{article.title}</h2>
+          <div className='category'><i className="fa fa-tag"></i>  {article.category}</div>
           <div className='body'>
-           {news.body}
-           <div className='newsData'>
-           <i className="fa fa-star"></i> {news.voteScore} - <i className="fa fa-user"></i> {news.author}  -
-           - <i className="fa fa-calendar"></i> {this.getReadableDate(news.timestamp)}
-           <span className="span-button"><a  onClick={() => this.deleteNews(news.id)}><i className="fa fa-trash"></i> delete</a></span>
+           {article.body}
+           <div className='articleData'>
+           <i className="fa fa-star"></i> {article.voteScore} - <i className="fa fa-user"></i> {article.author}  -
+           - <i className="fa fa-calendar"></i> {this.getReadableDate(article.timestamp)}
+           <span className="span-button"><a  onClick={() => this.deleteArticle(article.id)}><i className="fa fa-trash"></i> delete</a></span>
            <span className="span-button">
-             <a  onClick={() => (this.voteNews('upVote'))} title="vote up"><i className="fa fa-thumbs-o-up" aria-hidden="true" ></i>Up</a>
-             <a  onClick={() => (this.voteNews('downVote'))} title="vote down"><i className="fa fa-thumbs-o-down" aria-hidden="true" ></i>Down</a>
+             <a  onClick={() => (this.voteArticle('upVote'))} title="vote up"><i className="fa fa-thumbs-o-up" aria-hidden="true" ></i>Up</a>
+             <a  onClick={() => (this.voteArticle('downVote'))} title="vote down"><i className="fa fa-thumbs-o-down" aria-hidden="true" ></i>Down</a>
           </span>
           <span className="span-button">
-             <a  onClick={this.openNewsModal}><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Update</a>
+             <a  onClick={this.openArticleModal}><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Update</a>
           </span>
            </div>
 
@@ -164,15 +164,15 @@ class News extends Component {
                       <Comment key={comment.id} comment={comment} deleteComment={this.deleteComment} openCommentModal={(comment) => this.openCommentModal(comment, true)} voteComment={this.voteComment} />
                 ))}
               </div>
-
+          
           <Modal
           className='modal'
           overlayClassName='overlay'
-          isOpen={this.state.newsModalOpen}
-          onRequestClose={this.closeNewsModal}
+          isOpen={this.state.articleModalOpen}
+          onRequestClose={this.closeArticleModal}
           contentLabel='Modal'
         >
-         <NewsModal title="Update News" onCreateNews={this.updateNews} categories={this.props.categories} news={news} closeNewsModal={this.closeNewsModal} />
+         <ArticleModal title="Update Article" onCreateArticle={this.updateArticle} categories={this.props.categories} article={article} closeArticleModal={this.closeArticleModal} />
         </Modal>
 
           <Modal
@@ -182,7 +182,7 @@ class News extends Component {
           onRequestClose={this.closeCommentModal}
           contentLabel='Modal'
         >
-         <CommentModal news={news} comment={this.state.comment} onCreateComment={this.addComment} closeCommentModal={this.closeCommentModal} />
+         <CommentModal article={article} comment={this.state.comment} onCreateComment={this.addComment} closeCommentModal={this.closeCommentModal} />
         </Modal>
         <AlertContainer ref={a => this.msg = a} {...this.alertOptions} />
         </div>
@@ -192,9 +192,9 @@ class News extends Component {
 
 // maps Redux state to our props
 function mapStateToProps (state, props) {
-  console.log('In map state to props', state.news.newss);
+  console.log('In map state to props', state.article.articles);
   return {
-    newss: state.news.newss,
+    articles: state.article.articles,
     comments: state.comment.comments.filter(p => p.parentId === props.match.params.id),
     categories: state.category.categories
   }
@@ -204,19 +204,20 @@ function mapDispatchToProps (dispatch) {
   console.log('In dispatc to props');
   return {
     getCategories: () => dispatch(getCategoriesAsync()),
-    getNews: (id) => dispatch(getNewsAsync(id)),
-    getByNews: (id) => dispatch(getByNewsAsync(id)),
+    getArticle: (id) => dispatch(getArticleAsync(id)),
+    getByArticle: (id) => dispatch(getByArticleAsync(id)),
     addComment: (comment) => dispatch(addCommentAsync(comment)),
     updateComment: (comment) => dispatch(updateCommentAsync(comment)),
     deleteComment: (id) => dispatch(deleteCommentAsync(id)),
-    deleteNews: (id) => dispatch(deleteNewsAsync(id)),
-    voteNews: (id, vote) => dispatch(voteNewsAsync(id,vote)),
+    deleteArticle: (id) => dispatch(deleteArticleAsync(id)),
+    voteArticle: (id, vote) => dispatch(voteArticleAsync(id,vote)),
     voteComment: (id, vote) => dispatch(voteCommentAsync(id,vote)),
-    updateNews: (news) => dispatch(updateNewsAsync(news))
+    updateArticle: (article) => dispatch(updateArticleAsync(article))
   }
 }
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(News)
+)(Article)
+
