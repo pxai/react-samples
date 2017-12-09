@@ -8,7 +8,7 @@ import './App.css';
 class App extends Component {
   change = () => {
     console.log('Changed');
-    this.props.appChangeName('Pello');
+    this.props.appChangeName(this.refs.name.value);
   }
 
   render() {
@@ -20,8 +20,8 @@ class App extends Component {
           <h1 className="App-title">{this.props.appName}</h1>
         </header>
         <p className="App-intro">
-          <input type="text" onChange={() => this.change()} />
-          <button onClick={this.change()}>
+          <input type="text" ref="name" />
+          <button onClick={() => this.change()}>
           Change store
           </button>
         </p>

@@ -6,8 +6,9 @@ export function showName () {
       type: SHOW_NAME
     }
   }
-  
+
 export function changeName ( name ) {
+    console.log('Changed name in action');
   return {
     type: CHANGE_NAME,
     name
