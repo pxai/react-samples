@@ -1,21 +1,49 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
+import { showName, changeName } from './actions'
 import logo from './logo.svg';
+import reduxLogo from './redux.svg'
 import './App.css';
 
 class App extends Component {
+  change = () => {
+    console.log('Changed');
+    this.props.appChangeName('Pello');
+  }
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src={reduxLogo} className="App-logo" alt="redux logo" />
+          <h1 className="App-title">{this.props.appName}</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <input type="text" onChange={() => this.change()} />
+          <button onClick={this.change()}>
+          Change store
+          </button>
         </p>
       </div>
     );
   }
 }
 
-export default App;
+function mapStateToProps (state, props) {
+  return {
+    appName: state.name
+  }
+}
+
+function mapDispatchToProps (dispatch) {
+  return {
+    appShowName: () => dispatch(showName()),
+    appChangeName: (data) => dispatch(changeName(data))
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App)
