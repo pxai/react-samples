@@ -8,7 +8,7 @@ export function showName () {
   }
 
 export function changeName ( name ) {
-    console.log('Changed name in action');
+
   return {
     type: CHANGE_NAME,
     name

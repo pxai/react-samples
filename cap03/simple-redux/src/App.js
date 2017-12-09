@@ -7,7 +7,7 @@ import './App.css';
 
 class App extends Component {
   change = () => {
-    console.log('Changed');
+    console.log('Changed.');
     this.props.appChangeName(this.refs.name.value);
   }
 
