@@ -16,8 +16,99 @@ app.use(cors())
 
 app.get('/', (req, res) => {
   const help = `
-  <p>Check README.md for API doc</p>
+  <pre>
+    Welcome to the Udacity Readable API!
+
+    Use an Authorization header to work with your own data:
+
+    fetch(url, { headers: { 'Authorization': 'whatever-you-want' }})
+
+    The following endpoints are available:
+
+    GET /categories
+      USAGE: 
+        Get all of the categories available for the app. List is found in categories.js.
+        Feel free to extend this list as you desire.
+    
+    GET /:category/articles
+      USAGE:
+        Get all of the articles for a particular category
+
+    GET /articles
+      USAGE:
+        Get all of the articles. Useful for the main page when no category is selected.
+    
+    POST /articles
+      USAGE:
+        Add a new article
+      
+      PARAMS: 
+        id - UUID should be fine, but any unique id will work
+        timestamp - timestamp in whatever format you like, you can use Date.now() if you like
+        title - String
+        body - String
+        author - String
+        category: Any of the categories listed in categories.js. Feel free to extend this list as you desire.
+
+    GET /articles/:id
+      USAGE:
+        Get the details of a single article
+
+    POST /articles/:id
+      USAGE:
+        Used for voting on a article
+      PARAMS:
+        option - String: Either "upVote" or "downVote"
+        
+    PUT /articles/:id
+      USAGE:
+        Edit the details of an existing article
+      PARAMS:
+        title - String
+        body - String
+
+    DELETE /articles/:id
+      USAGE:
+        Sets the deleted flag for a article to 'true'. 
+        Sets the parentDeleted flag for all child comments to 'true'.
+      
+    GET /articles/:id/comments
+      USAGE:
+        Get all the comments for a single article
+    
+    POST /comments
+      USAGE:
+        Add a comment to a article
+
+      PARAMS:
+        id: Any unique ID. As with articles, UUID is probably the best here.
+        timestamp: timestamp. Get this however you want.
+        body: String
+        author: String
+        parentId: Should match a article id in the database.
+
+    GET /comments/:id
+      USAGE:
+        Get the details for a single comment
+
+    POST /comments/:id
+      USAGE:
+        Used for voting on a comment.
+
+    PUT /comments/:id
+      USAGE:
+        Edit the details of an existing comment
+     
+      PARAMS:
+        timestamp: timestamp. Get this however you want.
+        body: String
+
+    DELETE /comments/:id
+      USAGE:
+        Sets a comment's deleted flag to 'true'
+ </pre>
   `
+
   res.send(help)
 })
 

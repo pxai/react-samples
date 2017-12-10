@@ -2,7 +2,7 @@
   "name": "react-book-samples",
   "description": "React samples for React Book",
   "version": "0.1.0",
-  "license": "GPL2",
+  "license": "GPL",
   "dependencies": {
     "react-redux": "^5.0.6",
     "redux": "^3.7.2"
