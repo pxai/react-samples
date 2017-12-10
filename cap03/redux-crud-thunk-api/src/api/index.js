@@ -21,7 +21,7 @@ export function get(id) {
 export function create (note) {
     return fetch(url + '/notes', {
         method: 'POST',
-        body: JSON.stringify(notes)
+        body: JSON.stringify(note)
       }
     )
     .then(result => result.json() )
@@ -36,10 +36,9 @@ export function update (note, option) {
     .then(result => result.json() )
   }
 
-export function delete (id) {
+export function remove (id) {
     return fetch(url +'/notes/' + id, {
         method: 'DELETE'
       }
     );
   }
-}
