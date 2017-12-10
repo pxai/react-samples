@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { getNote, addNote, updateNote } from '../actions'
+import { addNote, updateNote } from '../actions'
 import '../App.css';
 
 class NoteForm extends Component {
@@ -12,7 +12,8 @@ class NoteForm extends Component {
         content : '',
         timestamp: Date.now(), 
         id: props.match.params.id,
-      }
+      },
+      redirectToDefault: false
     }
   }
   
@@ -29,23 +30,20 @@ class NoteForm extends Component {
       this.props.addNote(this.state.note);
     else
       this.props.updateNote(this.state.note);
+
+    this.setState({redirectToDefault: true})
   }
 
   componentDidMount = () => {
-    const id = this.props.match.params.id || '';
-   // this.props.getNote(id);
-    if (id) {
-     /* this.props.getNote(id).then( (note) =>
-      this.setState({
-        content: note.content
-      })
-    );*/
-    }
-    console.log('Mount with ', id, ' and ', this.state);
+    if (this.props.note)
+      this.setState({ note: this.props.note })
   }
 
   render() {
-    const note = this.props.note;
+    if (this.state.redirectToDefault) {
+      return <Redirect to="/" />;
+    }
+
     return (
           <div className="NoteForm">
           <form onSubmit={this.handleSubmit}>
@@ -53,11 +51,11 @@ class NoteForm extends Component {
             <div>
               <textarea 
               name="content" 
-              value={this.state.content}
+              value={this.state.note.content}
               onChange={this.handleContentChange}></textarea> 
             </div>
             <div>
-             <input type="submit" value="Add Note" />
+             <input type="submit" value="Save Note" />
             </div>
             </form>
           </div>
@@ -65,14 +63,15 @@ class NoteForm extends Component {
   }
 }
 function mapStateToProps (state, props) {
+  const id = props.match.params.id || ''
   return {
-    notes: state
+    notes: state,
+    note: state.find( n => n.id === id)
   }
 }
 
 function mapDispatchToProps (dispatch) {
   return {
-    getNote: (id) => dispatch(getNote(id)),
     addNote: (note) => dispatch(addNote(note)),
     updateNote: (note) => dispatch(updateNote(note))
   }

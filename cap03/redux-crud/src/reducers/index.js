@@ -32,16 +32,13 @@ let reducer = (state = initialNotes, action) => {
         
           case UPDATE_NOTE:
           console.log('update notes: ', action.note)
-          return 
-              state.map( (note) => {
+          return  state.map( (note) => {                  
                 if(note.id !== action.note.id) {
-                    // This isn't the item we care about - keep it as-is
                     return note;
                 } 
-                // Otherwise, this is the one we want - return an updated value
                 return action.note;    
             })
-        
+          
        
           case DELETE_NOTE:
           console.log('delete note: ', action.id)
