@@ -20,17 +20,29 @@ let reducer = (state = initialNotes, action) => {
           return state;
         
         case GET_NOTE:
-          console.log('get name: ', state.name)
+          console.log('get note: ', action.id)
           return state.filter(n => n.id === action.id);
         
         case ADD_NOTE:
-          console.log('add name: ', action.note)
+          action.note.id = action.note.id || uniqueId();
+          console.log('add note: ', action.note, state)
+           state.push(action.note);
+           console.log('after push note: ', action.note, state)
           return state;
         
           case UPDATE_NOTE:
-          console.log('update name: ', action.note)
-          return state;
-          
+          console.log('update notes: ', action.note)
+          return 
+              state.map( (note) => {
+                if(note.id !== action.note.id) {
+                    // This isn't the item we care about - keep it as-is
+                    return note;
+                } 
+                // Otherwise, this is the one we want - return an updated value
+                return action.note;    
+            })
+        
+       
           case DELETE_NOTE:
           console.log('delete note: ', action.id)
           return state.filter(n => n.id !== action.id);
@@ -39,5 +51,13 @@ let reducer = (state = initialNotes, action) => {
           return state;
   }
 };
+
+  // I made this to create Ids similar to those in the backend
+  export const uniqueId =  function () {
+    let chars = 'abcdefghijklnmopqrstuvwxyz0123456789';
+    return 'xxxxxxxxxxxxxxxxxxxxxx'.replace(/[x]/g, function(c) {
+      return chars.charAt(Math.random() * 37);
+    });
+  }
 
 export default reducer;

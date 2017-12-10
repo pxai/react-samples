@@ -20,7 +20,7 @@ export function getNote ( id ) {
 
 export function addNote ( note ) {
   return {
-    type: GET_NOTE,
+    type: ADD_NOTE,
     note
   }
 }

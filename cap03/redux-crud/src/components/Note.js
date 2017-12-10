@@ -21,7 +21,7 @@ class Note extends Component {
             <div className="Note"  >{note.content}
               <div className="NoteControls">
                 <a  onClick={() => this.showDetail()}>Detail</a> | 
-                <Link to="/">Update</Link> |  
+                <Link to={`/notes/edit/${note.id}`}>Update</Link> |  
                 <a  onClick={() => this.props.delete(note.id)}>Delete</a>
               </div>
               {
