@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { showName, changeName } from './actions'
-import logo from './img/logo.svg';
+import { Route, Link, Switch } from 'react-router-dom'
+import { getNotes, getNote, addNote, updateNote, deleteNote } from './actions'
+import logo from './img/logo.svg'
 import reduxLogo from './img/redux.svg'
-import './App.css';
+import './App.css'
+import  Notes  from './components/Notes'
+import  NotFound  from './components/NotFound'
+import  About  from './components/About'
 
 class App extends Component {
   change = () => {
@@ -13,37 +17,27 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={reduxLogo} className="App-logo" alt="redux logo" />
-          <h1 className="App-title">{this.props.appName}</h1>
-        </header>
-        <p className="App-intro">
-          <input type="text" ref="name" />
-          <button onClick={() => this.change()}>
-          Change store
-          </button>
-        </p>
+      <div className="app">
+        <div className="app-header">
+            <div className="lapp-header-title">
+              <h1>React Redux CRUD sample</h1>
+            </div>
+            <div>
+              <Link to="/">Home</Link> | 
+              <Link to="/about">About</Link> | 
+            </div>
+            <Switch>
+              <Route exact path='/' component={Notes}/>  
+              <Route exact path='/404' component={NotFound}/> 
+              <Route path='/notes/:id' component={Notes} />
+              <Route exact path='/about' component={About} />
+              <Route component={NotFound} />
+          </Switch>
+        </div>
       </div>
     );
   }
 }
 
-function mapStateToProps (state, props) {
-  return {
-    appName: state.name
-  }
-}
 
-function mapDispatchToProps (dispatch) {
-  return {
-    appShowName: () => dispatch(showName()),
-    appChangeName: (data) => dispatch(changeName(data))
-  }
-}
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App)
+export default App

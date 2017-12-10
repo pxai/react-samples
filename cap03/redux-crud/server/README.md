@@ -1,23 +1,16 @@
-## React Readable project
-Assignment from udacity
-
-## Readable API Server
+## Redux-Crud API Server
 
 ### Installation
 
 Install packages: `npm install`
 Launch server: `node server`
-Unless modified in `config.js` server will use port 3001
-
+Server will use 3001
 
 ## API
-Use an AuthorizationReactND header to work with your own data:
-
-`fetch(url, { headers: { 'AuthorizationReactND': 'whatever-you-want' }})`
 
 The following endpoints are available:  
 
-`GET /categories`  
+`GET /notes`  
   **USAGE:**   
     Get all of the categories available for the app. List is found in categories.js.
     Feel free to extend this list as you desire.    

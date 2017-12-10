@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: justify;
+  margin: 1em;
 }
 
 .App-logo {
@@ -25,4 +26,16 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.Note {
+  padding: 1em;
+  margin: 0.5em;
+  border: 1px solid lightgrey;
+  border-radius: 1em;
+}
+
+.NoteControls {
+  width: 30%;
+  float: right;
 }

@@ -1,14 +1,10 @@
-## React Readable project
-Assignment from udacity
-
-## Readable API Server
+## Redux-Crud API Server
 
 ### Installation
 
 Install packages: `npm install`
 Launch server: `node server`
-Unless modified in `config.js` server will use port 3001
-
+Server will use 3001
 
 ## API
 Use an AuthorizationReactND header to work with your own data:

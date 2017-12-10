@@ -1,17 +1,40 @@
-export const SHOW_NAME = 'SHOW_NAME'
-export const CHANGE_NAME = 'CHANGE_NAME'
+export const GET_NOTES = 'GET_NOTES'
+export const GET_NOTE = 'GET_NOTE'
+export const ADD_NOTE = 'ADD_NOTE'
+export const UPDATE_NOTE = 'UPDATE_NOTE'
+export const DELETE_NOTE = 'DELETE_NOTE'
 
-export function showName () {
+
+export function getNotes () {
     return {
-      type: SHOW_NAME
+      type: GET_NOTES
     }
   }
 
-export function changeName ( name ) {
-
+export function getNote ( id ) {
   return {
-    type: CHANGE_NAME,
-    name
+    type: GET_NOTE,
+    id
   }
 }
 
+export function addNote ( note ) {
+  return {
+    type: GET_NOTE,
+    note
+  }
+}
+
+export function updateNote ( note ) {
+  return {
+    type: UPDATE_NOTE,
+    note
+  }
+}
+
+export function deleteNote ( id ) {
+  return {
+    type: DELETE_NOTE,
+    id
+  }
+}
