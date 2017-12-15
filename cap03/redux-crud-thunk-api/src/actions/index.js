@@ -28,7 +28,7 @@ export function getNote ( note ) {
 
 export function getNoteAsync (id) {
     return dispatch => (
-        getAll().then(note => dispatch(getNote(note)))
+        get(id).then(note => dispatch(getNote(note)))
     )
   }
 
@@ -41,7 +41,7 @@ export function addNote ( note ) {
 
 export function addNoteAsync(note) {
     return dispatch => (
-        create(note).then(() => dispatch(addNote(note)))
+        create(note).then((note) => dispatch(addNote(note)))
     )
 }
 
@@ -67,6 +67,6 @@ export function deleteNote ( id ) {
 
 export function deleteNoteAsync(id) {
     return dispatch => (
-        delete(id).then(() => dispatch(deleteNote(id)))
+        remove(id).then(() => dispatch(deleteNote(id)))
     )
 }

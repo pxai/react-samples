@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { getNotes, getNote, addNote, updateNote, deleteNote } from '../actions'
+import { getNotesAsync, getNoteAsync, addNoteAsync, updateNoteAsync, deleteNoteAsync } from '../actions'
 import Note from './Note'
 import '../App.css';
 
@@ -34,11 +34,11 @@ function mapStateToProps (state, props) {
 
 function mapDispatchToProps (dispatch) {
   return {
-    getNotes: () => dispatch(getNotes()),
-    getNote: (id) => dispatch(getNote(id)),
-    addNote: (note) => dispatch(addNote(note)),
-    updateNote: (note) => dispatch(updateNote(note)),
-    deleteNote: (id) => dispatch(deleteNote(id)),
+    getNotes: () => dispatch(getNotesAsync()),
+    getNote: (id) => dispatch(getNoteAsync(id)),
+    addNote: (note) => dispatch(addNoteAsync(note)),
+    updateNote: (note) => dispatch(updateNoteAsync(note)),
+    deleteNote: (id) => dispatch(deleteNoteAsync(id)),
   }
 }
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { addNote, updateNote } from '../actions'
+import { addNoteAsync, updateNoteAsync } from '../actions'
 import '../App.css';
 
 class NoteForm extends Component {
@@ -72,8 +72,8 @@ function mapStateToProps (state, props) {
 
 function mapDispatchToProps (dispatch) {
   return {
-    addNote: (note) => dispatch(addNote(note)),
-    updateNote: (note) => dispatch(updateNote(note))
+    addNote: (note) => dispatch(addNoteAsync(note)),
+    updateNote: (note) => dispatch(updateNoteAsync(note))
   }
 }
 

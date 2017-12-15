@@ -1,5 +1,9 @@
 const url = 'http://localhost:3001';
 
+const headers =  {
+  'Accept': 'application/json, text/plain, */*',
+  'Content-Type': 'application/json'
+};
 
 export function getAll () {
       return fetch(url + '/notes', {
@@ -21,6 +25,7 @@ export function get(id) {
 export function create (note) {
     return fetch(url + '/notes', {
         method: 'POST',
+        headers,
         body: JSON.stringify(note)
       }
     )
@@ -30,6 +35,7 @@ export function create (note) {
 export function update (note, option) {
     return fetch(url +'/notes/' + note.id, {
         method: 'PUT',
+        headers,
         body: JSON.stringify(note)
       }
     )
@@ -38,7 +44,8 @@ export function update (note, option) {
 
 export function remove (id) {
     return fetch(url +'/notes/' + id, {
-        method: 'DELETE'
+        method: 'DELETE',
+        headers
       }
     );
   }
