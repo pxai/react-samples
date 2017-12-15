@@ -26,9 +26,11 @@ let reducer = (state = initialNotes, action) => {
         case ADD_NOTE:
           action.note.id = action.note.id || uniqueId();
           console.log('add note: ', action.note, state)
-           state.push(action.note);
            console.log('after push note: ', action.note, state)
-          return state;
+          return   [
+              ...state,
+              action.note
+          ]
         
           case UPDATE_NOTE:
           console.log('update notes: ', action.note)
