@@ -41,7 +41,7 @@ function add (note) {
 
 function remove (id) {
     return new Promise((res) => {
-      const notes = notes.filter( n => n.id !== id)
+      notes = notes.filter( n => n.id !== id)
       logStatus()
       res(id)
     })
@@ -49,12 +49,10 @@ function remove (id) {
 
 function edit (id, note) {
     return new Promise((res) => {
-        let articles = getData(token)
-        for (prop in article) {
-            articles[id][prop] = article[prop]
-        }
+        notes = notes.filter( n => n.id !== id)
+        notes.push(note)
         logStatus()
-        res(articles[id])
+        res(note)
     })
 }
 
