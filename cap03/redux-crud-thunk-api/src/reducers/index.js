@@ -17,7 +17,7 @@ let initialNotes = [
 let reducer = (state = initialNotes, action) => {
     switch (action.type) {
         case GET_NOTES:         
-          return state;
+          return action.notes;
         
         case GET_NOTE:
           console.log('get note: ', action.id)

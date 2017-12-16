@@ -8,7 +8,8 @@ class Note extends Component {
     this.state = {showDetail : false }
   }
 
-  showDetail = () => {
+  showDetail = (e) => {
+    e.preventDefault()
     console.log('Clicking detail : ',this.state.showDetail);
     this.setState({
       showDetail: !this.state.showDetail
@@ -20,9 +21,9 @@ class Note extends Component {
     return (
             <div className="Note"  >{note.content}
               <div className="NoteControls">
-                <a  onClick={() => this.showDetail()}>Detail</a> | 
+                <a href="" onClick={(e) => this.showDetail(e)}>Detail</a> | 
                 <Link to={`/notes/edit/${note.id}`}>Update</Link> |  
-                <a  onClick={() => this.props.delete(note.id)}>Delete</a>
+                <a onClick={() => this.props.delete(note.id)}>Delete</a>
               </div>
               {
                 this.state.showDetail &&

@@ -10,6 +10,10 @@ class Notes extends Component {
     this.props.appChangeName(this.refs.name.value);
   }
 
+  componentWillMount = () => {
+    this.props.getNotes()
+  }
+
   render() {
     return (
       <div className="App">
@@ -26,7 +30,6 @@ class Notes extends Component {
 }
 
 function mapStateToProps (state, props) {
-  console.log('Notes.js', state)
   return {
     notes: state
   }
