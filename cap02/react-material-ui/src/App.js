@@ -5,6 +5,18 @@ import NotFound  from './NotFound';
 import About  from './About';
 import NotFound  from './NotFound';
 import MComponent  from './component/MComponent';
+import AppBar  from './component/AppBar';
+import Avatar  from './component/Avatar';
+import Badge  from './component/Badge';
+import BottomNavigation  from './component/BottomNavigation';
+import Button  from './component/Button';
+import Card  from './component/Card';
+import Chip  from './component/Chip';
+import DatePicker  from './component/DatePicker';
+import Dialog  from './component/Dialog';
+import Divider  from './component/Divider';
+
+
 import './App.css';
 
 class App extends Component {
