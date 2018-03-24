@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="" />
+    <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/comments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/operators.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,108 +21,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/simple-redux/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-lang-detect/src/index.js">
+        <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-lang-detect/src/App.js">
+        <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translations.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-i18n/public/locales/en/translations.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="36">
+              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translations.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-i18n/public/locales/es/translations.json">
+      <file leaf-file-name="registerServiceWorker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/registerServiceWorker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap02/react-i18n/src/index.js">
+      <file leaf-file-name="vars.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/vars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cap02/react-i18n/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js">
+      <file leaf-file-name="comments.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/comments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/category.js">
+      <file leaf-file-name="operators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/operators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrays.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/arrays.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -126,6 +124,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -188,6 +193,11 @@
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/article.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" />
         <option value="$PROJECT_DIR$/cap02/react-i18n/src/index.js" />
+        <option value="$PROJECT_DIR$/js/sintax.js" />
+        <option value="$PROJECT_DIR$/js/comments.js" />
+        <option value="$PROJECT_DIR$/js/vars.js" />
+        <option value="$PROJECT_DIR$/js/operators.js" />
+        <option value="$PROJECT_DIR$/js/arrays.js" />
       </list>
     </option>
   </component>
@@ -204,12 +214,17 @@
     <handled-path value="$PROJECT_DIR$/cap02/multicomponents/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-complex-form/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-controlled-form/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap02/react-crud-api/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap02/react-crud-api/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-css/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-css2/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-form-event/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap02/react-i18n/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap02/react-lang-detect/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-lifecycle/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-login-form-validation/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-login-form/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap02/react-material-ui/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-multiple-value-fields/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-namespaces/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-properties/node_modules" />
@@ -217,11 +232,19 @@
     <handled-path value="$PROJECT_DIR$/cap02/react-state/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/react-newspaper/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/react-newspaper/server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/redux-crud-thunk-api/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/redux-crud/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/redux-crud/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/simple-redux/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap04/hellp-react-native/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap04/react-native-components/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap04/react-native-styles/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="179" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="186" />
+    <option name="y" value="91" />
     <option name="width" value="1910" />
     <option name="height" value="763" />
   </component>
@@ -241,6 +264,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,11 +272,20 @@
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,16 +334,17 @@
       <workItem from="1512721145172" duration="818000" />
       <workItem from="1512752418434" duration="2206000" />
       <workItem from="1513720889557" duration="1889000" />
+      <workItem from="1521887705423" duration="5607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36230000" />
+    <option name="totallyTimeSpent" value="41837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="179" width="1920" height="1018" extended-state="6" />
+    <frame x="186" y="91" width="1910" height="763" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15968587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -343,90 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-form-event/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-form-event/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-form-event/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="367" column="20" lean-forward="false" selection-start-line="367" selection-start-column="20" selection-end-line="367" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-multiple-value-fields/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap02/react-controlled-form/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap02/react-multiple-value-fields/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -597,29 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1854">
           <caret line="103" column="16" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-          <folding>
-            <marker date="1512890662000" expanded="true" signature="626:734" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="671:718" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="775:1037" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="807:1034" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1064:1256" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1096:1253" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1288:1651" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1320:1648" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1687:2122" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1719:2119" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1801:2098" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="1825:1897" ph="..." />
-            <marker date="1512890662000" expanded="true" signature="1922:1994" ph="..." />
-            <marker date="1512890662000" expanded="true" signature="2011:2092" ph="..." />
-            <marker date="1512890662000" expanded="true" signature="2166:2461" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="2200:2458" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="2492:2630" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="2526:2627" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="2667:2864" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="2701:2861" ph="{...}" />
-            <marker date="1512890662000" expanded="true" signature="2771:2829" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,29 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
           <caret line="115" column="19" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-          <folding>
-            <marker date="1512890757561" expanded="true" signature="606:714" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="651:698" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="757:1023" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="789:1020" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1050:1205" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1082:1202" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1231:1455" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1263:1452" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1487:1854" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1519:1851" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1890:2325" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="1922:2322" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="2004:2301" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="2028:2100" ph="..." />
-            <marker date="1512890757561" expanded="true" signature="2125:2197" ph="..." />
-            <marker date="1512890757561" expanded="true" signature="2214:2295" ph="..." />
-            <marker date="1512890757561" expanded="true" signature="2356:2494" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="2390:2491" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="2531:2728" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="2565:2725" ph="{...}" />
-            <marker date="1512890757561" expanded="true" signature="2635:2693" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="108">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -802,11 +703,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cap02/react-i18n/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="54">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/simple-redux/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/simple-redux/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/operators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
