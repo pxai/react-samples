@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/src/iterators.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/src/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/src/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/src/symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/public/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/App.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/App.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/src/registerServiceWorker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest/basic-jest/yarn.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/defaultParamenters.js" afterPath="$PROJECT_DIR$/es6/src/defaultParamenters.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,51 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="variables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/src/variables.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/src/extract.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interpolation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/src/interpolation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="restParameter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/src/restParameter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
               <caret line="33" column="32" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="33" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forIterators.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/src/forIterators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,15 +85,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defaultParamenters.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="defaultParamenters.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/src/defaultParamenters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="69" column="13" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="117">
+              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding>
                 <marker date="1522534540958" expanded="true" signature="963:989" ph="..." />
                 <marker date="1522534540958" expanded="true" signature="963:990" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="symbol.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/src/symbol.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/src/iterators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/src/set.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6/src/map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="111" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,10 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cap02/react-complex-form/src/App.css" />
-        <option value="$PROJECT_DIR$/cap02/react-complex-form/src/App.js" />
-        <option value="$PROJECT_DIR$/cap02/react-multiple-value-fields/README.md" />
-        <option value="$PROJECT_DIR$/cap02/react-controlled-form/README.md" />
         <option value="$PROJECT_DIR$/cap02/react-controlled-form/src/App.js" />
         <option value="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/App.js" />
         <option value="$PROJECT_DIR$/cap02/multicomponents/src/App.js" />
@@ -206,6 +219,10 @@
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
         <option value="$PROJECT_DIR$/es6/src/arrow.js" />
         <option value="$PROJECT_DIR$/es6/src/defaultParamenters.js" />
+        <option value="$PROJECT_DIR$/es6/src/symbol.js" />
+        <option value="$PROJECT_DIR$/es6/src/iterators.js" />
+        <option value="$PROJECT_DIR$/es6/src/set.js" />
+        <option value="$PROJECT_DIR$/es6/src/map.js" />
       </list>
     </option>
   </component>
@@ -251,8 +268,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="144" />
+    <option name="x" value="238" />
+    <option name="y" value="123" />
     <option name="width" value="1910" />
     <option name="height" value="763" />
   </component>
@@ -309,6 +326,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/es6/src" />
       <recent name="$PROJECT_DIR$/cap02/multicomponents/src" />
     </key>
   </component>
@@ -364,7 +382,7 @@
       <workItem from="1522401529190" duration="1832000" />
       <workItem from="1522405980691" duration="1190000" />
       <workItem from="1522505584762" duration="6382000" />
-      <workItem from="1522533091020" duration="1698000" />
+      <workItem from="1522533091020" duration="10575000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -422,14 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522511802582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added quite a lot">
+      <created>1522534821120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522534821120</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58978000" />
+    <option name="totallyTimeSpent" value="67855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="144" width="1910" height="763" extended-state="0" />
+    <frame x="238" y="123" width="1910" height="763" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15968587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -470,34 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/categories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="103" column="16" lean-forward="false" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/articles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
@@ -831,12 +828,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/es6/src/defaultParamenters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="117">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
             <marker date="1522534540958" expanded="true" signature="963:989" ph="..." />
             <marker date="1522534540958" expanded="true" signature="963:990" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/src/symbol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/src/iterators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/src/set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/src/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="111" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
