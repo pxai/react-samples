@@ -33,14 +33,7 @@ let people = [
     {name: 'Jane', age: 21}
 ];
 
-let book = {
-    title: 'Atomic book of React',
-    author: 'Pello Altadill',
-    ISBN: 'none',
-    isGood: true,
-    score: 9,
-    topics: ['React.js', 'Redux', 'React Native','ES6']
-};
+
 
 for (name of names) {
     console.log(name);
@@ -50,3 +43,30 @@ for (name of names) {
 // Alice
 // Bob
 // Jane
+
+for (person of people) {
+    console.log(person);
+}
+// { name: 'John', age: 44 }
+// { name: 'Alice', age: 43 }
+// { name: 'Bob', age: 20 }
+// { name: 'Jane', age: 21 }
+
+let book = {
+    title: 'Atomic book of React',
+    author: 'Pello Altadill',
+    ISBN: 'none',
+    isGood: true,
+    score: 9,
+    topics: ['React.js', 'Redux', 'React Native','ES6']
+};
+
+for (b in book) {
+    console.log(`${b}: ${book[b]}`);
+}
+// title: Atomic book of React
+// author: Pello Altadill
+// ISBN: none
+// isGood: true
+// score: 9
+// topics: React.js,Redux,React Native,ES6
