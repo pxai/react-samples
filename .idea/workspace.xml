@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jest/basic-jest/src/App.js" afterPath="$PROJECT_DIR$/jest/basic-jest/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jest/basic-jest/src/Greet.js" afterPath="$PROJECT_DIR$/jest/basic-jest/src/Greet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jest/basic-jest/src/Greet.test.js" afterPath="$PROJECT_DIR$/jest/basic-jest/src/Greet.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jest/basic-jest/src/__snapshots__/Greet.test.js.snap" afterPath="$PROJECT_DIR$/jest/basic-jest/src/__snapshots__/Greet.test.js.snap" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,13 +76,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/ArticleList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="48" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="64" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cap02/react-router/src/App.js" />
         <option value="$PROJECT_DIR$/cap02/react-router/src/About.js" />
         <option value="$PROJECT_DIR$/cap02/react-router/src/Default.js" />
         <option value="$PROJECT_DIR$/cap02/react-router/src/Category.js" />
@@ -192,6 +206,7 @@
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/actions/category.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/components/About.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/components/NotFound.js" />
+        <option value="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js" />
       </list>
     </option>
   </component>
@@ -230,6 +245,7 @@
     <handled-path value="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/redux-crud/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/redux-crud/server/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/redux-normalization/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/simple-redux/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap04/hellp-react-native/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap04/react-native-components/node_modules" />
@@ -237,12 +253,13 @@
     <handled-path value="$PROJECT_DIR$/jest/basic-jest/node_modules" />
     <handled-path value="$PROJECT_DIR$/jest/basic/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/other/mocha-chai-sinon/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="778" />
-    <option name="y" value="180" />
-    <option name="width" value="1910" />
-    <option name="height" value="763" />
+    <option name="x" value="72" />
+    <option name="y" value="126" />
+    <option name="width" value="1691" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -259,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,6 +388,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,6 +464,7 @@
       <workItem from="1523438549514" duration="233000" />
       <workItem from="1523890717743" duration="1799000" />
       <workItem from="1523950623318" duration="550000" />
+      <workItem from="1526570509333" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -536,13 +554,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80204000" />
+    <option name="totallyTimeSpent" value="80830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="778" y="180" width="1910" height="763" extended-state="0" />
+    <frame x="72" y="126" width="1691" height="907" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15968587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15966883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -869,13 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -960,6 +971,16 @@
           <caret line="48" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="64" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
