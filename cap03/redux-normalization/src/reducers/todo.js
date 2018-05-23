@@ -24,8 +24,7 @@ export default function todoList (state = initialTodoState, action) {
           ]
       };
     case DELETE_TODO:
-     return state
-     // return state.todos.filter(elem => elem.id !== action.todo.todo.id);
+        return state.todos.filter(elem => elem.id !== action.todo.todo.id);
     case UPDATE_TODO:
       return state.todos.map( (elem) => {
                 if(elem.id !== action.todo.id) { // keep it as-is
