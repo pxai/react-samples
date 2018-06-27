@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="" />
+    <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cap04/react-native-components/.App.js.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,36 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flexbox03grow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap04/react-flexbox/public/flexbox03grow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="79" column="14" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="79" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flexbox03.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap04/react-flexbox/public/css/flexbox03.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flexbox04basis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap04/react-flexbox/public/flexbox04basis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="70" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="flexbox06align-items.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap04/react-flexbox/public/flexbox06align-items.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,12 +60,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flexbox07.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flexbox07.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap04/react-flexbox/public/css/flexbox07.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="804">
               <caret line="78" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap04/react-native-components/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScrollViewSample.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextViewSample.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cap03/react-newspaper/server/comments.js" />
-        <option value="$PROJECT_DIR$/cap03/react-newspaper/server/articles.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/server/server.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/article.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" />
@@ -203,6 +212,8 @@
         <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox05justify.html" />
         <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox06align-items.html" />
         <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox07align-self.html" />
+        <option value="$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js" />
+        <option value="$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js" />
       </list>
     </option>
   </component>
@@ -243,6 +254,7 @@
     <handled-path value="$PROJECT_DIR$/cap03/redux-crud/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/redux-crud/server/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/redux-normalization/node_modules" />
+    <handled-path value="$PROJECT_DIR$/cap03/redux-normalizr/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap03/simple-redux/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap04/hello-react-native/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap04/react-flexbox/node_modules" />
@@ -274,12 +286,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap04" type="462c0819:PsiDirectoryNode" />
+              <item name="react-native-components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +315,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,12 +323,13 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/es6/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cap04/react-native-components" />
       <recent name="$PROJECT_DIR$/es6/src" />
       <recent name="$PROJECT_DIR$/cap02/multicomponents/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/es6/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,6 +397,7 @@
       <workItem from="1528061140672" duration="1884000" />
       <workItem from="1528115482801" duration="2593000" />
       <workItem from="1529406089128" duration="52000" />
+      <workItem from="1530114364947" duration="1523000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -462,15 +487,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89839000" />
+    <option name="totallyTimeSpent" value="91362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="49" width="1920" height="1018" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -485,7 +510,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -510,27 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap03/redux-crud/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap03/redux-crud/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap03/redux-crud/server/notes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -874,6 +877,36 @@
         <state relative-caret-position="804">
           <caret line="78" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap04/react-native-components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
