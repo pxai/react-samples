@@ -33,3 +33,7 @@ const styles = StyleSheet.create({
     fontSize: 14
   },
 });
+
+<Image
+    source={require('/react-native/img/favicon.png')}
+/>
