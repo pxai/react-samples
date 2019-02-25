@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import  Greet  from './Greet';
 import logo from './logo.svg';
 import './App.css';
+import Api from './Api';
 
 class App extends Component {
+  constructor () {
+    super();
+    this._api = new Api();
+  }
+
   render() {
     return (
       <div className="App">
