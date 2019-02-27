@@ -15,3 +15,7 @@ test('it matches snapshot', () => {
  let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+test('playground', () => {
+  expect(2 + 2).toBe(4);
+});
