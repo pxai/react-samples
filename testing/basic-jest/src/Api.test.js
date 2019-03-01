@@ -7,11 +7,11 @@ test('Api class instantiates', () => {
 test('Default data is empty', () => {
     const api = new Api();
 
-    expect(api.list()).to.equal({});
+    expect(api.list()).toEqual({});
 });
 
 test('Data passed to constructor returrns with list', () => {
     const api = new Api({id: 1, task: "Work"});
 
-    expect(api.list()).to.equal({id: 1, task: "Work"});
+    expect(api.list()).toEqual({id: 1, task: "Work"});
 });
