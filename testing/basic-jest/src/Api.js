@@ -1,10 +1,14 @@
 class Api {
-    constructor (data = {}) {
+    constructor (data = []) {
         this._data = data;
     }
 
     list () {
         return this._data;
+    }
+
+    add (element) {
+        this._data.push(element);
     }
 }
 
