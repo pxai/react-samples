@@ -26,6 +26,9 @@ test('Adds element correctly', () => {
 test('Adds element correctly with existing data', () => {
     const api = new Api([{id: 1, task: "Work"}]);
     api.add({id: 2, task: "Sleep"})
-    
-    expect(api.list()).toEqual([{id: 1, task: "Work"}]);
+
+    expect(api.list()).toEqual([
+        {id: 1, task: "Work"},
+        {id: 2, task: "Sleep"}
+    ]);
 });
