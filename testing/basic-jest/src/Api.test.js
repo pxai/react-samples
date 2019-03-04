@@ -1,7 +1,7 @@
 import Api from './Api';
 
 test('Api class instantiates', () => {
-    const api = new Api(); 
+    const api = new Api();
 });
 
 test('Default data is empty', () => {
@@ -53,4 +53,12 @@ test('Does not remove when id not present', () => {
     api.remove(0);
 
     expect(api.list().length).toEqual(1);
+});
+
+test("Updates the element correctly", () => {
+  const api = new Api([{id: 4, task: "Nap"}]);
+
+  api.update(4, {id: 4, task: "Work"}});
+
+  expect(api.list()).toEqual({id: 4, task: "Work"});
 });
