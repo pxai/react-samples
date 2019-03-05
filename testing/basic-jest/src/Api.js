@@ -3,8 +3,12 @@ class Api {
         this._data = data;
     }
 
-    list () {
+    findAll () {
         return this._data;
+    }
+
+    findById (id) {
+        return this.data.find(a => a.id === id);
     }
 
     add (element) {
