@@ -8,7 +8,7 @@ class Api {
     }
 
     findById (id) {
-        return this.data.find(a => a.id === id);
+        return this._data.find(a => a.id === id);
     }
 
     add (element) {

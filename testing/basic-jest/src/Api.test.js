@@ -64,7 +64,7 @@ test('Does not remove when id not present', () => {
 test("Updates the element correctly", () => {
   const api = new Api([{id: 4, task: "Nap"}]);
 
-  api.update(4, {id: 4, task: "Work"}});
+  api.update(4, {id: 4, task: "Work"});
 
-  expect(api.findAll()).toEqual({id: 4, task: "Work"});
+  expect(api.findById(4)).toEqual({id: 4, task: "Work"});
 });
