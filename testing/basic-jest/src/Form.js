@@ -9,6 +9,9 @@ class Form extends Component {
         return <div>
                 <div><label>Task</label>
                 <div><input type="text" /></div>
+                <div>
+                    <input type="button" value="Save" onClick={this.save.bind(this)} />
+                </div>
                </div>;
     }
 }
