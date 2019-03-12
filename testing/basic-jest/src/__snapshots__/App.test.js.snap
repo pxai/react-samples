@@ -33,5 +33,17 @@ exports[`it matches snapshot 1`] = `
     </code>
      and save to reload.
   </p>
+  <div>
+    <div>
+      1
+      . 
+      Just do
+    </div>
+    <div>
+      2
+      . 
+      Just Chill
+    </div>
+  </div>
 </div>
 `;
