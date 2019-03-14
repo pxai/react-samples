@@ -35,14 +35,24 @@ exports[`it matches snapshot 1`] = `
   </p>
   <div>
     <div>
-      1
-      . 
-      Just do
+      <div>
+        <div>
+          1
+        </div>
+        <div>
+          Just do
+        </div>
+      </div>
     </div>
     <div>
-      2
-      . 
-      Just Chill
+      <div>
+        <div>
+          2
+        </div>
+        <div>
+          Just Chill
+        </div>
+      </div>
     </div>
   </div>
 </div>

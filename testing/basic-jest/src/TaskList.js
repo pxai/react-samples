@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Task from "./Task";
 
 class TaskList extends Component {
     constructor () {
@@ -10,7 +11,7 @@ class TaskList extends Component {
       return <div>
         {
           list.map( task => <div>
-                {task.id}. {task.task}
+                <Task key={task.id} task={task} />
             </div>
           )
         }
