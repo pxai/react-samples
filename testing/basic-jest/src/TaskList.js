@@ -7,11 +7,12 @@ class TaskList extends Component {
     }
 
     render () {
-      const list = [{id: 1, task: "Just do"}, {id: 2, task: "Just Chill"}];
+      const list = this.props.api.findAll();
+      console.log(list);
       return <div>
         {
           list.map( task => <div>
-                <Task key={task.id} task={task} />
+                <Task key={task.id} task={task} api={this.props.api} />
             </div>
           )
         }
