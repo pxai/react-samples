@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 class Task extends Component {
+    constructor () {
+        super();
+        this.setState({ showForm: false });
+    }
     render () {
         return <div>
                 <div>{this.props.task.id}
@@ -15,8 +19,13 @@ class Task extends Component {
                     Delete
                 </a>
                </div>
+               { this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
                </div>;
     }
+
+  toggleForm () {
+    this.setState({ showForm: !this.state.showForm });
+  }
 }
 
 export default Task;
