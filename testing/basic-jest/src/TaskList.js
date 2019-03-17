@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import Task from "./Task";
+import Form from "./Form";
 
 class TaskList extends Component {
     constructor () {
         super();
+        this.setState({showForm: false});
     }
 
     render () {
@@ -16,7 +18,13 @@ class TaskList extends Component {
             </div>
           )
         }
+        <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
+        { this.state.showForm && <Form />}
         </div>;
+    }
+
+    toggleForm () {
+        this.setState({ showForm: !this.state.showForm})
     }
 }
 

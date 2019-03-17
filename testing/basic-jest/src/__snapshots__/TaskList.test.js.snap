@@ -5,32 +5,9 @@ exports[`it matches snapshot 1`] = `
   <div>
     <div>
       <div>
-        1
-        - 
-        Just do
-      </div>
-      <div>
-        <a
-          href="javascript:void(0)"
-          onClick={[Function]}
-        >
-          Update
-        </a>
-        <a
-          href="javascript:void(0)"
-          onClick={[Function]}
-        >
-          Delete
-        </a>
-      </div>
-    </div>
-  </div>
-  <div>
-    <div>
-      <div>
         2
         - 
-        Just Chill
+        Do it
       </div>
       <div>
         <a
