@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
-import { AppRegistry, TextInput } from 'react-native';
+import { AppRegistry, Picker } from 'react-native';
 
-export default class ButtonSample extends Component {
+export default class PickerSample extends Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0 };
+    this.state = { framework: 'React' };
   }
 
-  buttonPressed (event) {
-    this.setState({count: this.state.count + 1});
-    console.log("Button was pressed: ", this.state.text);
+  selectionChanged (value, index) {
+    this.setState({framework: value});
+    console.log("Button was pressed: ", this.state.framwork);
   }
 
   render() {
     return (
-      <Button
-        onPress={this.buttonPressed.bind(this)}
-        title={`increment ${this.state.count}`}
-        styles={styles.fancyButton}
-        accessibilityLabel="Info about the button"
-      />
+      <Picker
+        selectedValue={this.state.framework}
+        style={style.picker}
+        onValueChange={this.selectionChanged.bind(this, value, index)}>
+        <Picker.Item label="React" value="react" />
+        <Picker.Item label="Vue" value="vue" />
+        <Picker.Item label="Angular" value="angular" />
+      </Picker>
     );
   }
 }
 
 const styles = StyleSheet.create({
-    fancyButton: {
-        borderStyle: 'dashed', borderColor: 'gray', borderWidth: 1
+    picker: {
+      height: 50, width: 100
     },
 });
