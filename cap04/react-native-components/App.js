@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { ButtonSample } from './ButtonSample';
 
 export default class App extends React.Component {
   render() {
@@ -18,6 +19,10 @@ export default class App extends React.Component {
 				size={42}
 			/>
 		</View>
+    <View>
+      <Text>Button Sample</Text>>
+      <ButtonSample />
+    </View>
       </View>
     );
   }
