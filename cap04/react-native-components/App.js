@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
-import { ButtonSample } from './ButtonSample';
+import { ButtonSample, TextInputSample, TextViewSample, SliderSample } from './IndexSamples';
 
 export default class App extends React.Component {
   render() {
@@ -20,8 +20,24 @@ export default class App extends React.Component {
 			/>
 		</View>
     <View>
+      <Text>TextInput Sample</Text>>
+      <TextInputSample />
+    </View>
+    <View>
+      <Text>TextIView Sample</Text>>
+      <TextViewSample />
+    </View>
+    <View>
       <Text>Button Sample</Text>>
       <ButtonSample />
+    </View>
+    <View>
+      <Text>Picker Sample</Text>>
+      <PickerSample />
+    </View>
+    <View>
+      <Text>_Slider Sample</Text>>
+      <SliderSample />
     </View>
       </View>
     );
