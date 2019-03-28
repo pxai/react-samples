@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Form from "./Form";
 
 class Task extends Component {
     constructor () {
@@ -19,12 +20,16 @@ class Task extends Component {
                     Delete
                 </a>
                </div>
-               { this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
+               <Form task={this.props.task} update={this.update.bind(this)} />
                </div>;
     }
 
   toggleForm () {
     this.setState({ showForm: !this.state.showForm });
+  }
+
+  update () {
+    console.log("Updating...");
   }
 }
 

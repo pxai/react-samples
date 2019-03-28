@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
 class Form extends Component {
-    constructor () {
-      super()
-    }
-
     render () {
         return <div>
                 <div><label>Task</label></div>
@@ -14,4 +10,10 @@ class Form extends Component {
                 </div>
                </div>;
     }
+
+    save () {
+        console.log("Saving state");
+    }
 }
+
+export default Form;

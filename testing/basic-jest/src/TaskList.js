@@ -10,7 +10,7 @@ class TaskList extends Component {
 
     render () {
       const list = this.props.api.findAll();
-      console.log(list);
+      console.log(list, this.state);
       return <div>
         {
           list.map( task => <div>
@@ -19,7 +19,7 @@ class TaskList extends Component {
           )
         }
         <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
-        { this.state.showForm && <Form />}
+        <Form />
         </div>;
     }
 
