@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Form from "./Form";
 
 class Task extends Component {
-    constructor () {
-        super();
-        this.setState({ showForm: false });
+    constructor (props) {
+        super(props);
+        this.state = { showForm: false };
     }
     render () {
         return <div>
@@ -20,7 +20,7 @@ class Task extends Component {
                     Delete
                 </a>
                </div>
-               <Form task={this.props.task} update={this.update.bind(this)} />
+               {this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
                </div>;
     }
 

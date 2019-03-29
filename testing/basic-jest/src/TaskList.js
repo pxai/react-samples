@@ -5,7 +5,7 @@ import Form from "./Form";
 class TaskList extends Component {
     constructor () {
         super();
-        this.setState({showForm: false});
+        this.state = {showForm: false};
     }
 
     render () {
@@ -19,7 +19,7 @@ class TaskList extends Component {
           )
         }
         <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
-        <Form />
+        { this.state.showForm && <Form /> }
         </div>;
     }
 
