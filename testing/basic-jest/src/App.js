@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import  Greet  from './Greet';
 import  TaskList from './TaskList';
-import logo from './logo.svg';
 import './App.css';
 import Api from './Api';
 
@@ -16,7 +15,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
 			<Greet />
