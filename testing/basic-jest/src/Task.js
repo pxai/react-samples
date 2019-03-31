@@ -12,7 +12,7 @@ class Task extends Component {
                 - {this.props.task.task}</div>
                <div>
                 <a href="javascript:void(0)"
-                   onClick={() => this.props.update(this.props.task.id)}>
+                   onClick={this.toggleForm.bind(this)}>
                    Update
                 </a>
                 <a href="javascript:void(0)"
