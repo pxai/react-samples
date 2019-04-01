@@ -17,6 +17,7 @@ class Api {
 
     remove (id) {
         this._data = this._data.filter(a => a.id !== id);
+        console.log("Removed: ", id);
     }
 
     update (id, element) {
