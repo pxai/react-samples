@@ -9,28 +9,44 @@ class TaskList extends Component {
     }
 
     componentDidMount () {
-        const tasks = this.props.api.findAll();
-        this.setState({tasks})
+        this.getTasks();
     }
 
     render () {
       return <div>
         {
           this.state.tasks.map( task => <div>
-                <Task key={task.id} task={task} api={this.props.api} />
+                <Task key={task.id} task={task} remove={this.remove.bind(this)} update={this.update.bind(this)} />
             </div>
           )
         }
         <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
-        { this.state.showForm && <Form update={this.update.bind(this)}/> }
+        { this.state.showForm && <Form update={this.add.bind(this)}/> }
         </div>;
     }
 
-    update (task) {
-        console.log("Added task : ", task);
-        this.props.api.add(task);
+    getTasks () {
         const tasks = this.props.api.findAll();
         this.setState({tasks})
+    } 
+
+    add (task) {
+        console.log("Added task : ", task);
+        this.props.api.add(task);
+        this.getTasks();
+    }
+
+    update (task) {
+        console.log("Updated task : ", task);
+        this.props.api.update(task);
+        this.getTasks();
+    }
+
+
+    remove (id) {
+        console.log("Deleted task : ", id);
+        this.props.api.remove(id);
+        this.getTasks();
     }
 
     toggleForm () {

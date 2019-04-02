@@ -12,11 +12,11 @@ class Task extends Component {
                 - {this.props.task.task}</div>
                <div>
                 <a href="javascript:void(0)"
-                   onClick={() => this.props.api.update(this.props.task.id)}>
+                   onClick={() => this.props.update(this.props.task.id)}>
                    Update
                 </a>
                 <a href="javascript:void(0)"
-                   onClick={() => this.props.api.remove(this.props.task.id)}>
+                   onClick={() => this.props.remove(this.props.task.id)}>
                     Delete
                 </a>
                </div>
