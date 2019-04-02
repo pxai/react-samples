@@ -5,22 +5,32 @@ import Form from "./Form";
 class TaskList extends Component {
     constructor () {
         super();
-        this.state = {showForm: false};
+        this.state = {showForm: false, tasks: []};
+    }
+
+    componentDidMount () {
+        const tasks = this.props.api.findAll();
+        this.setState({tasks})
     }
 
     render () {
-      const list = this.props.api.findAll();
-      console.log(list, this.state);
       return <div>
         {
-          list.map( task => <div>
+          this.state.tasks.map( task => <div>
                 <Task key={task.id} task={task} api={this.props.api} />
             </div>
           )
         }
         <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
-        { this.state.showForm && <Form /> }
+        { this.state.showForm && <Form update={this.update.bind(this)}/> }
         </div>;
+    }
+
+    update (task) {
+        console.log("Added task : ", task);
+        this.props.api.add(task);
+        const tasks = this.props.api.findAll();
+        this.setState({tasks})
     }
 
     toggleForm () {

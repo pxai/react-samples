@@ -4,7 +4,7 @@ class Form extends Component {
     render () {
         return <div>
                 <div><label>Task</label></div>
-                <div><input type="text" /></div>
+                <div><input type="text" ref="task" /></div>
                 <div>
                     <input type="button" value="Save" onClick={this.save.bind(this)} />
                 </div>
@@ -12,7 +12,8 @@ class Form extends Component {
     }
 
     save () {
-        console.log("Saving state");
+        this.props.update(this.refs.task.value);
+        this.refs.task.value = "";
     }
 }
 
