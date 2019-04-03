@@ -28,8 +28,12 @@ class Task extends Component {
     this.setState({ showForm: !this.state.showForm });
   }
 
-  update () {
-    console.log("Updating...");
+  update (task) {
+    console.log(task, "ok");
+    if (task !="") {
+      this.props.update({id: this.props.task.id, task });
+      this.toggleForm();
+    } 
   }
 }
 
