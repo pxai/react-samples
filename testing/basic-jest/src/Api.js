@@ -21,10 +21,10 @@ class Api {
         console.log("Removed: ", id);
     }
 
-    update (id, element) {
-        const index = this._data.findIndex(a => a.id === id) ;
+    update (task) {
+        const index = this._data.findIndex(a => a.id === task.id) ;
         if (index > -1) {
-            this._data[index] = element;
+            this._data[index] = task;
         }
     }
 }
