@@ -33,6 +33,7 @@ class TaskList extends Component {
     add (task) {
         console.log("Added task : ", task);
         this.props.api.add(task);
+        this.toggleForm();
         this.getTasks();
     }
 

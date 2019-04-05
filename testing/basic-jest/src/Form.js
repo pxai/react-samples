@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Form extends Component {
     constructor (props) {
         super(props);
-        this.state = { task: props.task.task };
+        this.state =  { task: props.task ? props.task.task : "" };
     }
 
     render () {
