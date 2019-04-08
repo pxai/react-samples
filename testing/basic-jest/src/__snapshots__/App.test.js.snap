@@ -7,11 +7,6 @@ exports[`it matches snapshot 1`] = `
   <header
     className="App-header"
   >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
     <h1
       className="App-title"
     >
@@ -79,6 +74,14 @@ exports[`it matches snapshot 1`] = `
           </a>
         </div>
       </div>
+    </div>
+    <div>
+      <a
+        href="javascript:void(0)"
+        onClick={[Function]}
+      >
+        Add Task
+      </a>
     </div>
   </div>
 </div>

@@ -24,35 +24,36 @@ test('Find by id returns expected record', () => {
 
 test('Adds element correctly', () => {
     const api = new Api();
-    api.add({id: 1, task: "Work"});
+    api.add("Work");
 
-    expect(api.findAll()).toEqual([{id: 1, task: "Work"}]);
+    expect(api.findAll()[0]).toMatchObject({ task: "Work"});
 });
 
 test('Adds element correctly with existing data', () => {
     const api = new Api([{id: 1, task: "Work"}]);
-    api.add({id: 2, task: "Sleep"});
+    api.add("Sleep");
 
-    expect(api.findAll()).toEqual([
-        {id: 1, task: "Work"},
-        {id: 2, task: "Sleep"}
+    expect(api.findAll()).toMatchObject([
+        {task: "Work"},
+        {task: "Sleep"}
     ]);
 });
 
 test('Removes element correctly', () => {
     const api = new Api();
-    api.add({id: 1, task: "Work"});
+    api.add("Work");
+    const tasks = api.findAll();
 
-    expect(api.findAll().length).toEqual(1);
+    expect(tasks.length).toEqual(1);
 
-    api.remove(1);
+    api.remove(tasks[0].id);
 
     expect(api.findAll().length).toEqual(0);
 });
 
 test('Does not remove when id not present', () => {
     const api = new Api();
-    api.add({id: 1, task: "Work"});
+    api.add("Work");
 
     expect(api.findAll().length).toEqual(1);
 
@@ -64,7 +65,7 @@ test('Does not remove when id not present', () => {
 test("Updates the element correctly", () => {
   const api = new Api([{id: 4, task: "Nap"}]);
 
-  api.update(4, {id: 4, task: "Work"});
+  api.update({id: 4, task: "Work"});
 
-  expect(api.findById(4)).toEqual({id: 4, task: "Work"});
+  expect(api.findById(4)).toMatchObject({id: 4, task: "Work"});
 });
