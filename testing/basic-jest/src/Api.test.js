@@ -46,7 +46,7 @@ test('Removes element correctly', () => {
 
     expect(tasks.length).toEqual(1);
 
-    api.remove(tasks[0].id);
+    api.remove(tasks[0].idel );
 
     expect(api.findAll().length).toEqual(0);
 });
