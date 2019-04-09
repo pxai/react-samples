@@ -11,9 +11,9 @@ class Api {
         return this._data.find(a => a.id === id);
     }
 
-    add (task) {
+    add ({name}) {
         const id = Math.round(1000 * Math.random());
-        this._data.push({id, task});
+        this._data.push({id, name});
     }
 
     remove (id) {

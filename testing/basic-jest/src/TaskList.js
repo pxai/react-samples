@@ -30,9 +30,9 @@ class TaskList extends Component {
         this.setState({tasks})
     } 
 
-    add (task) {
-        console.log("Added task : ", task);
-        this.props.api.add(task);
+    add ({name}) {
+        console.log("Added task : ", name);
+        this.props.api.add({name});
         this.toggleForm();
         this.getTasks();
     }

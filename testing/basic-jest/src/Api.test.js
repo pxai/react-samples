@@ -11,42 +11,42 @@ test('Default data is empty', () => {
 });
 
 test('Data passed to constructor returns with list', () => {
-    const api = new Api([{id: 1, task: "Work"}]);
+    const api = new Api([{id: 1, name: "Work"}]);
 
-    expect(api.findAll()).toEqual([{id: 1, task: "Work"}]);
+    expect(api.findAll()).toEqual([{id: 1, name: "Work"}]);
 });
 
 test('Find by id returns expected record', () => {
-    const api = new Api([{id: 1, task: "Work"}]);
+    const api = new Api([{id: 1, name: "Work"}]);
 
-    expect(api.findById(1)).toEqual({id: 1, task: "Work"});
+    expect(api.findById(1)).toEqual({id: 1, name: "Work"});
 });
 
 test('Adds element correctly', () => {
     const api = new Api();
-    api.add("Work");
+    api.add({name: "Work"});
 
-    expect(api.findAll()[0]).toMatchObject({ task: "Work"});
+    expect(api.findAll()[0]).toMatchObject({ name: "Work"});
 });
 
 test('Adds element correctly with existing data', () => {
-    const api = new Api([{id: 1, task: "Work"}]);
-    api.add("Sleep");
+    const api = new Api([{id: 1, name: "Work"}]);
+    api.add({name: "Sleep"});
 
     expect(api.findAll()).toMatchObject([
-        {task: "Work"},
-        {task: "Sleep"}
+        {name: "Work"},
+        {name: "Sleep"}
     ]);
 });
 
 test('Removes element correctly', () => {
     const api = new Api();
-    api.add("Work");
+    api.add({name: "Work"});
     const tasks = api.findAll();
 
     expect(tasks.length).toEqual(1);
 
-    api.remove(tasks[0].idel );
+    api.remove(tasks[0].id );
 
     expect(api.findAll().length).toEqual(0);
 });
@@ -63,9 +63,9 @@ test('Does not remove when id not present', () => {
 });
 
 test("Updates the element correctly", () => {
-  const api = new Api([{id: 4, task: "Nap"}]);
+  const api = new Api([{id: 4, name: "Nap"}]);
 
-  api.update({id: 4, task: "Work"});
+  api.update({id: 4, name: "Work"});
 
-  expect(api.findById(4)).toMatchObject({id: 4, task: "Work"});
+  expect(api.findById(4)).toMatchObject({id: 4, name: "Work"});
 });

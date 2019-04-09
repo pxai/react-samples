@@ -9,7 +9,7 @@ class Task extends Component {
     render () {
         return <div>
                 <div>{this.props.task.id}
-                - {this.props.task.task}</div>
+                - {this.props.task.name}</div>
                <div>
                 <a href="javascript:void(0)"
                    onClick={this.toggleForm.bind(this)}>
@@ -28,10 +28,10 @@ class Task extends Component {
     this.setState({ showForm: !this.state.showForm });
   }
 
-  update (task) {
+  update ({name}) {
     console.log(task, "ok");
     if (task !="") {
-      this.props.update({id: this.props.task.id, task });
+      this.props.update({id: this.props.task.id, name });
       this.toggleForm();
     } 
   }

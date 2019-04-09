@@ -34,7 +34,6 @@ exports[`it matches snapshot 1`] = `
         <div>
           1
           - 
-          Just do
         </div>
         <div>
           <a
@@ -57,7 +56,6 @@ exports[`it matches snapshot 1`] = `
         <div>
           2
           - 
-          Just Chill
         </div>
         <div>
           <a
