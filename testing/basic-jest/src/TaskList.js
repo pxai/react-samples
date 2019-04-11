@@ -15,8 +15,8 @@ class TaskList extends Component {
     render () {
       return <div>
         {
-          this.state.tasks.map( task => <div>
-                <Task key={task.id} task={task} remove={this.remove.bind(this)} update={this.update.bind(this)} />
+          this.state.tasks.map( task => <div key={task.id}>
+                <Task task={task} remove={this.remove.bind(this)} update={this.update.bind(this)} />
             </div>
           )
         }

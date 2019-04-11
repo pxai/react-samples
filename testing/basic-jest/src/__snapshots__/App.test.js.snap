@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it matches snapshot 1`] = `
+exports[`matches snapshot 1`] = `
 <div
   className="App"
 >
@@ -10,7 +10,7 @@ exports[`it matches snapshot 1`] = `
     <h1
       className="App-title"
     >
-      Welcome to React
+      Task List
     </h1>
   </header>
   <div
@@ -22,11 +22,7 @@ exports[`it matches snapshot 1`] = `
   <p
     className="App-intro"
   >
-    To get started, edit 
-    <code>
-      src/App.js
-    </code>
-     and save to reload.
+    Here is your list
   </p>
   <div>
     <div>

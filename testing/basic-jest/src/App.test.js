@@ -1,18 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { shallow } from 'enzyme' ;
 import renderer from 'react-test-renderer';
+import { isContext } from 'vm';
 
-test('renders without crashing', () => {
+it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
 
-test('it matches snapshot', () => {
+it('matches snapshot', () => {
 	const component = renderer.create(<App />);
  let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+describe('Component', () => {
+  let app;
+  beforeEach(() => {
+    app = shallow(<App />);
+  });
+
+  it('has the title', () => {
+    expect(app.find(".App-title").exists()).toBe(true);
+    expect(app.find(".App-title").text()).toBe('Task List');
+  });
+  
+  it('has a Greet component', () => {
+    expect(app.find('Greet').exists()).toBe(true);
+  });
+
+  it('has a TaskList component', () => {
+    expect(app.find('TaskList').exists()).toBe(true);
+  });
+})
+
 
