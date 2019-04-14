@@ -7,7 +7,7 @@ import Api from './Api';
 class App extends Component {
   constructor () {
     super();
-    const list = [{ id: 1, task: "Just do"}, {id: 2, task: "Just Chill"}];
+    const list = [{ id: 1, name: "Just do"}, {id: 2, name: "Just Chill"}];
     this._api = new Api(list);
   }
 

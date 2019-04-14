@@ -8,20 +8,22 @@ class Form extends Component {
 
     render () {
         return <div>
-                <div><label>Task</label></div>
-                <div><input type="text" onChange={this.updateTask.bind(this)} ref="name" value={this.state.name} /></div>
-                <div>
-                    <input type="button" value="Save" onClick={this.save.bind(this)} />
-                </div>
-               </div>;
+            <div><label>Task</label></div>
+            <div>
+                <input type="text" onChange={this.updateTask.bind(this)} ref="name" value={this.state.name} />
+            </div>
+            <div>
+                <input type="button" value="Save" onClick={this.save.bind(this)} />
+            </div>
+        </div>;
     }
 
     updateTask () {
-        this.setState({ task: this.refs.name.value });
+        this.setState({ name: this.refs.name.value });
     }
 
     save () {
-        this.props.update(this.refs.name.value);
+        this.props.update({name: this.refs.name.value});
         this.refs.name.value = "";
     }
 }

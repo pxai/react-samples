@@ -3,55 +3,56 @@ import Task from "./Task";
 import Form from "./Form";
 
 class TaskList extends Component {
-    constructor () {
+    constructor() {
         super();
-        this.state = {showForm: false, tasks: []};
+        this.state = { showForm: false, tasks: [] };
     }
 
-    componentDidMount () {
+    componentDidMount() {
         this.getTasks();
     }
 
-    render () {
-      return <div>
-        {
-          this.state.tasks.map( task => <div key={task.id}>
-                <Task task={task} remove={this.remove.bind(this)} update={this.update.bind(this)} />
-            </div>
-          )
-        }
-        <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
-        { this.state.showForm && <Form update={this.add.bind(this)}/> }
+    render() {
+        return <div>
+                <h3>Tasks: { this.state.tasks.length}</h3>
+            {
+                this.state.tasks.map(task =>
+                    <Task key={task.id} task={task} remove={this.remove.bind(this)} update={this.update.bind(this)} />
+                )
+            }
+            <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
+            {this.state.showForm && <Form update={this.add.bind(this)} />}
         </div>;
     }
 
-    getTasks () {
+    getTasks() {
         const tasks = this.props.api.findAll();
-        this.setState({tasks})
-    } 
+        console.log("Read all tasks : ", tasks);
+        this.setState({ tasks })
+    }
 
-    add ({name}) {
+    add({ name }) {
         console.log("Added task : ", name);
-        this.props.api.add({name});
+        this.props.api.add({ name });
         this.toggleForm();
         this.getTasks();
     }
 
-    update (task) {
+    update(task) {
         console.log("Updated task : ", task);
         this.props.api.update(task);
         this.getTasks();
     }
 
 
-    remove (id) {
+    remove(id) {
         console.log("Deleted task : ", id);
         this.props.api.remove(id);
         this.getTasks();
     }
 
-    toggleForm () {
-        this.setState({ showForm: !this.state.showForm})
+    toggleForm() {
+        this.setState({ showForm: !this.state.showForm })
     }
 }
 

@@ -8,19 +8,19 @@ class Task extends Component {
     }
     render () {
         return <div>
-                <div>{this.props.task.id}
-                - {this.props.task.name}</div>
-               <div>
-                <a href="javascript:void(0)"
-                   onClick={this.toggleForm.bind(this)}>
-                   Update
-                </a>
-                <a href="javascript:void(0)"
-                   onClick={() => this.props.remove(this.props.task.id)}>
-                    Delete
-                </a>
-               </div>
-               {this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
+                  <div>{this.props.task.id}
+                  - {this.props.task.name}</div>
+                <div>
+                  <a href="javascript:void(0)"
+                    onClick={this.toggleForm.bind(this)}>
+                    Update
+                  </a> | 
+                  <a href="javascript:void(0)"
+                    onClick={() => this.props.remove(this.props.task.id)}>
+                      Delete
+                  </a>
+                </div>
+                {this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
                </div>;
     }
 
@@ -29,8 +29,8 @@ class Task extends Component {
   }
 
   update ({name}) {
-    console.log(task, "ok");
-    if (task !="") {
+    console.log(name, "ok");
+    if (name !="") {
       this.props.update({id: this.props.task.id, name });
       this.toggleForm();
     } 

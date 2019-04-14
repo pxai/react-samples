@@ -25,48 +25,52 @@ exports[`matches snapshot 1`] = `
     Here is your list
   </p>
   <div>
+    <h3>
+      Tasks: 
+      2
+    </h3>
     <div>
       <div>
-        <div>
-          1
-          - 
-        </div>
-        <div>
-          <a
-            href="javascript:void(0)"
-            onClick={[Function]}
-          >
-            Update
-          </a>
-          <a
-            href="javascript:void(0)"
-            onClick={[Function]}
-          >
-            Delete
-          </a>
-        </div>
+        1
+        - 
+        Just do
+      </div>
+      <div>
+        <a
+          href="javascript:void(0)"
+          onClick={[Function]}
+        >
+          Update
+        </a>
+         |
+        <a
+          href="javascript:void(0)"
+          onClick={[Function]}
+        >
+          Delete
+        </a>
       </div>
     </div>
     <div>
       <div>
-        <div>
-          2
-          - 
-        </div>
-        <div>
-          <a
-            href="javascript:void(0)"
-            onClick={[Function]}
-          >
-            Update
-          </a>
-          <a
-            href="javascript:void(0)"
-            onClick={[Function]}
-          >
-            Delete
-          </a>
-        </div>
+        2
+        - 
+        Just Chill
+      </div>
+      <div>
+        <a
+          href="javascript:void(0)"
+          onClick={[Function]}
+        >
+          Update
+        </a>
+         |
+        <a
+          href="javascript:void(0)"
+          onClick={[Function]}
+        >
+          Delete
+        </a>
       </div>
     </div>
     <div>
