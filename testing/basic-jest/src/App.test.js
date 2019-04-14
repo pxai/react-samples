@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { shallow } from 'enzyme' ;
 import renderer from 'react-test-renderer';
-import { isContext } from 'vm';
+ // https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
