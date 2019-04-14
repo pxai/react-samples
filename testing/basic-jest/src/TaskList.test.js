@@ -6,7 +6,15 @@ import TaskList from './TaskList';
 import Api from "./Api";
 
 const tasks = [{ id: 2, task: "Do it"}, {id: 4, task: "Don't"}];
-const api = new Api(tasks);
+
+const mockFindAll = jest.fn(() => tasks);
+jest.mock('./Api', () => {
+  return jest.fn().mockImplementation(() => {
+    return {findAll: mockFindAll};
+  });
+});
+
+let api = new Api();
 
 test('renders without crashing', () => {
   const div = document.createElement('div');
@@ -65,4 +73,18 @@ describe('Form toggle', () => {
     link.simulate("click");
     expect(taskList.find("Form").exists()).toBe(false);
   });
-})
+});
+
+describe('Api requests', () => {
+  let taskList;
+
+  beforeEach(() => {
+    Api.mockClear();
+    mockFindAll.mockClear();
+  });
+
+  test('calls find all', () => {
+    taskList = shallow(<TaskList api={api} />);
+    expect(mockFindAll).toHaveBeenCalledTimes(1);
+  });
+});
