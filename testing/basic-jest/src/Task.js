@@ -8,8 +8,9 @@ class Task extends Component {
     }
     render () {
         return <div>
-                  <div>{this.props.task.id}
-                  - {this.props.task.name}</div>
+                  <div className="Task-data">
+                    {this.props.task.id} - {this.props.task.name}
+                  </div>
                 <div>
                   <a href="javascript:void(0)"
                     onClick={this.toggleForm.bind(this)}>
@@ -21,7 +22,7 @@ class Task extends Component {
                   </a>
                 </div>
                 {this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
-               </div>;
+        </div>;
     }
 
   toggleForm () {

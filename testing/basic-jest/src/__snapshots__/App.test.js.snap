@@ -30,9 +30,11 @@ exports[`matches snapshot 1`] = `
       2
     </h3>
     <div>
-      <div>
+      <div
+        className="Task-data"
+      >
         1
-        - 
+         - 
         Just do
       </div>
       <div>
@@ -52,9 +54,11 @@ exports[`matches snapshot 1`] = `
       </div>
     </div>
     <div>
-      <div>
+      <div
+        className="Task-data"
+      >
         2
-        - 
+         - 
         Just Chill
       </div>
       <div>

@@ -2,9 +2,11 @@
 
 exports[`it matches snapshot 1`] = `
 <div>
-  <div>
+  <div
+    className="Task-data"
+  >
     1
-    - 
+     - 
     test
   </div>
   <div>
