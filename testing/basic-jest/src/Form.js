@@ -10,7 +10,7 @@ class Form extends Component {
         return <div>
             <div><label>Task</label></div>
             <div>
-                <input type="text" onChange={this.updateTask.bind(this)} ref="name" value={this.state.name} />
+                <input type="text" onChange={this.updateTask.bind(this)} value={this.state.name} />
             </div>
             <div>
                 <input type="button" value="Save" onClick={this.save.bind(this)} />
@@ -18,13 +18,13 @@ class Form extends Component {
         </div>;
     }
 
-    updateTask () {
-        this.setState({ name: this.refs.name.value });
+    updateTask (event) {
+        this.setState({ name: event.target.value });
     }
 
     save () {
-        this.props.update({name: this.refs.name.value});
-        this.refs.name.value = "";
+        this.props.update({name: this.state.name});
+        this.setState({name: ""});
     }
 }
 
