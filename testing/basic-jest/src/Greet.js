@@ -9,7 +9,6 @@ class Greet extends Component {
     };
   }
   doSomething(){
-    console.log('Greet was clicked');
     this.setState({message: 'I was clicked'});
   }
 

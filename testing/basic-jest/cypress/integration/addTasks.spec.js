@@ -25,6 +25,8 @@ describe.only('Add Task List', function() {
     cy.get('.Form input[type=button]').click();
 
     cy.get('div.Task-data').should('have.length', 3);
-    cy.get('div.Task-data')
+    cy.get('div.Task-data').eq(2).should( 
+      elem => expect(elem.text()).to.match(/Do exercise/)
+    );
   });
 });

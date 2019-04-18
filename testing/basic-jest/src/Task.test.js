@@ -4,7 +4,7 @@ import Task from './Task';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme' ;
 
-const props = { task : { id: 1, name: "test" }, update: jest.fn() };
+const props = { task : { id: 1, name: "test" }, onUpdate: jest.fn(), onRemove: jest.fn() };
 
 test('renders without crashing', () => {
   const div = document.createElement('div');
@@ -71,15 +71,29 @@ describe("Update", () => {
     updateLink.simulate("click");
     const form = taskComponent.find("Form");
 
-    const updateFunction = form.props().update;
-    console.log(form.props('update'));
-    taskComponent.instance().update("asdf");
+    form.simulate("update", {name: "updated Task" });
+    expect(props.onUpdate).toHaveBeenCalledWith({"id": 1, "name": "updated Task"});
   });
 
   it('update method calls update from props', () => {
     updateLink.simulate("click");
     taskComponent.instance().update({name: "updated Task" });
 
-    expect(props.update).toHaveBeenCalledWith({"id": 1, "name": "updated Task"});
+    expect(props.onUpdate).toHaveBeenCalledWith({"id": 1, "name": "updated Task"});
+  });
+});
+
+describe("Update", () => {
+  let deleteLink;
+  let taskComponent;
+
+  beforeEach(() => {
+    taskComponent = shallow(<Task {...props} />);
+    deleteLink = taskComponent.find("a").at(1);
+  });
+
+  it('calls onUpdate callback when clicked', () => {
+    deleteLink.simulate("click");
+    expect(props.onRemove).toHaveBeenCalledWith(1);
   });
 });

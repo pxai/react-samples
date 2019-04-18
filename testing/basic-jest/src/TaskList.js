@@ -17,36 +17,32 @@ class TaskList extends Component {
                 <h3>Tasks: { this.state.tasks.length}</h3>
             {
                 this.state.tasks.map(task =>
-                    <Task key={task.id} task={task} remove={this.remove.bind(this)} update={this.update.bind(this)} />
+                    <Task key={task.id} task={task} onRemove={this.remove.bind(this)} onUpdate={this.update.bind(this)} />
                 )
             }
             <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
-            {this.state.showForm && <Form update={this.add.bind(this)} />}
+            {this.state.showForm && <Form onUpdate={this.add.bind(this)} />}
         </div>;
     }
 
     getTasks() {
         const tasks = this.props.api.findAll();
-        console.log("Read all tasks : ", tasks);
         this.setState({ tasks })
     }
 
     add({ name }) {
-        console.log("Added task : ", name);
         this.props.api.add({ name });
         this.toggleForm();
         this.getTasks();
     }
 
     update(task) {
-        console.log("Updated task : ", task);
         this.props.api.update(task);
         this.getTasks();
     }
 
 
     remove(id) {
-        console.log("Deleted task : ", id);
         this.props.api.remove(id);
         this.getTasks();
     }

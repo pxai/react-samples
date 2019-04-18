@@ -26,7 +26,7 @@ describe('Form Component', () => {
   beforeEach(() => {
     props = {
       task,
-      update: jest.fn()
+      onUpdate: jest.fn()
     };
     component = shallow(<Form {...props} />);
   });
@@ -53,7 +53,7 @@ describe('Name input Component', () => {
   beforeEach(() => {
     props = {
       task,
-      update: jest.fn()
+      onUpdate: jest.fn()
     };
     component = shallow(<Form {...props} />);
   });
@@ -75,18 +75,25 @@ describe('Sends form', () => {
   beforeEach(() => {
     props = {
       task,
-      update: jest.fn()
+      onUpdate: jest.fn()
     };
     component = shallow(<Form {...props} />);
   });
-
 
   it('sends form', () => {
     component.find("[type='text']").simulate('change', {target: {value: "Hello"}});
 
     component.find("input[type='button']").simulate("click");
 
-    expect(props.update).toHaveBeenCalledWith({"name": "Hello"});
+    expect(props.onUpdate).toHaveBeenCalledWith({"name": "Hello"});
+  });
+
+  it('does not send form if empy', () => {
+    component.find("[type='text']").simulate('change', {target: {value: ""}});
+
+    component.find("input[type='button']").simulate("click");
+
+    expect(props.onUpdate).toHaveBeenCalledTimes(0);
   });
 
   it('empties form', () => {

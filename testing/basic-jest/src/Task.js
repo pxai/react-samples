@@ -17,11 +17,11 @@ class Task extends Component {
                     Update
                   </a> | 
                   <a href="javascript:void(0)"
-                    onClick={() => this.props.remove(this.props.task.id)}>
+                    onClick={() => this.props.onRemove(this.props.task.id)}>
                       Delete
                   </a>
                 </div>
-                {this.state.showForm && <Form task={this.props.task} update={this.update.bind(this)} />}
+                {this.state.showForm && <Form task={this.props.task} onUpdate={this.update.bind(this)} />}
         </div>;
     }
 
@@ -30,9 +30,8 @@ class Task extends Component {
   }
 
   update ({name}) {
-    console.log(name, "ok");
-    if (name !="") {
-      this.props.update({id: this.props.task.id, name });
+    if (name !=="") {
+      this.props.onUpdate({id: this.props.task.id, name });
       this.toggleForm();
     } 
   }

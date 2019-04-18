@@ -7,7 +7,7 @@ class Form extends Component {
     }
 
     render () {
-        return <div class="Form">
+        return <div className="Form">
             <div><label>Task</label></div>
             <div>
                 <input type="text" onChange={this.updateTask.bind(this)} value={this.state.name} />
@@ -23,8 +23,10 @@ class Form extends Component {
     }
 
     save () {
-        this.props.update({name: this.state.name});
-        this.setState({name: ""});
+        if (this.state.name !== "") {
+            this.props.onUpdate({name: this.state.name});
+            this.setState({name: ""});
+        }
     }
 }
 

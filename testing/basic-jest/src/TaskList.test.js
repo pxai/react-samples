@@ -8,9 +8,18 @@ import Api from "./Api";
 const tasks = [{ id: 2, task: "Do it"}, {id: 4, task: "Don't"}];
 
 const mockFindAll = jest.fn(() => tasks);
+const mockRemove = jest.fn(() => 0);
+const mockUpdate = jest.fn(() => 0);
+const mockAdd = jest.fn(() => 0);
+
 jest.mock('./Api', () => {
   return jest.fn().mockImplementation(() => {
-    return {findAll: mockFindAll};
+    return {
+      findAll: mockFindAll,
+      remove: mockRemove,
+      update: mockUpdate,
+      add: mockAdd
+    };
   });
 });
 
@@ -77,6 +86,7 @@ describe('Form toggle', () => {
 
 describe('Api requests', () => {
   let taskList;
+  let taskComponent;
 
   beforeEach(() => {
     Api.mockClear();
@@ -85,6 +95,30 @@ describe('Api requests', () => {
 
   test('calls find all', () => {
     taskList = shallow(<TaskList api={api} />);
+    expect(mockFindAll).toHaveBeenCalledTimes(1);
+  });
+
+  test('calls remove', () => {
+    taskComponent = taskList.find("Task").at(0);
+    taskComponent.simulate("remove", 1);
+
+    expect(mockRemove).toHaveBeenCalledWith(1);
+    expect(mockFindAll).toHaveBeenCalledTimes(1);
+  });
+
+  test('calls update', () => {
+    taskComponent = taskList.find("Task").at(0);
+    taskComponent.simulate("update", {id: 1, name: "updated Task"});
+
+    expect(mockUpdate).toHaveBeenCalledWith({id: 1, name: "updated Task"});
+    expect(mockFindAll).toHaveBeenCalledTimes(1);
+  });
+
+  test('calls add', () => {
+    taskList.find('a').simulate("click");
+    taskList.find("Form").simulate("update", {name: "add Task"});
+
+    expect(mockAdd).toHaveBeenCalledWith({name: "add Task"});
     expect(mockFindAll).toHaveBeenCalledTimes(1);
   });
 });
