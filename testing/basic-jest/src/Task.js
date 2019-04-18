@@ -7,11 +7,11 @@ class Task extends Component {
         this.state = { showForm: false };
     }
     render () {
-        return <div>
+        return <div className="Task">
             <div className="Task-data">
                 {this.props.task.id} - {this.props.task.name}
             </div>
-            <div>
+            <div className="Task-controls">
                 <a href="javascript:void(0)"
                     onClick={this.toggleForm.bind(this)}>
                     Update

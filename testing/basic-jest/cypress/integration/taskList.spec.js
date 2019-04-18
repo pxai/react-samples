@@ -12,7 +12,7 @@ describe.only('Task List', function() {
   });
 
   it('has Task Data components for each task', () => {
-    cy.get('div.Task-data').should('have.length', 2);
+    cy.get('div.Task').should('have.length', 2);
   });
 
   it('have a link to add tasks', () => {

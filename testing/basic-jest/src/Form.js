@@ -23,7 +23,7 @@ class Form extends Component {
     }
 
     save () {
-        if (this.state.name !== "") {
+        if (this.state.name.trim() !== "") {
             this.props.onUpdate({name: this.state.name});
             this.setState({name: ""});
         }
