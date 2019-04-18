@@ -1,35 +1,35 @@
-import Api from './Api';
+import Api from "./Api";
 
-test('Api class instantiates', () => {
+test("Api class instantiates", () => {
     const api = new Api();
 });
 
-test('Default data is empty', () => {
+test("Default data is empty", () => {
     const api = new Api();
 
     expect(api.findAll()).toEqual([]);
 });
 
-test('Data passed to constructor returns with list', () => {
+test("Data passed to constructor returns with list", () => {
     const api = new Api([{id: 1, name: "Work"}]);
 
     expect(api.findAll()).toEqual([{id: 1, name: "Work"}]);
 });
 
-test('Find by id returns expected record', () => {
+test("Find by id returns expected record", () => {
     const api = new Api([{id: 1, name: "Work"}]);
 
     expect(api.findById(1)).toEqual({id: 1, name: "Work"});
 });
 
-test('Adds element correctly', () => {
+test("Adds element correctly", () => {
     const api = new Api();
     api.add({name: "Work"});
 
     expect(api.findAll()[0]).toMatchObject({ name: "Work"});
 });
 
-test('Adds element correctly with existing data', () => {
+test("Adds element correctly with existing data", () => {
     const api = new Api([{id: 1, name: "Work"}]);
     api.add({name: "Sleep"});
 
@@ -39,7 +39,7 @@ test('Adds element correctly with existing data', () => {
     ]);
 });
 
-test('Removes element correctly', () => {
+test("Removes element correctly", () => {
     const api = new Api();
     api.add({name: "Work"});
     const tasks = api.findAll();
@@ -51,7 +51,7 @@ test('Removes element correctly', () => {
     expect(api.findAll().length).toEqual(0);
 });
 
-test('Does not remove when id not present', () => {
+test("Does not remove when id not present", () => {
     const api = new Api();
     api.add("Work");
 
@@ -63,9 +63,9 @@ test('Does not remove when id not present', () => {
 });
 
 test("Updates the element correctly", () => {
-  const api = new Api([{id: 4, name: "Nap"}]);
+    const api = new Api([{id: 4, name: "Nap"}]);
 
-  api.update({id: 4, name: "Work"});
+    api.update({id: 4, name: "Work"});
 
-  expect(api.findById(4)).toMatchObject({id: 4, name: "Work"});
+    expect(api.findById(4)).toMatchObject({id: 4, name: "Work"});
 });

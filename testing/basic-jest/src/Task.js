@@ -8,33 +8,33 @@ class Task extends Component {
     }
     render () {
         return <div>
-                  <div className="Task-data">
-                    {this.props.task.id} - {this.props.task.name}
-                  </div>
-                <div>
-                  <a href="javascript:void(0)"
+            <div className="Task-data">
+                {this.props.task.id} - {this.props.task.name}
+            </div>
+            <div>
+                <a href="javascript:void(0)"
                     onClick={this.toggleForm.bind(this)}>
                     Update
-                  </a> | 
-                  <a href="javascript:void(0)"
+                </a> | 
+                <a href="javascript:void(0)"
                     onClick={() => this.props.onRemove(this.props.task.id)}>
                       Delete
-                  </a>
-                </div>
-                {this.state.showForm && <Form task={this.props.task} onUpdate={this.update.bind(this)} />}
+                </a>
+            </div>
+            {this.state.showForm && <Form task={this.props.task} onUpdate={this.update.bind(this)} />}
         </div>;
     }
 
-  toggleForm () {
-    this.setState({ showForm: !this.state.showForm });
-  }
+    toggleForm () {
+        this.setState({ showForm: !this.state.showForm });
+    }
 
-  update ({name}) {
-    if (name !=="") {
-      this.props.onUpdate({id: this.props.task.id, name });
-      this.toggleForm();
-    } 
-  }
+    update ({name}) {
+        if (name !=="") {
+            this.props.onUpdate({id: this.props.task.id, name });
+            this.toggleForm();
+        } 
+    }
 }
 
 export default Task;

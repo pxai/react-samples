@@ -14,7 +14,7 @@ class TaskList extends Component {
 
     render() {
         return <div>
-                <h3>Tasks: { this.state.tasks.length}</h3>
+            <h3>Tasks: { this.state.tasks.length}</h3>
             {
                 this.state.tasks.map(task =>
                     <Task key={task.id} task={task} onRemove={this.remove.bind(this)} onUpdate={this.update.bind(this)} />
@@ -27,7 +27,7 @@ class TaskList extends Component {
 
     getTasks() {
         const tasks = this.props.api.findAll();
-        this.setState({ tasks })
+        this.setState({ tasks });
     }
 
     add({ name }) {
@@ -48,7 +48,7 @@ class TaskList extends Component {
     }
 
     toggleForm() {
-        this.setState({ showForm: !this.state.showForm })
+        this.setState({ showForm: !this.state.showForm });
     }
 }
 

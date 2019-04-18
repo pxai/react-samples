@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import './Greet.css';
+import React, { Component } from "react";
+import "./Greet.css";
 
 class Greet extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    message: 'This is a greet'
-    };
-  }
-  doSomething(){
-    this.setState({message: 'I was clicked'});
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+            message: "This is a greet"
+        };
+    }
+    doSomething(){
+        this.setState({message: "I was clicked"});
+    }
 
-  render() {
-    return (
-      <div className="Greet" onClick={() => this.doSomething()}>
+    render() {
+        return (
+            <div className="Greet" onClick={() => this.doSomething()}>
 		  {this.state.message}
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }
 
 export default Greet;
