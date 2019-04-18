@@ -25,7 +25,7 @@ context('Querying', () => {
     // by invoking `.attr()` method
     cy.get('[data-test-id="test-example"]')
       .invoke('attr', 'data-test-id')
-      .should('equal', 'test-example')
+      c
 
     // or you can get element's CSS property
     cy.get('[data-test-id="test-example"]')

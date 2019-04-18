@@ -7,7 +7,7 @@ class Form extends Component {
     }
 
     render () {
-        return <div>
+        return <div class="Form">
             <div><label>Task</label></div>
             <div>
                 <input type="text" onChange={this.updateTask.bind(this)} value={this.state.name} />
