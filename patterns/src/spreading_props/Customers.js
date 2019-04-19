@@ -3,10 +3,10 @@ import Customer from "../destructuring_props/Customer";
 
 class Customers extends Component {
   render() {
-    return <div className="App">
+    return <div>
         {
-            this.props.data.map( ticket => 
-                <Customer {...ticket} />
+            this.props.data.map( customer => 
+                <Customer {...customer} />
             )
         }
       </div>;
