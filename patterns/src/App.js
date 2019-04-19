@@ -13,6 +13,12 @@ import { Header, HeaderPassThrough } from "./children_passthrough";
 import Button from "./proxy_component/Button";
 import Password from "./proxy_component/Password";
 import CommonDialog from "./style_component/CommonDialog";
+import Input from "./event_switch/Input";
+import Form from "./layout_component/Form";
+import CustomersContainer from "./container_component/CustomersContainer";
+import Composed from "./high_order_component/Composed";
+import LoginForm from "./state_hoisting/LoginForm";
+import ControlledInput from "./controlled_input/ControlledInput";
 
 class App extends Component {
   render() {
@@ -22,6 +28,7 @@ class App extends Component {
     ];
 
     const ErrorDialog = ({content, props}) => <CommonDialog dialogClass="error" content={content} {...props} />;
+    const CustomersHOC = Composed(Customers);
 
     return (
       <div className="App">
@@ -71,6 +78,24 @@ class App extends Component {
           <CommonDialog dialogClass="info" content="Info dialog txt" />
           <CommonDialog dialogClass="warning" content="Warning dialog txt" />
           <ErrorDialog content="Error dialog txt" />
+        <hr />
+          <Input name="email" />
+        <hr />
+          <Form 
+            input={<Password id="passwd" onChange={(e) => alert("Works!")} />} 
+            button={<Button action={() => alert("Clicked")} text="Click me!" />} 
+          />
+        <hr />
+          <CustomersContainer /> 
+        <hr />
+          <h3>Customers HOC</h3>
+          <CustomersHOC /> 
+        <hr />
+          <h3>Controlled Input</h3>
+          <ControlledInput name="email" /> 
+        <hr />
+          <h3>Login Form</h3>
+          <LoginForm /> 
       </div>
     );
   }
