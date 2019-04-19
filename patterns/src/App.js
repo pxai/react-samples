@@ -9,6 +9,10 @@ import { Footer1, Footer2, Footer3 } from "./conditional_rendering";
 import RenderChildren from "./children_types/RenderChildren";
 import RenderArrays from "./array_children/RenderArrays";
 import InputField from "./function_children_render_prop/InputField";
+import { Header, HeaderPassThrough } from "./children_passthrough";
+import Button from "./proxy_component/Button";
+import Password from "./proxy_component/Password";
+import CommonDialog from "./style_component/CommonDialog";
 
 class App extends Component {
   render() {
@@ -17,39 +21,56 @@ class App extends Component {
       { id: 666, name: "Evil", email: "evl@hell.hl" }
     ];
 
-    const MyInputField = ({ name, value, children }) => (
-      <InputField>{(name, value) => (children)}</InputField>
-    );
+    const ErrorDialog = ({content, props}) => <CommonDialog dialogClass="error" content={content} {...props} />;
 
     return (
       <div className="App">
-        <About author="Pello" />
-        <Disclaimer />
+          <About author="Pello" />
+          <Disclaimer />
         <hr />
-        <AboutDes author="Pello" />
-        <Customer name="John Doe" id="666" email="jdoe@nobody.org" />
-        <Customer {...customers[0]} />
-        <Footer1 data={customers} />
-        <Footer1 data={[]} />
-        <Footer1 data={null} />
+          <AboutDes author="Pello" />
+          <Customer name="John Doe" id="666" email="jdoe@nobody.org" />
+          <Customer {...customers[0]} />
+          <Footer1 data={customers} />
+          <Footer1 data={[]} />
+          <Footer1 data={null} />
         <hr />
-        <Customers data={customers} />
-        <Footer2 data={customers} />
-        <Footer2 data={[]} />
-        <Footer2 data={null} />
+          <Customers data={customers} />
+          <Footer2 data={customers} />
+          <Footer2 data={[]} />
+          <Footer2 data={null} />
         <hr />
-        <Footer3 data={customers} />
-        <Footer3 data={[]} />
-        <Footer3 data={null} />
+          <Footer3 data={customers} />
+          <Footer3 data={[]} />
+          <Footer3 data={null} />
         <hr />
-        <Dialog title="Default" content="This dialog has default content" />
-        <Dialog className="warning" title="Warning!!!" content="Be careful" />
+          <Dialog title="Default" content="This dialog has default content" />
+          <Dialog className="warning" title="Warning!!!" content="Be careful" />
         <hr />
-        <RenderChildren words={["This"," is ", <b>Cool</b>]} />
+          <RenderChildren words={["This"," is ", <b>Cool</b>]} />
         <hr />
-        <RenderArrays customers={customers} />
+          <RenderArrays customers={customers} />
         <hr />
-        <InputField name="email" value="any@mail.com" />
+          <InputField name="email" value="any@mail.com" />
+        <hr />
+          <Header>
+            <About author="Pello" />
+            <Disclaimer />
+          </Header>
+        <hr />
+          <HeaderPassThrough>
+            <div>
+              <About author="Pello" />
+              <Disclaimer />
+            </div>
+          </HeaderPassThrough>
+        <hr />
+          <Password id="passwd" onChange={(e) => alert(e.target.value)} />
+          <Button action={() => alert('Clicked')} text="Click me!" />
+        <hr />
+          <CommonDialog dialogClass="info" content="Info dialog txt" />
+          <CommonDialog dialogClass="warning" content="Warning dialog txt" />
+          <ErrorDialog content="Error dialog txt" />
       </div>
     );
   }
