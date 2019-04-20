@@ -17,7 +17,9 @@ class TaskList extends Component {
             <h3>Tasks: { this.state.tasks.length}</h3>
             {
                 this.state.tasks.map(task =>
-                    <Task key={task.id} task={task} onRemove={this.remove.bind(this)} onUpdate={this.update.bind(this)} />
+                    <Task key={task.id} task={task}
+                          onRemove={this.remove.bind(this)}
+                          onUpdate={this.update.bind(this)} />
                 )
             }
             <div><a href="javascript:void(0)" onClick={this.toggleForm.bind(this)}>Add Task</a></div>
