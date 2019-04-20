@@ -29,7 +29,9 @@ exports[`matches snapshot 1`] = `
       Tasks: 
       2
     </h3>
-    <div>
+    <div
+      className="Task"
+    >
       <div
         className="Task-data"
       >
@@ -37,7 +39,9 @@ exports[`matches snapshot 1`] = `
          - 
         Just do
       </div>
-      <div>
+      <div
+        className="Task-controls"
+      >
         <a
           href="javascript:void(0)"
           onClick={[Function]}
@@ -53,7 +57,9 @@ exports[`matches snapshot 1`] = `
         </a>
       </div>
     </div>
-    <div>
+    <div
+      className="Task"
+    >
       <div
         className="Task-data"
       >
@@ -61,7 +67,9 @@ exports[`matches snapshot 1`] = `
          - 
         Just Chill
       </div>
-      <div>
+      <div
+        className="Task-controls"
+      >
         <a
           href="javascript:void(0)"
           onClick={[Function]}

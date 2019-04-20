@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`it matches snapshot 1`] = `
-<div>
+<div
+  className="Task"
+>
   <div
     className="Task-data"
   >
@@ -9,7 +11,9 @@ exports[`it matches snapshot 1`] = `
      - 
     test
   </div>
-  <div>
+  <div
+    className="Task-controls"
+  >
     <a
       href="javascript:void(0)"
       onClick={[Function]}

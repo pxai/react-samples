@@ -83,7 +83,7 @@ describe("Update", () => {
     });
 });
 
-describe("Update", () => {
+describe("Delete", () => {
     let deleteLink;
     let taskComponent;
 
