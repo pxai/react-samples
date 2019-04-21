@@ -71,6 +71,10 @@ class App extends Component {
               <Disclaimer />
             </div>
           </HeaderPassThrough>
+          <hr />
+          <HeaderPassThrough>
+              <Disclaimer />
+          </HeaderPassThrough>
         <hr />
           <Password id="passwd" onChange={(e) => alert(e.target.value)} />
           <Button action={() => alert('Clicked')} text="Click me!" />
