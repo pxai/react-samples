@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/public/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/App.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/App.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/src/registerServiceWorker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cap05/high-order-components/yarn.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/App.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/App.test.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/index.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,48 +24,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bus.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Bus.js">
+      <file leaf-file-name="victim.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/victim.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="160">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Emitter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Emitter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Receiver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Receiver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/patterns/src/App.js">
+        <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="106" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="victim.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/victim.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,6 +97,7 @@
       <dir>$PROJECT_DIR$/cap03/react-newspaper</dir>
       <dir>$PROJECT_DIR$/cap03/react-newspaper/src</dir>
       <dir>$PROJECT_DIR$/cap03/react-newspaper/server</dir>
+      <dir>$PROJECT_DIR$/cap01/hello-world/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -116,13 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/loops.js" />
-        <option value="$PROJECT_DIR$/js/functions.js" />
-        <option value="$PROJECT_DIR$/js/objects.js" />
-        <option value="$PROJECT_DIR$/es6/src/variables.js" />
-        <option value="$PROJECT_DIR$/es6/src/extract.js" />
-        <option value="$PROJECT_DIR$/es6/src/interpolation.js" />
-        <option value="$PROJECT_DIR$/es6/src/objects.js" />
         <option value="$PROJECT_DIR$/es6/src/spread.js" />
         <option value="$PROJECT_DIR$/es6/src/restParameter.js" />
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
@@ -167,6 +150,13 @@
         <option value="$PROJECT_DIR$/testing/basic-jest/cypress/integration/taskList.spec.js" />
         <option value="$PROJECT_DIR$/testing/basic-jest/src/Task.test.js" />
         <option value="$PROJECT_DIR$/cap05/react-typescript-task/App.tsx" />
+        <option value="$PROJECT_DIR$/other/webpack-react-sample/sample.js" />
+        <option value="$PROJECT_DIR$/cap01/hello-world/src/App.test.js" />
+        <option value="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" />
+        <option value="$PROJECT_DIR$/victim.css" />
+        <option value="$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js" />
+        <option value="$PROJECT_DIR$/victim.js" />
+        <option value="$PROJECT_DIR$/cap01/hello-world/src/App.js" />
       </list>
     </option>
   </component>
@@ -182,6 +172,7 @@
     <handled-path value="$PROJECT_DIR$/cap04/mobile-flashcards/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap05/react-typescript-task/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap05/react-typescript/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/other/react-template/node_modules" />
     <handled-path value="$PROJECT_DIR$/other/webpack-react-sample/node_modules" />
     <handled-path value="$PROJECT_DIR$/other/webpack-sample/node_modules" />
@@ -189,9 +180,9 @@
     <handled-path value="$PROJECT_DIR$/testing/basic-jest/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="301" />
-    <option name="y" value="124" />
-    <option name="width" value="1442" />
+    <option name="x" value="192" />
+    <option name="y" value="68" />
+    <option name="width" value="1156" />
     <option name="height" value="910" />
   </component>
   <component name="ProjectView">
@@ -209,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +211,31 @@
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap05" type="462c0819:PsiDirectoryNode" />
+              <item name="cap01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap01" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap01" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack-react-sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +253,7 @@
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="event_bus" type="462c0819:PsiDirectoryNode" />
+              <item name="array_children" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -256,15 +271,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../typescript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/es6/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cap04/react-native-components" />
       <recent name="$PROJECT_DIR$/es6/src" />
       <recent name="$PROJECT_DIR$/cap02/multicomponents/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/other/webpack-react-sample" />
+      <recent name="$PROJECT_DIR$/es6/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,6 +306,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -343,7 +363,11 @@
       <workItem from="1555742848285" duration="9448000" />
       <workItem from="1555850861183" duration="985000" />
       <workItem from="1556743263690" duration="266000" />
-      <workItem from="1556828962225" duration="517000" />
+      <workItem from="1556828962225" duration="1576000" />
+      <workItem from="1556832207139" duration="1770000" />
+      <workItem from="1556955572400" duration="52000" />
+      <workItem from="1557069719171" duration="4932000" />
+      <workItem from="1557249416799" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -433,14 +457,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106169000" />
+    <option name="totallyTimeSpent" value="114959000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="124" width="1442" height="910" extended-state="0" />
+    <frame x="192" y="68" width="1156" height="910" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21567267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26903114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996207" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32869786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,14 +475,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24965326" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -481,90 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/Greet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/Greet.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/Form.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="105" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/cypress/integration/main.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/cypress/integration/greet.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/cypress/integration/taskList.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/cypress/integration/addTasks.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/cypress/integration/task.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/TaskList.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/Task.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -705,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patterns/src/function_children_render_prop/InputField.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -814,27 +748,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Receiver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/patterns/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="1494">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="106" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,9 +762,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.split.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.dynamiclink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-sample/webpack.config basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Receiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/victim.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/victim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
