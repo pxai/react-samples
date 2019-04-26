@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
 
@@ -60,17 +60,17 @@ class App extends Component {
           <div>
             <div><input type="checkbox" id="s_primary"
                     value="s_primary" 
-                    checked={this.inArray('s_primary')}
+                    checked={this.inArray("s_primary")}
                     onChange={this.handleChangeCheckbox} />
             <label htmlFor="s_primary">Primary</label></div>
             <div><input type="checkbox" id="s_bachelor"
                     value="s_bachelor"
-                    checked={this.inArray('s_bachelor')}
+                    checked={this.inArray("s_bachelor")}
                     onChange={this.handleChangeCheckbox}/>
             <label htmlFor="s_bachelor">Bachelor</label></div>
             <div><input type="checkbox" id="s_master"
                     value="s_master"
-                    checked={this.inArray('s_master')}
+                    checked={this.inArray("s_master")}
                     onChange={this.handleChangeCheckbox}/>
             <label htmlFor="s_master">Master</label></div>
           </div>

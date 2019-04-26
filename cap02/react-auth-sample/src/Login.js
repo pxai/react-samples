@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Route, Redirect} from 'react-router-dom';
-import Auth from './Auth';
+import React, { Component } from "react";
+import { Route, Redirect} from "react-router-dom";
+import Auth from "./Auth";
 	
 class Login extends Component {
 
@@ -28,7 +28,7 @@ class Login extends Component {
     const { redirectToReferrer } = this.state
 
     if (redirectToReferrer === true) {
-      <Redirect to='/' />
+      <Redirect to="/" />
     }
 
     return (

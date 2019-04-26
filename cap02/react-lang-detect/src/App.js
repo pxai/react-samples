@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import detectBrowserLanguage from 'detect-browser-language'
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import detectBrowserLanguage from "detect-browser-language"
 
 class App extends Component {
   constructor (props) {

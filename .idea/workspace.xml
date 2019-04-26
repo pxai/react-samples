@@ -2,14 +2,129 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/App.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/App.test.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/index.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap01/hello-world/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap01/hello-world/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-events/src/App.js" afterPath="$PROJECT_DIR$/cap02/jsx-events/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-events/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/jsx-events/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-events/src/index.js" afterPath="$PROJECT_DIR$/cap02/jsx-events/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-events/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/jsx-events/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-javascript/src/App.js" afterPath="$PROJECT_DIR$/cap02/jsx-javascript/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-javascript/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/jsx-javascript/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-javascript/src/index.js" afterPath="$PROJECT_DIR$/cap02/jsx-javascript/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/jsx-javascript/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/jsx-javascript/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/multicomponents/src/App.js" afterPath="$PROJECT_DIR$/cap02/multicomponents/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/multicomponents/src/App.nonmulti.js" afterPath="$PROJECT_DIR$/cap02/multicomponents/src/App.nonmulti.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/multicomponents/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/multicomponents/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/multicomponents/src/Paragraph.js" afterPath="$PROJECT_DIR$/cap02/multicomponents/src/Paragraph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/multicomponents/src/index.js" afterPath="$PROJECT_DIR$/cap02/multicomponents/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/multicomponents/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/multicomponents/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/AdminPage.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/AdminPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/AdminPage.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/AdminPage.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/Auth.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/Auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/Auth.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/Auth.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/Default.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/Default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/Default.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/Default.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/Login.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/Login.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/Login.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/NotFound.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/NotFound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/NotFound.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/NotFound.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/ProtectedPage.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/ProtectedPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/ProtectedPage.test.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/ProtectedPage.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-auth-sample/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-auth-sample/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-complex-form/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-complex-form/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-complex-form/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-complex-form/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-complex-form/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-complex-form/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-complex-form/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-complex-form/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-controlled-form/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-controlled-form/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-controlled-form/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-controlled-form/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-controlled-form/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-controlled-form/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-controlled-form/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-controlled-form/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/server/notes.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/server/notes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/server/server.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/server/uuid.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/server/uuid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-crud-api/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-crud-api/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-css/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-css/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-css/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-css/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css2/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-css2/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css2/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-css2/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css2/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-css2/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css2/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-css2/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-form-event/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-form-event/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-form-event/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-form-event/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-form-event/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-form-event/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-form-event/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-form-event/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-i18n/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-i18n/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-i18n/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-i18n/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-i18n/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-i18n/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-i18n/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-i18n/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lang-detect/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-lang-detect/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lang-detect/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-lang-detect/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lang-detect/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-lang-detect/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lang-detect/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-lang-detect/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lifecycle/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-lifecycle/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lifecycle/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-lifecycle/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lifecycle/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-lifecycle/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lifecycle/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-lifecycle/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form-validation/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-login-form-validation/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form-validation/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-login-form-validation/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form-validation/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-login-form-validation/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form-validation/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-login-form-validation/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-login-form/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-login-form/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-login-form/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-login-form/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/About.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/Default.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/Default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/NotFound.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/NotFound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/AppBar.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/AppBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Avatar.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Avatar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Badge.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Badge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/BottomNavigation.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/BottomNavigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Buttons.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Buttons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Cards.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Cards.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Chip.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Chip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/DatePicker.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/DatePicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Dialog.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Divider.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/Divider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/component/MComponent.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/component/MComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-material-ui/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-material-ui/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-multiple-value-fields/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/Header.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/Page.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/Page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/Paragraph.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/Paragraph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-namespaces/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-namespaces/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-properties/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-properties/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-properties/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-properties/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-properties/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-properties/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-properties/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-properties/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/About.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/Category.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/Category.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/Default.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/Default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/NotFound.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/NotFound.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/Sample.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/Sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-router/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-router/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-state/src/App.js" afterPath="$PROJECT_DIR$/cap02/react-state/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-state/src/App.test.js" afterPath="$PROJECT_DIR$/cap02/react-state/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-state/src/index.js" afterPath="$PROJECT_DIR$/cap02/react-state/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-state/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap02/react-state/src/registerServiceWorker.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,12 +149,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap02/jsx-events/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap02/jsx-javascript/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +235,7 @@
       <dir>$PROJECT_DIR$/cap03/react-newspaper/src</dir>
       <dir>$PROJECT_DIR$/cap03/react-newspaper/server</dir>
       <dir>$PROJECT_DIR$/cap01/hello-world/src</dir>
+      <dir>$PROJECT_DIR$/cap02</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -106,7 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/es6/src/spread.js" />
         <option value="$PROJECT_DIR$/es6/src/restParameter.js" />
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
         <option value="$PROJECT_DIR$/es6/src/arrow.js" />
@@ -157,6 +294,7 @@
         <option value="$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js" />
         <option value="$PROJECT_DIR$/victim.js" />
         <option value="$PROJECT_DIR$/cap01/hello-world/src/App.js" />
+        <option value="$PROJECT_DIR$/cap02/jsx-events/src/App.js" />
       </list>
     </option>
   </component>
@@ -180,8 +318,8 @@
     <handled-path value="$PROJECT_DIR$/testing/basic-jest/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="68" />
+    <option name="x" value="319" />
+    <option name="y" value="77" />
     <option name="width" value="1156" />
     <option name="height" value="910" />
   </component>
@@ -211,19 +349,19 @@
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap01" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap01" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
+              <item name="jsx-javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap01" type="462c0819:PsiDirectoryNode" />
-              <item name="hello-world" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
+              <item name="jsx-javascript" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +505,7 @@
       <workItem from="1556832207139" duration="1770000" />
       <workItem from="1556955572400" duration="52000" />
       <workItem from="1557069719171" duration="4932000" />
-      <workItem from="1557249416799" duration="977000" />
+      <workItem from="1557249416799" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -457,10 +595,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114959000" />
+    <option name="totallyTimeSpent" value="115166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="68" width="1156" height="910" extended-state="0" />
+    <frame x="319" y="77" width="1156" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26903114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -506,20 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testing/basic-jest/src/Task.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/Api.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -869,6 +993,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/jsx-events/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/jsx-javascript/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

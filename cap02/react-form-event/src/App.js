@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {name: 'Default name'};
+    this.state = {name: "Default name"};
   }
 
   handleChange = (e) => {
@@ -25,7 +25,7 @@ class App extends Component {
           <div>
             <input type="text"
               value={this.state.name}
-              defaultValue='default text'
+              defaultValue="default text"
               onChange={this.handleChange} 
             />
           </div>

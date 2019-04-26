@@ -4,7 +4,7 @@ class Auth {
 	}
 
 	authenticate (username, password) {
-		this._isAuthenticated = username === 'falken';
+		this._isAuthenticated = username === "falken";
 	}
 
 	isAuthenticated () {

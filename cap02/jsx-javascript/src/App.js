@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -39,11 +39,11 @@ class App extends Component {
          )
         }
 
-         {console.log('This will appear in the console')}
-        <p className={ (applyCss) ? 'App-intro':''} >
+         {console.log("This will appear in the console")}
+        <p className={ (applyCss) ? "App-intro":""} >
           This is a paragraph
         </p>
-        <p onClick={() => alert('It works')}>
+        <p onClick={() => alert("It works")}>
           Click on this paragraph
           </p>
       </div>

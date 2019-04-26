@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
-import './App.css';
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom";
+import "./App.css";
 
 class Sample extends Component {
 
@@ -29,7 +29,7 @@ class Sample extends Component {
             </div>
             <div>
                Parameters passed: {id} and {name}
-                { id === '0' ?
+                { id === "0" ?
                     (
                         <Redirect to="/404" />
                     ) : (

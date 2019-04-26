@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { username: '', password: '', description: '',
-                   maritalState: '',s_primary: false, s_bachelor: false, 
-                   s_master: false, sex: '' }
+    this.state = { username: "", password: "", description: "",
+                   maritalState: "",s_primary: false, s_bachelor: false,
+                   s_master: false, sex: "" }
   }
 
   handleChange = (event) => {
     const target = event.target;
     let value =   target.value;
-    if (target.type === 'checkbox' && !target.checked ) {
-        value = '';
+    if (target.type === "checkbox" && !target.checked ) {
+        value = "";
     }
     const name = target.name;
 
@@ -66,28 +66,28 @@ class App extends Component {
           <div>
             <div><input type="checkbox" name="s_primary" id="s_primary"
                     value="s_primary" 
-                    checked={this.state.s_primary==='s_primary'}
+                    checked={this.state.s_primary==="s_primary"}
                     onChange={this.handleChange} />
             <label htmlFor="s_primary">Primary</label></div>
             <div><input type="checkbox" name="s_bachelor" id="s_bachelor" 
                     value="s_bachelor"
-                    checked={this.state.s_bachelor==='s_bachelor'}
+                    checked={this.state.s_bachelor==="s_bachelor"}
                     onChange={this.handleChange}/>
             <label htmlFor="s_bachelor">Bachelor</label></div>
             <div><input type="checkbox" name="s_master" id="s_master" 
                     value="s_master"
-                    checked={this.state.s_master==='s_master'}
+                    checked={this.state.s_master==="s_master"}
                     onChange={this.handleChange}/>
             <label htmlFor="s_master">Master</label></div>
           </div>
           <div><label>Sex</label></div>
           <div>
             <div><input type="radio" name="sex" value="male" id="male" 
-                    checked={this.state.sex === 'male'}
+                    checked={this.state.sex === "male"}
                     onChange={this.handleChange}/>
             <label htmlFor="male">Male</label></div>
             <div><input type="radio" name="sex" value="female" id="female" 
-                    checked={this.state.sex === 'female'}
+                    checked={this.state.sex === "female"}
                     onChange={this.handleChange}/>
             <label htmlFor="female">Female</label></div>
           </div>

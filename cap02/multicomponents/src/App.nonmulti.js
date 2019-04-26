@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
     showMsg (msg) {
-        alert('This button works: ' + msg);
+        alert("This button works: " + msg);
     }
   render() {
     return (
@@ -15,7 +15,7 @@ class App extends Component {
           </header>
           <p className="App-intro">
               To get started, edit <code>src/App.js</code> and save to reload.
-              <button onClick={() => this.showMsg('Hello')}>Click here</button>
+              <button onClick={() => this.showMsg("Hello")}>Click here</button>
           </p>
       </div>
     );

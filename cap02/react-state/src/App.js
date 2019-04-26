@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
 
   constructor (props) {
     super(props);
     this.state = {
-     title: 'Default',
+     title: "Default",
      time: new Date().toLocaleTimeString(),
      number: 0,
      numbers: [] 
@@ -22,14 +22,14 @@ class App extends Component {
         time: new Date().toLocaleTimeString(),
         numbers: numbers,
         number: number,
-        title: ((number % 2 === 0)?'It is even':'It is odd')
+        title: ((number % 2 === 0)?"It is even":"It is odd")
       })
-    console.log('changeState> ', this.state);
+    console.log("changeState> ", this.state);
   }
 
   render() {
-    console.log('Render was called> ', this.state);
-    const colors = ['red', 'yellow', 'green', 'blue','orange'];
+    console.log("Render was called> ", this.state);
+    const colors = ["red", "yellow", "green", "blue","orange"];
     const color = colors[this.state.number];
 
     return (

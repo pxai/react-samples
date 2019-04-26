@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   arrowHandleClick = (e) => {
     e.preventDefault();
-    alert('The first link was clicked.');
+    alert("The first link was clicked.");
   }
 
   handleClick(e) {
     e.preventDefault();
-    alert('The second link was clicked.');
+    alert("The second link was clicked.");
   }
 
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div >
 
-      <button onClick={() => alert('It works')}>
+      <button onClick={() => alert("It works")}>
           Click on this button
       </button><br />
 

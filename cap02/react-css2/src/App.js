@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
     let h1Css = {
-          textAlign: 'center',
-          color: 'red',
-          fontWeight: 'bold'
+          textAlign: "center",
+          color: "red",
+          fontWeight: "bold"
         };
 
-    let h2Css = { color: 'darkred' };
+    let h2Css = { color: "darkred" };
 
     let regularCss = {
-          textAlign: 'justify',
-          color: '#222'
+          textAlign: "justify",
+          color: "#222"
         }
         
-    let headerCss =  { backgroundColor: '#333' };
+    let headerCss =  { backgroundColor: "#333" };
     
     return (
       <div>

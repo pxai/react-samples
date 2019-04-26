@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
 
   static defaultProps =  {
-      title: 'Default title',
-      text: 'Default text',
+      title: "Default title",
+      text: "Default text",
       version: 0,
       technologies: [],
       fun: this.dummy
   }
 
   dummy () {
-    console.log('I do nothing');
+    console.log("I do nothing");
   }
 
   render() {

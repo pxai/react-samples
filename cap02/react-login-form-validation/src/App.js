@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { login: '', password: '',
+    this.state = { login: "", password: "",
                    loginValid: true, passwordValid: true }
   }
 
   handleSubmit=  (e) => {
     e.preventDefault();
     this.setState({
-      login: '',
-      password: '',
+      login: "",
+      password: "",
       loginValid: true,
       passwordValid: true
     })
@@ -45,15 +45,15 @@ class App extends Component {
         event.preventDefault();
         if (!this.isLoginValid(this.state.login) ||
             !this.isPasswordValid(this.state.password))
-          alert('Form fields are incorrect');
+          alert("Form fields are incorrect");
         else
-          alert('Form fields correct');
+          alert("Form fields correct");
     }
 
   render() {
     console.log(this.state.loginValid);
-    let loginError = (this.state.loginValid)?'':<div className="error">Login not valid</div>;
-    let passwordError = (this.state.passwordValid)?'':<div className="error">Password not valid</div>;
+    let loginError = (this.state.loginValid)?"":<div className="error">Login not valid</div>;
+    let passwordError = (this.state.passwordValid)?"":<div className="error">Password not valid</div>;
 
     return (
       <div className="App">

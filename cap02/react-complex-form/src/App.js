@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { username: '', password: '', description: '',
-                   maritalState: '',studies: [], sex: '' }
+    this.state = { username: "", password: "", description: "",
+                   maritalState: "",studies: [], sex: "" }
   }
 
   handleSubmit=  (e) => {

@@ -1,23 +1,23 @@
-import React, { Component } from 'react';
-import { Route, Link, Switch } from 'react-router-dom';
-import Default  from './Default';
-import NotFound  from './NotFound';
-import About  from './About';
-import NotFound  from './NotFound';
-import MComponent  from './component/MComponent';
-import AppBar  from './component/AppBar';
-import Avatar  from './component/Avatar';
-import Badge  from './component/Badge';
-import BottomNavigation  from './component/BottomNavigation';
-import Button  from './component/Button';
-import Card  from './component/Card';
-import Chip  from './component/Chip';
-import DatePicker  from './component/DatePicker';
-import Dialog  from './component/Dialog';
-import Divider  from './component/Divider';
+import React, { Component } from "react";
+import { Route, Link, Switch } from "react-router-dom";
+import Default  from "./Default";
+import NotFound  from "./NotFound";
+import About  from "./About";
+import NotFound  from "./NotFound";
+import MComponent  from "./component/MComponent";
+import AppBar  from "./component/AppBar";
+import Avatar  from "./component/Avatar";
+import Badge  from "./component/Badge";
+import BottomNavigation  from "./component/BottomNavigation";
+import Button  from "./component/Button";
+import Card  from "./component/Card";
+import Chip  from "./component/Chip";
+import DatePicker  from "./component/DatePicker";
+import Dialog  from "./component/Dialog";
+import Divider  from "./component/Divider";
 
 
-import './App.css';
+import "./App.css";
 
 class App extends Component {
 
@@ -34,9 +34,9 @@ class App extends Component {
               <Link to="/about">About</Link> | 
             </div>
             <Switch>
-              <Route exact path='/' component={Default}/>  
-              <Route exact path='/about' component={About} />
-              <Route exact path='/component/component' component={MComponent} />
+              <Route exact path="/" component={Default}/>
+              <Route exact path="/about" component={About} />
+              <Route exact path="/component/component" component={MComponent} />
               <Route component={NotFound} />
           </Switch>
         </div>
