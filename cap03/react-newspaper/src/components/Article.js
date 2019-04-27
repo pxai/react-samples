@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import Modal from 'react-modal'
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
-import ArticleModal from './ArticleModal';
-import { getByArticleAsync } from '../actions/comment';
+import React, { Component } from "react"
+import Modal from "react-modal"
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+import ArticleModal from "./ArticleModal";
+import { getByArticleAsync } from "../actions/comment";
 
 class Article extends Component {
   state = {
@@ -25,7 +25,7 @@ class Article extends Component {
   }
 
   deleteArticle= () => {
-    console.log('Delete this article: ' , this.props.article.id);
+    console.log("Delete this article: " , this.props.article.id);
     this.props.deleteArticle(this.props.article.id);
   }
 
@@ -36,20 +36,20 @@ class Article extends Component {
   render() {
     const article = this.props.article;
     return (
-      <div className='article'>
+      <div className="article">
           <h2><Link to={`/article/${article.category}/${article.id}`}>{article.title}</Link></h2>
-          <div className='category'><i className="fa fa-tag"></i>  {article.category}</div>
-          <div className='body'>
+          <div className="category"><i className="fa fa-tag"></i>  {article.category}</div>
+          <div className="body">
            {article.body}
-           <div className='articleData'>
+           <div className="articleData">
            <i className="fa fa-star"></i> {article.voteScore} - <i className="fa fa-user"></i> {article.author}  -
            - <i className="fa fa-calendar"></i> {this.getReadableDate(article.timestamp)}
            <span className="span-button">
              <a  onClick={this.deleteArticle}><i className="fa fa-trash"></i> delete</a>
            </span>
            <span className="span-button">
-             <a  onClick={() => (this.props.voteArticle(article.id,'upVote'))} title="vote up"><i className="fa fa-thumbs-o-up" aria-hidden="true" ></i>Up</a>
-             <a  onClick={() => (this.props.voteArticle(article.id, 'downVote'))} title="vote down"><i className="fa fa-thumbs-o-down" aria-hidden="true" ></i>Down</a>
+             <a  onClick={() => (this.props.voteArticle(article.id,"upVote"))} title="vote up"><i className="fa fa-thumbs-o-up" aria-hidden="true" ></i>Up</a>
+             <a  onClick={() => (this.props.voteArticle(article.id, "downVote"))} title="vote down"><i className="fa fa-thumbs-o-down" aria-hidden="true" ></i>Down</a>
           </span>
           <span className="span-button">
              <a  onClick={this.openArticleModal}><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Update</a>
@@ -61,11 +61,11 @@ class Article extends Component {
               { this.props.comments.length}
               </div>
         <Modal
-          className='modal'
-          overlayClassName='overlay'
+          className="modal"
+          overlayClassName="overlay"
           isOpen={this.state.articleModalOpen}
           onRequestClose={this.closeArticleModal}
-          contentLabel='Modal'
+          contentLabel="Modal"
         >
           <ArticleModal title="Update Article" onCreateArticle={this.updateArticle} categories={this.props.categories} article={article} closeArticleModal={this.closeArticleModal} />
         </Modal>
@@ -76,7 +76,7 @@ class Article extends Component {
 
 // maps Redux state to our props
 function mapStateToProps (state, props) {
-  console.log('No comment: ', state.comment.comments);
+  console.log("No comment: ", state.comment.comments);
   return {
     comments: state.comment.comments.filter(comment => comment.parentId === props.article.id )
   }

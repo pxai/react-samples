@@ -1,11 +1,11 @@
-import RequestHeaders from './headers'
+import RequestHeaders from "./headers"
 
-const url = 'http://localhost:3001';
+const url = "http://localhost:3001";
 
 const Comment = function () {
     this.getComments = function () {
-      return fetch(url + '/comments', {
-          method: 'GET', 
+      return fetch(url + "/comments", {
+          method: "GET",
           headers: RequestHeaders
         }
       )
@@ -13,8 +13,8 @@ const Comment = function () {
    }
 
    this.get = function (id) {
-    return fetch(url +'/comments/' + id, {
-        method: 'GET', 
+    return fetch(url +"/comments/" + id, {
+        method: "GET",
         headers: RequestHeaders
       }
     )
@@ -22,8 +22,8 @@ const Comment = function () {
   }
 
    this.getByArticle = function (id) {
-    return fetch(url + '/articles/'+id+'/comments', {
-        method: 'GET', 
+    return fetch(url + "/articles/"+id+"/comments", {
+        method: "GET",
         headers: RequestHeaders
       }
     )
@@ -31,8 +31,8 @@ const Comment = function () {
   }
 
   this.create = function (comment) {
-    return fetch(url + '/comments', {
-        method: 'POST',
+    return fetch(url + "/comments", {
+        method: "POST",
         body: JSON.stringify(comment),
         headers: RequestHeaders
       }
@@ -42,8 +42,8 @@ const Comment = function () {
 
 
   this.vote = function (id, vote) {
-    return fetch(url + '/comments/' + id, {
-        method: 'POST',
+    return fetch(url + "/comments/" + id, {
+        method: "POST",
         body: JSON.stringify(vote),
         headers: RequestHeaders
       }
@@ -52,8 +52,8 @@ const Comment = function () {
   }
 
   this.update = function (comment) {
-    return fetch(url +'/comments/' + comment.id, {
-        method: 'PUT', 
+    return fetch(url +"/comments/" + comment.id, {
+        method: "PUT",
         body: JSON.stringify(comment),
         headers: RequestHeaders
       }
@@ -62,8 +62,8 @@ const Comment = function () {
   }
 
   this.delete = function (id) {
-    return fetch(url +'/comments/' + id, {
-        method: 'DELETE', 
+    return fetch(url +"/comments/" + id, {
+        method: "DELETE",
         headers: RequestHeaders
       }
     );

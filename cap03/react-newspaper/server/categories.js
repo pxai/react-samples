@@ -1,29 +1,29 @@
-const clone = require('clone')
-const config = require('./config')
+const clone = require("clone")
+const config = require("./config")
 
 let db = {}
 
 const defaultData = {
   categories: [
       {
-        name: 'tech',
-        path: 'tech'
+        name: "tech",
+        path: "tech"
       },
       {
-        name: 'jobs',
-        path: 'jobs'
+        name: "jobs",
+        path: "jobs"
       },
       {
-        name: 'sports',
-        path: 'sports'
+        name: "sports",
+        path: "sports"
       }
   ]
 }
 
 function getData (token) {
-  //Each token has it's own copy of the DB. The token in this case is like an app id.
+  //Each token has it"s own copy of the DB. The token in this case is like an app id.
   let data = db[token]
-  //This populates the default user data if there isn't any in the db.
+  //This populates the default user data if there isn"t any in the db.
   if (data == null) {
     data = db[token] = clone(defaultData)
   }

@@ -1,8 +1,8 @@
-import { Schema, arrayOf } from 'normalizr';
+import { Schema, arrayOf } from "normalizr";
 
-const projectSchema = Schema('projects');
-const membersSchema = Schema('members');
-const employeeSchema = Schema('empleoyee');
+const projectSchema = Schema("projects");
+const membersSchema = Schema("members");
+const employeeSchema = Schema("empleoyee");
 
 // A project has an array of members:
 projectSchema.define({

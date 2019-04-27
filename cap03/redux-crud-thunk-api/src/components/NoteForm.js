@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom'
-import { connect } from 'react-redux'
-import { addNoteAsync, updateNoteAsync } from '../actions'
-import '../App.css';
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom"
+import { connect } from "react-redux"
+import { addNoteAsync, updateNoteAsync } from "../actions"
+import "../App.css";
 
 class NoteForm extends Component {
   constructor (props) {
     super(props);
     this.state = {
       note: {
-        content : '',
+        content : "",
         timestamp: Date.now(), 
         id: props.match.params.id,
       },
@@ -63,7 +63,7 @@ class NoteForm extends Component {
   }
 }
 function mapStateToProps (state, props) {
-  const id = props.match.params.id || ''
+  const id = props.match.params.id || ""
   return {
     notes: state,
     note: state.find( n => n.id === id)

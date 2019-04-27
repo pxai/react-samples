@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Route, Link, Switch } from 'react-router-dom';
-import About  from './components/About';
-import NotFound  from './components/NotFound';
-import ArticleDetail  from './components/ArticleDetail';
-import ArticleList  from './ArticleList';
-import './App.css';
+import React, { Component } from "react";
+import { Route, Link, Switch } from "react-router-dom";
+import About  from "./components/About";
+import NotFound  from "./components/NotFound";
+import ArticleDetail  from "./components/ArticleDetail";
+import ArticleList  from "./ArticleList";
+import "./App.css";
 
 
 
@@ -23,13 +23,13 @@ class App extends Component {
               <Link to="/about">About</Link> |
             </div>
             <Switch>
-              <Route exact path='/' component={ArticleList}/>
-              <Route exact path='/404' component={NotFound}/>
-              <Route path='/article/:category/:id' component={ArticleDetail} />
-              <Route exact path='/articleList' component={ArticleList} />
-              <Route exact path='/deleted' component={ArticleList}/>
-              <Route exact path='/about' component={About} />
-              <Route path='/:category' component={ArticleList} />
+              <Route exact path="/" component={ArticleList}/>
+              <Route exact path="/404" component={NotFound}/>
+              <Route path="/article/:category/:id" component={ArticleDetail} />
+              <Route exact path="/articleList" component={ArticleList} />
+              <Route exact path="/deleted" component={ArticleList}/>
+              <Route exact path="/about" component={About} />
+              <Route path="/:category" component={ArticleList} />
               <Route component={NotFound} />
           </Switch>
         </div>

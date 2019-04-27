@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
 class Comment extends Component {
 
   deleteComment= () => {
-    console.log('Delete this: ' , this.props.comment.id);
+    console.log("Delete this: " , this.props.comment.id);
     this.props.deleteComment(this.props.comment.id);
   }
 
@@ -15,17 +15,17 @@ class Comment extends Component {
     const comment = this.props.comment;
 
     return (
-      <div className='comment'>
+      <div className="comment">
           <h2>{comment.title}</h2>
-          <div className='body'>
+          <div className="body">
            {comment.body}
-           <div className='articleData'>
+           <div className="articleData">
            <i className="fa fa-star"></i> {comment.voteScore} - <i className="fa fa-user"></i> {comment.author}  -  
            - <i className="fa fa-calendar"></i> {this.getReadableDate(comment.timestamp)} -
            <a onClick={this.deleteComment}><i className="fa fa-trash"></i> delete</a>
            <span className="span-button">
-             <a  onClick={() => (this.props.voteComment(comment.id, 'upVote'))}><i className="fa fa-thumbs-o-up" aria-hidden="true"></i>Up</a>
-             <a  onClick={() => (this.props.voteComment(comment.id, 'downVote'))}><i className="fa fa-thumbs-o-down" aria-hidden="true"></i>Down</a>
+             <a  onClick={() => (this.props.voteComment(comment.id, "upVote"))}><i className="fa fa-thumbs-o-up" aria-hidden="true"></i>Up</a>
+             <a  onClick={() => (this.props.voteComment(comment.id, "downVote"))}><i className="fa fa-thumbs-o-down" aria-hidden="true"></i>Down</a>
           </span>
           <span className="span-button">
              <a  onClick={() => this.props.openCommentModal(this.props.comment)}><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Update</a>

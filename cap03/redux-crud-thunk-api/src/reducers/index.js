@@ -1,16 +1,16 @@
 import { GET_NOTES, GET_NOTE,
-    ADD_NOTE, UPDATE_NOTE, DELETE_NOTE  } from '../actions'
+    ADD_NOTE, UPDATE_NOTE, DELETE_NOTE  } from "../actions"
 
 let initialNotes = [
     {
-        id: '8xf0y6ziyjabvozdd253nd',
+        id: "8xf0y6ziyjabvozdd253nd",
         timestamp: 1467166872634,
-        content: 'This is an example',
+        content: "This is an example",
       },
        {
-        id: '6ni6ok3ym7mf1p33lnez',
+        id: "6ni6ok3ym7mf1p33lnez",
         timestamp: 1468479767190,
-        content: 'This thing works',
+        content: "This thing works",
       }
 ];
 
@@ -20,20 +20,20 @@ let reducer = (state = initialNotes, action) => {
           return action.notes;
         
         case GET_NOTE:
-          console.log('get note: ', action.id)
+          console.log("get note: ", action.id)
           return state.filter(n => n.id === action.id);
         
         case ADD_NOTE:
           action.note.id = action.note.id || uniqueId();
-          console.log('add note: ', action.note, state)
-           console.log('after push note: ', action.note, state)
+          console.log("add note: ", action.note, state)
+           console.log("after push note: ", action.note, state)
           return   [
               ...state,
               action.note
           ]
         
           case UPDATE_NOTE:
-          console.log('update notes: ', action.note)
+          console.log("update notes: ", action.note)
           return  state.map( (note) => {                  
                 if(note.id !== action.note.id) {
                     return note;
@@ -43,7 +43,7 @@ let reducer = (state = initialNotes, action) => {
           
        
           case DELETE_NOTE:
-          console.log('delete note: ', action.id)
+          console.log("delete note: ", action.id)
           return state.filter(n => n.id !== action.id);
           
           default:
@@ -53,8 +53,8 @@ let reducer = (state = initialNotes, action) => {
 
   // I made this to create Ids similar to those in the backend
   export const uniqueId =  function () {
-    let chars = 'abcdefghijklnmopqrstuvwxyz0123456789';
-    return 'xxxxxxxxxxxxxxxxxxxxxx'.replace(/[x]/g, function(c) {
+    let chars = "abcdefghijklnmopqrstuvwxyz0123456789";
+    return "xxxxxxxxxxxxxxxxxxxxxx".replace(/[x]/g, function(c) {
       return chars.charAt(Math.random() * 37);
     });
   }

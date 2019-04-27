@@ -1,6 +1,6 @@
-import  { Category }  from '../api';
+import  { Category }  from "../api";
 
-export const GET_CATEGORIES = 'GET_CATEGORIES'
+export const GET_CATEGORIES = "GET_CATEGORIES"
 
 export function getCategories(categories) {
     return {
@@ -15,7 +15,7 @@ export function getCategoriesAsync() {
     )
 }
 /*
-// The other way, I'm using the old skwel style
+// The other way, I"m using the old skwel style
 export const getCategoriesAsync = () => dispatch => (
         Category.getAll().then((categories) => dispatch(getCategories(categories)))
 )*/

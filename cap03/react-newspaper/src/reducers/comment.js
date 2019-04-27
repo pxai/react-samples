@@ -5,7 +5,7 @@ import {
     DELETE_COMMENT,
     UPDATE_COMMENT,
     VOTE_COMMENT 
-  } from '../actions/comment'
+  } from "../actions/comment"
   
   const initialCommentsState = {
     comments: []
@@ -37,7 +37,7 @@ import {
       return { comments: 
         state.comments.map( (elem) => {
           if(elem.id !== action.comment.id) {
-              // This isn't the item we care about - keep it as-is
+              // This isn"t the item we care about - keep it as-is
               return elem;
           }
           return action.comment;
@@ -54,7 +54,7 @@ import {
         return { comments: 
               state.comments.map( (elem) => {
                   if(elem.id !== action.comment.id) {
-                      // This isn't the item we care about - keep it as-is
+                      // This isn"t the item we care about - keep it as-is
                       return elem;
                   } 
                   // Otherwise, this is the one we want - return an updated value

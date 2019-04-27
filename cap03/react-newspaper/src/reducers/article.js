@@ -6,7 +6,7 @@ import {
     DELETE_ARTICLE,
     UPDATE_ARTICLE,
     VOTE_ARTICLE
-  } from '../actions/article'
+  } from "../actions/article"
   
   const initialArticlesState = {
     articles: []
@@ -31,7 +31,7 @@ import {
         return { articles:
                   state.articles.map( (elem) => {
                     if(elem.id !== action.article.id) {
-                        // This isn't the item we care about - keep it as-is
+                        // This isn"t the item we care about - keep it as-is
                         return elem;
                     }
                     return action.article;
@@ -48,7 +48,7 @@ import {
         return { articles:
                   state.articles.map( (elem) => {
                   if(elem.id !== action.article.id) {
-                      // This isn't the item we care about - keep it as-is
+                      // This isn"t the item we care about - keep it as-is
                       return elem;
                   }
                   

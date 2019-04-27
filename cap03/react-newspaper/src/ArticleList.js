@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import Modal from 'react-modal'
-import { connect } from 'react-redux';
-import Article  from './components/Article';
-import ArticleModal from './components/ArticleModal';
-import './App.css';
-import  { getArticlesAsync, addArticleAsync, voteArticleAsync, updateArticleAsync, deleteArticleAsync, getArticlesByCategory }  from './actions/article';
-import  { getCategoriesAsync }  from './actions/category';
-import AlertContainer from 'react-alert'
+import React, { Component } from "react";
+import Modal from "react-modal"
+import { connect } from "react-redux";
+import Article  from "./components/Article";
+import ArticleModal from "./components/ArticleModal";
+import "./App.css";
+import  { getArticlesAsync, addArticleAsync, voteArticleAsync, updateArticleAsync, deleteArticleAsync, getArticlesByCategory }  from "./actions/article";
+import  { getCategoriesAsync }  from "./actions/category";
+import AlertContainer from "react-alert"
 
 class ArticleList extends Component {
   state = {
-    category: '',
+    category: "",
     articles: {},
     articleModalOpen: false,
     sortByDate: 0,
@@ -19,10 +19,10 @@ class ArticleList extends Component {
 
   alertOptions = {
     offset: 14,
-    position: 'bottom left',
-    theme: 'dark',
+    position: "bottom left",
+    theme: "dark",
     time: 3000,
-    transition: 'scale'
+    transition: "scale"
   }
 
   openArticleModal = () => { this.setState(() => ({ articleModalOpen: true})) }
@@ -51,12 +51,12 @@ class ArticleList extends Component {
   addArticle = (article) => {
     article.voteScore = 1;
     this.props.addArticle(article);
-    this.showMsg('Article successfully created!');
+    this.showMsg("Article successfully created!");
   }
   
   updateArticle = (article) => {
     this.props.updateArticle(article);
-    this.showMsg('Article updated');
+    this.showMsg("Article updated");
   }
 
   voteArticle = (id, vote) => {
@@ -65,13 +65,13 @@ class ArticleList extends Component {
   }
 
   deleteArticle = (id) => {
-    console.log('Delete article: ' , id);
+    console.log("Delete article: " , id);
     this.props.deleteArticle(id);
-    this.showMsg('Article was deleted!');
+    this.showMsg("Article was deleted!");
   }
 
   showMsg (msg) {
-    this.msg.show(msg, { time: 2000, type: 'success'});
+    this.msg.show(msg, { time: 2000, type: "success"});
   }
   
   getByCategory = (e,category) => {
@@ -83,12 +83,12 @@ class ArticleList extends Component {
   componentWillMount() {
     this.props.getCategories()
     this.props.getArticles()
-   console.log('Coming back with...',this.props.match);
+   console.log("Coming back with...",this.props.match);
   }
 
   componentDidMount() {
-    if (this.props.match.url === '/deleted') {
-      this.showMsg('Article deleted!');
+    if (this.props.match.url === "/deleted") {
+      this.showMsg("Article deleted!");
     }
   }
 
@@ -96,7 +96,7 @@ class ArticleList extends Component {
     var articleListByCategory = {};
     const currentCategory = this.props.match.params.category;
     var tmpArticleList = {};
-    const emptyArticle = {id: 0, title: '', author: '', category: '', body: ''};
+    const emptyArticle = {id: 0, title: "", author: "", category: "", body: ""};
 
     if (!this.props.match.params.category) {
       articleListByCategory = this.props.articles;
@@ -167,12 +167,12 @@ class ArticleList extends Component {
       
 
         <Modal
-          className='modal'
-          overlayClassName='overlay'
+          className="modal"
+          overlayClassName="overlay"
           isOpen={this.state.articleModalOpen}
           onRequestClose={this.closeArticleModal}
           article={emptyArticle}
-          contentLabel='Modal'
+          contentLabel="Modal"
         >
           <ArticleModal  title="Create Article" onCreateArticle={this.addArticle} categories={this.props.categories} closeArticleModal={this.closeArticleModal} />
         </Modal>

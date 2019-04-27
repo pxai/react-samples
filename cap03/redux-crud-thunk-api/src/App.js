@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
-import { Route, Link, Switch } from 'react-router-dom'
-import reduxLogo from './img/redux.svg'
-import './App.css'
-import  Notes  from './components/Notes'
-import  NoteForm  from './components/NoteForm'
-import  NotFound  from './components/NotFound'
-import  About  from './components/About'
+import React, { Component } from "react"
+import { Route, Link, Switch } from "react-router-dom"
+import reduxLogo from "./img/redux.svg"
+import "./App.css"
+import  Notes  from "./components/Notes"
+import  NoteForm  from "./components/NoteForm"
+import  NotFound  from "./components/NotFound"
+import  About  from "./components/About"
 
 class App extends Component {
   change = () => {
-    console.log('Changed.');
+    console.log("Changed.");
     this.props.appChangeName(this.refs.name.value);
   }
 
@@ -27,12 +27,12 @@ class App extends Component {
               <Link to="/about">About</Link> | 
             </div>
             <Switch>
-              <Route exact path='/' component={Notes}/>  
-              <Route exact path='/notes/new' component={NoteForm}  />  
-              <Route exact path='/notes/edit/:id' component={NoteForm}  /> 
-              <Route exact path='/404' component={NotFound}/> 
-              <Route path='/notes/:id' component={Notes} />
-              <Route exact path='/about' component={About} />
+              <Route exact path="/" component={Notes}/>
+              <Route exact path="/notes/new" component={NoteForm}  />
+              <Route exact path="/notes/edit/:id" component={NoteForm}  />
+              <Route exact path="/404" component={NotFound}/>
+              <Route path="/notes/:id" component={Notes} />
+              <Route exact path="/about" component={About} />
               <Route component={NotFound} />
           </Switch>
           

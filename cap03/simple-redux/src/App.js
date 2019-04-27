@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux'
-import { showName, changeName } from './actions'
-import logo from './logo.svg';
-import reduxLogo from './redux.svg'
-import './App.css';
+import React, { Component } from "react";
+import { connect } from "react-redux"
+import { showName, changeName } from "./actions"
+import logo from "./logo.svg";
+import reduxLogo from "./redux.svg"
+import "./App.css";
 
 class App extends Component {
   change = () => {
-    console.log('Changed.');
+    console.log("Changed.");
     this.props.appChangeName(this.refs.name.value);
   }
 

@@ -1,12 +1,12 @@
-import RequestHeaders from './headers'
+import RequestHeaders from "./headers"
 
-const url = 'http://localhost:3001';
+const url = "http://localhost:3001";
 
 const Article = function () {
 
     this.getAll = function () {
-      return fetch(url + '/articles', {
-          method: 'GET', 
+      return fetch(url + "/articles", {
+          method: "GET",
           headers: RequestHeaders
         }
       )
@@ -14,8 +14,8 @@ const Article = function () {
    }
    
    this.get = function (id) {
-    return fetch(url +'/articles/' + id, {
-        method: 'GET', 
+    return fetch(url +"/articles/" + id, {
+        method: "GET",
         headers: RequestHeaders
       }
     )
@@ -23,8 +23,8 @@ const Article = function () {
   }
 
    this.getByCategory = function (category) {
-    return fetch(url + '/'+category+'/articles', {
-        method: 'GET', 
+    return fetch(url + "/"+category+"/articles", {
+        method: "GET",
         headers: RequestHeaders
       }
     )
@@ -32,8 +32,8 @@ const Article = function () {
   }
 
   this.create = function (article) {
-    return fetch(url + '/articles', {
-        method: 'POST',
+    return fetch(url + "/articles", {
+        method: "POST",
         body: JSON.stringify(article),
         headers: RequestHeaders
       }
@@ -42,8 +42,8 @@ const Article = function () {
   }
 
   this.vote = function (id, vote) {
-    return fetch(url + '/articles/' + id, {
-        method: 'POST',
+    return fetch(url + "/articles/" + id, {
+        method: "POST",
         body: JSON.stringify(vote),
         headers: RequestHeaders
       }
@@ -52,8 +52,8 @@ const Article = function () {
   }
 
   this.update = function (article, option) {
-    return fetch(url +'/articles/' + article.id, {
-        method: 'PUT',         
+    return fetch(url +"/articles/" + article.id, {
+        method: "PUT",
         body: JSON.stringify(article),
         headers: RequestHeaders
       }
@@ -62,8 +62,8 @@ const Article = function () {
   }
 
   this.delete = function (id) {
-    return fetch(url +'/articles/' + id, {
-        method: 'DELETE', 
+    return fetch(url +"/articles/" + id, {
+        method: "DELETE",
         headers: RequestHeaders
       }
     );

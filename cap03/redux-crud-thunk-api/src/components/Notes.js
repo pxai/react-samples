@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux'
-import { getNotesAsync, getNoteAsync, addNoteAsync, updateNoteAsync, deleteNoteAsync } from '../actions'
-import Note from './Note'
-import '../App.css';
+import React, { Component } from "react";
+import { connect } from "react-redux"
+import { getNotesAsync, getNoteAsync, addNoteAsync, updateNoteAsync, deleteNoteAsync } from "../actions"
+import Note from "./Note"
+import "../App.css";
 
 class Notes extends Component {
   change = () => {
-    console.log('Changed.');
+    console.log("Changed.");
     this.props.appChangeName(this.refs.name.value);
   }
 

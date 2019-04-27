@@ -2,10 +2,10 @@ import {
   ADD_TODO,
   DELETE_TODO,
   UPDATE_TODO
-} from '../actions/todo'
+} from "../actions/todo"
 
 const initialTodoState = {
-  name: 'My ToDo List',
+  name: "My ToDo List",
   todos: [
     {"id": 1, "task": "Learn Redux"},
     {"id": 2, "task": "Learn Ruby"}
@@ -70,5 +70,5 @@ class Customer {
 customer = new Customer();
 
 customer.age = 66;
-customer.name = 'John Doe';
+customer.name = "John Doe";
 

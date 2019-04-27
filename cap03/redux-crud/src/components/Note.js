@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
-import '../App.css';
+import React, { Component } from "react";
+import { Link } from "react-router-dom"
+import "../App.css";
 
 class Note extends Component {
   constructor (props) {
@@ -9,7 +9,7 @@ class Note extends Component {
   }
 
   showDetail = () => {
-    console.log('Clicking detail : ',this.state.showDetail);
+    console.log("Clicking detail : ",this.state.showDetail);
     this.setState({
       showDetail: !this.state.showDetail
     })

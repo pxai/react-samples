@@ -1,7 +1,7 @@
 modules.exports = {
 	deserializeProject: (project) => {
 		return {
-			type: 'DESERIALIZE_ORDER',
+			type: "DESERIALIZE_ORDER",
 			order: order
 		}
 	}

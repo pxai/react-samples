@@ -1,6 +1,6 @@
 import {
    GET_CATEGORIES
-  } from '../actions/category'
+  } from "../actions/category"
   
   const initialCategoriesState = {
     categories: []

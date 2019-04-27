@@ -1,6 +1,6 @@
-import { normalizr } from 'normalizr';
-import { projectSchema } from '../schemas';
-import Immutable from 'seamless-immutable';
+import { normalizr } from "normalizr";
+import { projectSchema } from "../schemas";
+import Immutable from "seamless-immutable";
 
 const defaultState = Immutable({
 	project: [],
@@ -10,7 +10,7 @@ const defaultState = Immutable({
 
 export default function projectReducer(state = defaultState, action) {
 	switch (action.type) {
-		case 'DESERIALIZE_PROJECT':
+		case "DESERIALIZE_PROJECT":
 			let normalizedProject = normalize(action, {
 				project: projectSchema
 			});

@@ -7,17 +7,17 @@ import {
 	ADD_COMMENT,
 	DELETE_COMMENT,
 	UPDATE_COMMENT
-} from '../actions/blog.js';
+} from "../actions/blog.js";
 
 const initialPostState = {
 	posts: [
 			{ 
 				id: 42,
-				title: 'This is a post',
-				content: 'This post sucks big time',
+				title: "This is a post",
+				content: "This post sucks big time",
 				comments: [
-							{ id: 666, content: 'This comment sux'},
-							{ id: 665, content: 'This comment rulz'}
+							{ id: 666, content: "This comment sux"},
+							{ id: 665, content: "This comment rulz"}
 							]
 			}
 		]

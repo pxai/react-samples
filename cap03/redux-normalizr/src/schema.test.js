@@ -1,5 +1,5 @@
-import reducer from './reducers/projects';
-import actions from './actions/projects';
+import reducer from "./reducers/projects";
+import actions from "./actions/projects";
 
 const mockProject = {
 	id: 42,
@@ -9,8 +9,8 @@ const mockProject = {
 			days: 356,
 			employee: {
 				id: 15,
-				name: 'Dilbert',
-				department: 'Engineering'
+				name: "Dilbert",
+				department: "Engineering"
 			}		
 		},
 		{
@@ -18,8 +18,8 @@ const mockProject = {
 			days: 356,
 			employee: {
 				id: 15,
-				name: 'Dilbert',
-				department: 'Engineering'
+				name: "Dilbert",
+				department: "Engineering"
 			}
 		}
 	]	
@@ -27,7 +27,7 @@ const mockProject = {
 };
 
 
-describe('Project reducer', () => {
-	it('Shoud deserialize', () => {
+describe("Project reducer", () => {
+	it("Shoud deserialize", () => {
 	});
 });

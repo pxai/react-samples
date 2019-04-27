@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux'
-import { getNotes, getNote, addNote, updateNote, deleteNote } from '../actions'
-import Note from './Note'
-import '../App.css';
+import React, { Component } from "react";
+import { connect } from "react-redux"
+import { getNotes, getNote, addNote, updateNote, deleteNote } from "../actions"
+import Note from "./Note"
+import "../App.css";
 
 class Notes extends Component {
   change = () => {
-    console.log('Changed.');
+    console.log("Changed.");
     this.props.appChangeName(this.refs.name.value);
   }
 
@@ -26,7 +26,7 @@ class Notes extends Component {
 }
 
 function mapStateToProps (state, props) {
-  console.log('Notes.js', state)
+  console.log("Notes.js", state)
   return {
     notes: state
   }

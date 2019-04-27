@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import { Redirect } from 'react-router';
-import Modal from 'react-modal'
-import { connect } from 'react-redux';
-import CommentModal from './CommentModal';
-import ArticleModal from './ArticleModal';
-import  { getByArticleAsync, addCommentAsync, deleteCommentAsync, voteCommentAsync, updateCommentAsync  }  from '../actions/comment';
-import  { getArticleAsync, voteArticleAsync, updateArticleAsync, deleteArticleAsync }  from '../actions/article';
-import  { getCategoriesAsync }  from '../actions/category';
-import Comment from './Comment';
-import AlertContainer from 'react-alert'
+import React, { Component } from "react"
+import { Redirect } from "react-router";
+import Modal from "react-modal"
+import { connect } from "react-redux";
+import CommentModal from "./CommentModal";
+import ArticleModal from "./ArticleModal";
+import  { getByArticleAsync, addCommentAsync, deleteCommentAsync, voteCommentAsync, updateCommentAsync  }  from "../actions/comment";
+import  { getArticleAsync, voteArticleAsync, updateArticleAsync, deleteArticleAsync }  from "../actions/article";
+import  { getCategoriesAsync }  from "../actions/category";
+import Comment from "./Comment";
+import AlertContainer from "react-alert"
 
 class Article extends Component {
 
@@ -23,10 +23,10 @@ class Article extends Component {
 
   alertOptions = {
     offset: 14,
-    position: 'bottom left',
-    theme: 'dark',
+    position: "bottom left",
+    theme: "dark",
     time: 2000,
-    transition: 'scale'
+    transition: "scale"
   }
 
   constructor ({match}) {
@@ -65,31 +65,31 @@ class Article extends Component {
   addComment = (comment) => {
     if (this.state.commentUpdate) {
       this.props.updateComment(comment);
-      this.showMsg('Comment updated');
+      this.showMsg("Comment updated");
     } else {
       comment.voteScore = 1;
       this.props.addComment(comment);
-      this.showMsg('Comment added');
+      this.showMsg("Comment added");
     }
   }  
 
   showMsg (msg) {
-    this.msg.show(msg, { time: 2000, type: 'success'});
+    this.msg.show(msg, { time: 2000, type: "success"});
   }
   
   deleteComment = (id) => {
     this.props.deleteComment(id);
-    this.showMsg('Comment deleted');
+    this.showMsg("Comment deleted");
   }
 
   updateArticle = (article) => {
     this.props.updateArticle(article);
-    this.showMsg('Article updated');
+    this.showMsg("Article updated");
   }
 
   deleteArticle = (id) => {
     this.props.deleteArticle(id);
-    console.log('Deleted...', id);
+    console.log("Deleted...", id);
     this.setState({redirectAfterDelete: true});
   }
 
@@ -114,7 +114,7 @@ class Article extends Component {
   }
   
   componentDidMount() {
-    console.log('In Did mount ');
+    console.log("In Did mount ");
   }
 
   render() {
@@ -132,18 +132,18 @@ class Article extends Component {
 
     return (
 
-      <div className='article'>
+      <div className="article">
           <h2>{article.title}</h2>
-          <div className='category'><i className="fa fa-tag"></i>  {article.category}</div>
-          <div className='body'>
+          <div className="category"><i className="fa fa-tag"></i>  {article.category}</div>
+          <div className="body">
            {article.body}
-           <div className='articleData'>
+           <div className="articleData">
            <i className="fa fa-star"></i> {article.voteScore} - <i className="fa fa-user"></i> {article.author}  -
            - <i className="fa fa-calendar"></i> {this.getReadableDate(article.timestamp)}
            <span className="span-button"><a  onClick={() => this.deleteArticle(article.id)}><i className="fa fa-trash"></i> delete</a></span>
            <span className="span-button">
-             <a  onClick={() => (this.voteArticle('upVote'))} title="vote up"><i className="fa fa-thumbs-o-up" aria-hidden="true" ></i>Up</a>
-             <a  onClick={() => (this.voteArticle('downVote'))} title="vote down"><i className="fa fa-thumbs-o-down" aria-hidden="true" ></i>Down</a>
+             <a  onClick={() => (this.voteArticle("upVote"))} title="vote up"><i className="fa fa-thumbs-o-up" aria-hidden="true" ></i>Up</a>
+             <a  onClick={() => (this.voteArticle("downVote"))} title="vote down"><i className="fa fa-thumbs-o-down" aria-hidden="true" ></i>Down</a>
           </span>
           <span className="span-button">
              <a  onClick={this.openArticleModal}><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Update</a>
@@ -166,21 +166,21 @@ class Article extends Component {
               </div>
           
           <Modal
-          className='modal'
-          overlayClassName='overlay'
+          className="modal"
+          overlayClassName="overlay"
           isOpen={this.state.articleModalOpen}
           onRequestClose={this.closeArticleModal}
-          contentLabel='Modal'
+          contentLabel="Modal"
         >
          <ArticleModal title="Update Article" onCreateArticle={this.updateArticle} categories={this.props.categories} article={article} closeArticleModal={this.closeArticleModal} />
         </Modal>
 
           <Modal
-          className='modal'
-          overlayClassName='overlay'
+          className="modal"
+          overlayClassName="overlay"
           isOpen={this.state.commentModalOpen}
           onRequestClose={this.closeCommentModal}
-          contentLabel='Modal'
+          contentLabel="Modal"
         >
          <CommentModal article={article} comment={this.state.comment} onCreateComment={this.addComment} closeCommentModal={this.closeCommentModal} />
         </Modal>
@@ -192,7 +192,7 @@ class Article extends Component {
 
 // maps Redux state to our props
 function mapStateToProps (state, props) {
-  console.log('In map state to props', state.article.articles);
+  console.log("In map state to props", state.article.articles);
   return {
     articles: state.article.articles,
     comments: state.comment.comments.filter(p => p.parentId === props.match.params.id),
@@ -201,7 +201,7 @@ function mapStateToProps (state, props) {
 }
 
 function mapDispatchToProps (dispatch) {
-  console.log('In dispatc to props');
+  console.log("In dispatc to props");
   return {
     getCategories: () => dispatch(getCategoriesAsync()),
     getArticle: (id) => dispatch(getArticleAsync(id)),

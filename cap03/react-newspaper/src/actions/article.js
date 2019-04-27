@@ -1,12 +1,12 @@
-import  { Article }  from '../api';
+import  { Article }  from "../api";
 
-export const GET_ARTICLE = 'GET_ARTICLE'
-export const GET_ARTICLES = 'GET_ARTICLES'
-export const GET_ARTICLES_BY_CATEGORY = 'GET_ARTICLES_BY_CATEGORY'
-export const ADD_ARTICLE = 'ADD_ARTICLE'
-export const DELETE_ARTICLE = 'DELETE_ARTICLE'
-export const UPDATE_ARTICLE = 'UPDATE_ARTICLE'
-export const VOTE_ARTICLE = 'VOTE_ARTICLE'
+export const GET_ARTICLE = "GET_ARTICLE"
+export const GET_ARTICLES = "GET_ARTICLES"
+export const GET_ARTICLES_BY_CATEGORY = "GET_ARTICLES_BY_CATEGORY"
+export const ADD_ARTICLE = "ADD_ARTICLE"
+export const DELETE_ARTICLE = "DELETE_ARTICLE"
+export const UPDATE_ARTICLE = "UPDATE_ARTICLE"
+export const VOTE_ARTICLE = "VOTE_ARTICLE"
 
 export function getArticle(article) {
     return {
@@ -76,7 +76,7 @@ export function updateArticle (article) {
 }
 
 export function updateArticleAsync(article) {
-    console.log('Updating article : ', article);
+    console.log("Updating article : ", article);
     return dispatch => (
         Article.update(article).then((article) => dispatch(updateArticle(article)))
     )

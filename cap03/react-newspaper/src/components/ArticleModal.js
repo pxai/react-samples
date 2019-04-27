@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import serializeForm from 'form-serialize';
-import  {uniqueId}  from '../utils/uuid'
+import React, { Component } from "react"
+import serializeForm from "form-serialize";
+import  {uniqueId}  from "../utils/uuid"
 
 class ArticleModal extends Component {
   handleSubmit =  (e) => {
@@ -15,12 +15,12 @@ class ArticleModal extends Component {
   }
 
   render() {
-    console.log('Loaded article', this.props.article);
-    const article = this.props.article || {id: 0, title: '', author: '', category: '', body: ''}
+    console.log("Loaded article", this.props.article);
+    const article = this.props.article || {id: 0, title: "", author: "", category: "", body: ""}
     const categories = this.props.categories;
     return (
       <div>
-      <h3 className='subheader'>
+      <h3 className="subheader">
         {this.props.title}
       </h3>
       <form onSubmit={this.handleSubmit}>
@@ -28,11 +28,11 @@ class ArticleModal extends Component {
             <label htmlFor="title">Title</label>
             <input className="u-full-width" placeholder="Article title here..." name="title" id="title" defaultValue={article.title} type="text" />
         </div>
-        <div className={ (article.id!==0)?'hidden-input':''}>
+        <div className={ (article.id!==0)?"hidden-input":""}>
             <label htmlFor="author">Author</label>
             <input className="u-full-width" placeholder="Put yout name" name="author" id="author" defaultValue={article.author} type="text"  />
         </div>
-        <div className={ (article.id!==0)?'hidden-input':''}>
+        <div className={ (article.id!==0)?"hidden-input":""}>
               <label htmlFor="categoryName">Category</label>
               <select className="u-full-width" id="categoryName" name="category">
               {categories.map((category) => (
@@ -42,7 +42,7 @@ class ArticleModal extends Component {
         </div>
         <div>    
             <label htmlFor="body">Article body</label>
-            <textarea className="u-full-width" placeholder="I'm Batman, I'm awesome..." id="body" name="body"  defaultValue={article.body}></textarea>
+            <textarea className="u-full-width" placeholder="I"m Batman, I"m awesome..." id="body" name="body"  defaultValue={article.body}></textarea>
         </div>
         <div>
         <button>{this.props.title}</button>
