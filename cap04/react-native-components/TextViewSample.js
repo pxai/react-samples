@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View, ScrollView } from "react-native";
 
 export default class TextViewSample extends React.Component {
     constructor(props) {
@@ -19,7 +19,7 @@ export default class TextViewSample extends React.Component {
 	  	<View>
             <Text>Text can have nested text like this
                 <Text>{this.messge()}</Text>
-                And it's awesome.
+                And it"s awesome.
             </Text>
 		</View>
       </ScrollView>
@@ -29,11 +29,11 @@ export default class TextViewSample extends React.Component {
 
 const styles = StyleSheet.create({
   title: {
-    fontFamily: 'Verdana',
+    fontFamily: "Verdana",
     fontSize: 14
   },
 });
 
 <Image
-    source={require('/react-native/img/favicon.png')}
+    source={require("/react-native/img/favicon.png")}
 />

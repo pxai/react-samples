@@ -2,90 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/articles.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/articles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/categories.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/categories.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/comments.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/server/server.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/App.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/App.test.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/ArticleList.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/ArticleList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/article.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/category.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/article.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/category.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/headers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/About.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/Article.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/Article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/ArticleDetail.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/ArticleDetail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/ArticleModal.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/ArticleModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/Comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/Comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/CommentModal.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/CommentModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/components/NotFound.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/components/NotFound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/category.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/comment.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/index.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/react-newspaper/src/utils/uuid.js" afterPath="$PROJECT_DIR$/cap03/react-newspaper/src/utils/uuid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/config/credentials.dist.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/config/credentials.dist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/config/credentials.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/config/credentials.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/notes.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/notes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/server.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/uid.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/server/uid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/App.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/App.test.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/actions/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/api/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/About.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/NotFound.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/NotFound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/Note.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/Note.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/NoteForm.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/NoteForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/Notes.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/components/Notes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/reducers/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap03/redux-crud-thunk-api/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/server/notes.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/server/notes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/server/server.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/App.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/App.test.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/actions/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/components/About.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/components/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/components/NotFound.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/components/NotFound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/components/Note.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/components/Note.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/components/NoteForm.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/components/NoteForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/components/Notes.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/components/Notes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/reducers/index.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-crud/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap03/redux-crud/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/App.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/App.test.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/actions/todo.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/actions/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/index.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/reducers/blog.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/reducers/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/reducers/todo.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/reducers/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalization/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap03/redux-normalization/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/App.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/App.test.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/actions/projects.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/actions/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/actions/todo.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/actions/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/index.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/reducers/blog.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/reducers/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/reducers/projects.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/reducers/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/reducers/todo.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/reducers/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/registerServiceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/schema.test.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/schema.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/redux-normalizr/src/schemas.js" afterPath="$PROJECT_DIR$/cap03/redux-normalizr/src/schemas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/simple-redux/src/App.js" afterPath="$PROJECT_DIR$/cap03/simple-redux/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/simple-redux/src/App.test.js" afterPath="$PROJECT_DIR$/cap03/simple-redux/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/simple-redux/src/actions.js" afterPath="$PROJECT_DIR$/cap03/simple-redux/src/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/simple-redux/src/index.js" afterPath="$PROJECT_DIR$/cap03/simple-redux/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/simple-redux/src/reducer.js" afterPath="$PROJECT_DIR$/cap03/simple-redux/src/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap03/simple-redux/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/cap03/simple-redux/src/registerServiceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/hello-react-native/App.js" afterPath="$PROJECT_DIR$/cap04/hello-react-native/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/hello-react-native/App.test.js" afterPath="$PROJECT_DIR$/cap04/hello-react-native/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/App.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/App.test.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/actions/index.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/Deck.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/Deck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/DeckDetail.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/DeckDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/Decks.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/Decks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/NewCard.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/NewCard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/NewDeck.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/NewDeck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/StartQuiz.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/StartQuiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/TextButton.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/TextButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/components/data.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/components/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/flashcard/index.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/flashcard/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/notifications/index.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/notifications/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards/reducers/index.js" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-flexbox/App.js" afterPath="$PROJECT_DIR$/cap04/react-flexbox/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-flexbox/App.test.js" afterPath="$PROJECT_DIR$/cap04/react-flexbox/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/App.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/App.test.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/ButtonSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/ButtonSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/FlatListSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/FlatListSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/ImageSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/ImageSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/PickerSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/PickerSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/SectionListSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/SectionListSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/SliderSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/SliderSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/SwitchSample..js" afterPath="$PROJECT_DIR$/cap04/react-native-components/SwitchSample..js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/TextInputSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/TextInputSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js" afterPath="$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-styles/App.js" afterPath="$PROJECT_DIR$/cap04/react-native-styles/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/react-native-styles/App.test.js" afterPath="$PROJECT_DIR$/cap04/react-native-styles/App.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="articles.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap03/react-newspaper/server/articles.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap04/hello-react-native/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -208,6 +166,7 @@
       <dir>$PROJECT_DIR$/cap01/hello-world/src</dir>
       <dir>$PROJECT_DIR$/cap02</dir>
       <dir>$PROJECT_DIR$/cap03</dir>
+      <dir>$PROJECT_DIR$/cap04</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -235,7 +194,6 @@
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/components/NotFound.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/src/reducers/article.js" />
         <option value="$PROJECT_DIR$/cap03/redux-normalization/src/reducers/todo.js" />
-        <option value="$PROJECT_DIR$/cap04/hello-react-native/App.js" />
         <option value="$PROJECT_DIR$/cap04/react-flexbox/public/index.html" />
         <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox03grow.html" />
         <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox02order.html" />
@@ -267,6 +225,7 @@
         <option value="$PROJECT_DIR$/cap01/hello-world/src/App.js" />
         <option value="$PROJECT_DIR$/cap02/jsx-events/src/App.js" />
         <option value="$PROJECT_DIR$/cap03/react-newspaper/server/articles.js" />
+        <option value="$PROJECT_DIR$/cap04/hello-react-native/App.js" />
       </list>
     </option>
   </component>
@@ -317,11 +276,6 @@
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
@@ -464,7 +418,7 @@
       <workItem from="1556832207139" duration="1770000" />
       <workItem from="1556955572400" duration="52000" />
       <workItem from="1557069719171" duration="4932000" />
-      <workItem from="1557249416799" duration="1265000" />
+      <workItem from="1557249416799" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -554,7 +508,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115247000" />
+    <option name="totallyTimeSpent" value="115287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="319" y="77" width="1156" height="910" extended-state="0" />
@@ -602,13 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/Greet.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/Form.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,6 +777,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1494">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,6 +919,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap04/hello-react-native/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>

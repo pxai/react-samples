@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { AppRegistry, TextInput } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, TextInput } from "react-native";
 
 export default class TextInputSample extends Component {
   constructor(props) {
     super(props);
-    this.state = { text: 'Default text' };
+    this.state = { text: "Default text" };
   }
 
   textChanged (event) {
@@ -25,6 +25,6 @@ export default class TextInputSample extends Component {
 
 const styles = StyleSheet.create({
     textInput: {
-        height: 40, borderColor: 'gray', borderWidth: 1
+        height: 40, borderColor: "gray", borderWidth: 1
     },
 });

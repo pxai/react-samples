@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, SectionList } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, SectionList } from "react-native";
 
 export default class SectionListSample extends Component {
   constructor(props) {
@@ -16,12 +16,12 @@ export default class SectionListSample extends Component {
     <SectionList
       renderItem={({item, index, section}) => <Text key={index}>{item}</Text>}
       renderSectionHeader={({section: {title}}) => (
-        <Text style={{fontWeight: 'bold'}}>{title}</Text>
+        <Text style={{fontWeight: "bold"}}>{title}</Text>
       )}
       sections={[
-        {title: 'John', data: ['js', 'java', 'perl']},
-        {title: 'Mike', data: ['rails', 'ember']},
-        {title: 'Joe', data: ['cobol', 'c++']},
+        {title: "John", data: ["js", "java", "perl"]},
+        {title: "Mike", data: ["rails", "ember"]},
+        {title: "Joe", data: ["cobol", "c++"]},
       ]}
       keyExtractor={(item, index) => item + index}
     />

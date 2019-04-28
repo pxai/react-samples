@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, Picker } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, Picker } from "react-native";
 
 export default class ButtonSample extends Component {
   constructor(props) {
@@ -26,6 +26,6 @@ export default class ButtonSample extends Component {
 
 const styles = StyleSheet.create({
     fancyButton: {
-        borderStyle: 'dashed', borderColor: 'gray', borderWidth: 1
+        borderStyle: "dashed", borderColor: "gray", borderWidth: 1
     },
 });

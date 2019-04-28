@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { AppRegistry, Picker } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, Picker } from "react-native";
 
 export default class PickerSample extends Component {
   constructor(props) {
     super(props);
-    this.state = { framework: 'React' };
+    this.state = { framework: "React" };
   }
 
   selectionChanged (value, index) {

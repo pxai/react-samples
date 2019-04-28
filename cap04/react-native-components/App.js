@@ -1,7 +1,7 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
-import { ButtonSample, TextInputSample, TextViewSample, SliderSample } from './IndexSamples';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
+import { ButtonSample, TextInputSample, TextViewSample, SliderSample } from "./IndexSamples";
 
 export default class App extends React.Component {
   render() {
@@ -14,8 +14,8 @@ export default class App extends React.Component {
 		</View>
 	  	<View>
 			<MaterialIcons
-				name='directions-run'
-				color={'black'}
+				name="directions-run"
+				color={"black"}
 				size={42}
 			/>
 		</View>
@@ -47,15 +47,15 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
   subtitle: {
-	fontSize: '2em',	  
+	fontSize: "2em",
   },
   paragraph: {
-	fontSize: '0.9em',
-	fontVariant: 'italic',
+	fontSize: "0.9em",
+	fontVariant: "italic",
   },
 });

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, Switch } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, Switch } from "react-native";
 
 export default class SwitchSample extends Component {
   constructor(props) {

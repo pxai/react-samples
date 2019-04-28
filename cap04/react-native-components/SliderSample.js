@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, Slider } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, Slider } from "react-native";
 
 export default class SliderSample extends Component {
   constructor(props) {

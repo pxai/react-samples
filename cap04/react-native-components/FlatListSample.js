@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, FlatList } from 'react-native';
+import React, { Component } from "react";
+import { AppRegistry, FlatList } from "react-native";
 
 export default class FlatListSample extends Component {
   constructor(props) {
