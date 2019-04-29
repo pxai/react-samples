@@ -1,6 +1,6 @@
-const name = 'Legolas';
-const race = 'Elf';
-const weapons = [{ type: 'bow', qty: 1},{ type: 'arrows', qty: 10}];
+const name = "Legolas";
+const race = "Elf";
+const weapons = [{ type: "bow", qty: 1},{ type: "arrows", qty: 10}];
 
 const character = {
     name: name,

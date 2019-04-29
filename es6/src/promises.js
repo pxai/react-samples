@@ -5,7 +5,7 @@ const hello = function (msg) {
             if (msg.length > 0) {
                 resolve(msg);
             } else {
-                reject(Error('Msg not valid'));
+                reject(Error("Msg not valid"));
             }
         }, 1000);
     });
@@ -16,16 +16,16 @@ const hello = function (msg) {
 
 
 
-hello('Epa').then(function (msg) {
-    console.log('Ok, mesg is: ' + msg);
+hello("Epa").then(function (msg) {
+    console.log("Ok, mesg is: " + msg);
 }, function (error) {
     console.log(error);
 });
 // Ok, mesg is: Epa
 
 /*
-hello('').then(function (msg) {
-    console.log('Ok, mesg is: ' + msg);
+hello("").then(function (msg) {
+    console.log("Ok, mesg is: " + msg);
 }, function (error) {
     console.log(error);
 });*/
@@ -33,8 +33,8 @@ hello('').then(function (msg) {
 // Error: Msg not valid
 // + ... errors
 
-hello('').then(function (msg) {
-    console.log('Ok, mesg is: ' + msg);
+hello("").then(function (msg) {
+    console.log("Ok, mesg is: " + msg);
 }).catch((err) => {
     console.log(`Errors under control. ${err}`)
 });

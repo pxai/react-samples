@@ -6,7 +6,7 @@ const pi = 3.1415;
 // pi = 666  This would cause errors
 
 const names = [];
-names.push('Sam');  // This is ok
+names.push("Sam");  // This is ok
 names.pop();
 
 
@@ -16,4 +16,4 @@ number = number + 1;
 ...
 number = 666;
 
-let thereBeRock = 'ACDC';
+let thereBeRock = "ACDC";

@@ -5,7 +5,7 @@ class Device {
     }
 
     start () {
-        console.log('Starting...')
+        console.log("Starting...")
     }
 
     doStuff () {
@@ -13,7 +13,7 @@ class Device {
     }
 }
 
-const myPhone = new Device('iSimov', 42.0);
+const myPhone = new Device("iSimov", 42.0);
 myPhone.doStuff();
 
 class Tablet extends Device {
@@ -32,7 +32,7 @@ class Tablet extends Device {
     }
 }
 
-const myTablet = new Tablet('qb', 1042.0, 100);
+const myTablet = new Tablet("qb", 1042.0, 100);
 myTablet.use();         // qb doing stuff
 myTablet.getStatus();   // qb batt: 99
 
@@ -58,13 +58,13 @@ class Car {
 }
 
 
-//doThis = () => (console.log('I do some'))
-//doOtherStuff = (a) => console.log('Just showin it: ', a);
+//doThis = () => (console.log("I do some"))
+//doOtherStuff = (a) => console.log("Just showin it: ", a);
 
 //doMoreStuff = (a,b) => a+b
 
 /*doMultipleStuff = (a, b = 0) => {
-    console.log('Passed values: ', a, b)
+    console.log("Passed values: ", a, b)
     a + b
 }*/
 

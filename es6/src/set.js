@@ -11,7 +11,7 @@ console.log(players.delete(6)); // true
 console.log(players.delete(666)); // false
 
 if (players.has(34)) {
-    console.log('Player 34 is in.')
+    console.log("Player 34 is in.")
 }
 
 players.has(34); // true
@@ -52,10 +52,10 @@ playerIterator.next(); // { value: undefined, done: true }
 const bestPlayers = new Set([23, 99, 15, 4]);
 // bestPlayers = Set { 23, 99, 15, 4 }
 
-const friends = new WeakSet([{ name: 'Will'}, { name: 'Mike'}]);
+const friends = new WeakSet([{ name: "Will"}, { name: "Mike"}]);
 console.log(friends);
-friends.add({name: 'Dustin'});
-friends.add({name: 'Lucas'});
+friends.add({name: "Dustin"});
+friends.add({name: "Lucas"});
 
 console.log(friends);
 

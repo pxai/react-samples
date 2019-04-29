@@ -24,7 +24,7 @@ class Customer {
 customer = new Customer();
 
 customer.age = 66;
-customer.name = 'John Doe';
+customer.name = "John Doe";
 
 console.log(customer);
 console.log(customer.name, customer.age);

@@ -1,5 +1,5 @@
 
-let names = ['John', 'Alice', 'Bob', 'Jane'];
+let names = ["John", "Alice", "Bob", "Jane"];
 
 for (let i = 0; i< names.length; i++) {
     console.log(names[i]);
@@ -27,10 +27,10 @@ for (name of names) {
 // Jane
 
 let people = [
-    {name: 'John', age: 44},
-    {name: 'Alice', age: 43},
-    {name: 'Bob', age: 20},
-    {name: 'Jane', age: 21}
+    {name: "John", age: 44},
+    {name: "Alice", age: 43},
+    {name: "Bob", age: 20},
+    {name: "Jane", age: 21}
 ];
 
 
@@ -47,18 +47,18 @@ for (name of names) {
 for (person of people) {
     console.log(person);
 }
-// { name: 'John', age: 44 }
-// { name: 'Alice', age: 43 }
-// { name: 'Bob', age: 20 }
-// { name: 'Jane', age: 21 }
+// { name: "John", age: 44 }
+// { name: "Alice", age: 43 }
+// { name: "Bob", age: 20 }
+// { name: "Jane", age: 21 }
 
 let book = {
-    title: 'Atomic book of React',
-    author: 'Pello Altadill',
-    ISBN: 'none',
+    title: "Atomic book of React",
+    author: "Pello Altadill",
+    ISBN: "none",
     isGood: true,
     score: 9,
-    topics: ['React.js', 'Redux', 'React Native','ES6']
+    topics: ["React.js", "Redux", "React Native","ES6"]
 };
 
 for (b in book) {

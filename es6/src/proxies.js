@@ -1,4 +1,4 @@
-const account = { owner: 'Harry P.', balance: 634225.34 };
+const account = { owner: "Harry P.", balance: 634225.34 };
 
 const handler = {
     get(target, property) {
@@ -9,7 +9,7 @@ const handler = {
 const proxy = new Proxy(account, handler);
 
 let owner = proxy.owner;   // Proxy> called owner
-// owner = 'Harry P.'
+// owner = "Harry P."
 
 const secHandler = {
     get(target, property) {
@@ -25,11 +25,11 @@ secProxy.balance; // Proxy> balance is confidential
         return null;
     },
     set(target, property, value) {
-        if (property === 'balance')
+        if (property === "balance")
             if (value <= 0) {
                 console.log(`Proxy> tried to set ${value}`);
             } else {
-                target['balance'] += value;
+                target["balance"] += value;
             }
         }
     }
@@ -41,11 +41,11 @@ const balanceHandler = {
         return null;
     },
     set(target, property, value) {
-        if (property === 'balance') {
+        if (property === "balance") {
             if (value <= 0) {
                 console.log(`Proxy> tried to set ${value}`);
             } else {
-                target['balance'] += value;
+                target["balance"] += value;
             }
         }
     }

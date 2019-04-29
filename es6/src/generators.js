@@ -20,7 +20,7 @@ function* greet() {
 
 const greetIterator = greet();
 greetIterator.next();
-greetIterator.next('Hello there');
+greetIterator.next("Hello there");
 // The message is Hello there
 
 function* invoice (items){
