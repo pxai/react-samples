@@ -3,21 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/classes.js" afterPath="$PROJECT_DIR$/es6/src/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/defaultParamenters.js" afterPath="$PROJECT_DIR$/es6/src/defaultParamenters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/extract.js" afterPath="$PROJECT_DIR$/es6/src/extract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/forIterators.js" afterPath="$PROJECT_DIR$/es6/src/forIterators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/generators.js" afterPath="$PROJECT_DIR$/es6/src/generators.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/getSet.js" afterPath="$PROJECT_DIR$/es6/src/getSet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/interpolation.js" afterPath="$PROJECT_DIR$/es6/src/interpolation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/map.js" afterPath="$PROJECT_DIR$/es6/src/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/objects.js" afterPath="$PROJECT_DIR$/es6/src/objects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/promises.js" afterPath="$PROJECT_DIR$/es6/src/promises.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/proxies.js" afterPath="$PROJECT_DIR$/es6/src/proxies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/set.js" afterPath="$PROJECT_DIR$/es6/src/set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/spread.js" afterPath="$PROJECT_DIR$/es6/src/spread.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/symbol.js" afterPath="$PROJECT_DIR$/es6/src/symbol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/variables.js" afterPath="$PROJECT_DIR$/es6/src/variables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js" afterPath="$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.js" afterPath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.test.js" afterPath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/App.js" afterPath="$PROJECT_DIR$/other/react-template/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/App.test.js" afterPath="$PROJECT_DIR$/other/react-template/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/index.js" afterPath="$PROJECT_DIR$/other/react-template/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/serviceWorker.js" afterPath="$PROJECT_DIR$/other/react-template/src/serviceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.basic.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.dynamiclink.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.dynamiclink.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.split.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.split.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-sample/webpack.config basic.js" afterPath="$PROJECT_DIR$/other/webpack-sample/webpack.config basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-sample/webpack.config.js" afterPath="$PROJECT_DIR$/other/webpack-sample/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-sample/webpack.csswithplugins.config.js" afterPath="$PROJECT_DIR$/other/webpack-sample/webpack.csswithplugins.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/src/classes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
@@ -104,11 +104,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="crypter.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -163,6 +173,7 @@
       <dir>$PROJECT_DIR$/cap04</dir>
       <dir>$PROJECT_DIR$/cap05</dir>
       <dir>$PROJECT_DIR$/es6</dir>
+      <dir>$PROJECT_DIR$/other</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -171,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/es6/src/arrow.js" />
         <option value="$PROJECT_DIR$/es6/src/defaultParamenters.js" />
         <option value="$PROJECT_DIR$/es6/src/symbol.js" />
         <option value="$PROJECT_DIR$/es6/src/iterators.js" />
@@ -222,6 +232,7 @@
         <option value="$PROJECT_DIR$/cap03/react-newspaper/server/articles.js" />
         <option value="$PROJECT_DIR$/cap04/hello-react-native/App.js" />
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
+        <option value="$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js" />
       </list>
     </option>
   </component>
@@ -403,7 +414,7 @@
       <workItem from="1556832207139" duration="1770000" />
       <workItem from="1556955572400" duration="52000" />
       <workItem from="1557069719171" duration="4932000" />
-      <workItem from="1557249416799" duration="1359000" />
+      <workItem from="1557249416799" duration="1393000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -493,7 +504,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115341000" />
+    <option name="totallyTimeSpent" value="115375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="319" y="77" width="1156" height="910" extended-state="0" />
@@ -541,13 +552,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/Task.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/TaskComponent.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-344">
@@ -772,6 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="8" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="34" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,6 +784,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="38" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -786,6 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,6 +800,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,6 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -831,6 +840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +870,7 @@
     <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -913,6 +923,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>

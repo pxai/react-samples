@@ -1,5 +1,5 @@
 class Greeter {
-	constructor(msg = 'Hello World') {
+	constructor(msg = "Hello World") {
 		this._msg = msg; 
 	}
 

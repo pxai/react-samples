@@ -7,7 +7,7 @@ const vendors = ["react", "react-dom"];
 
 module.exports = {
   entry: {
-    bundle: path.join(__dirname, 'src/index.js'),
+    bundle: path.join(__dirname, "src/index.js"),
     vendor: vendors
   },
   output: {
@@ -44,7 +44,7 @@ module.exports = {
   stats: {
     colors: true
   },
-  devtool: 'source-map'
+  devtool: "source-map"
 }
 
 
