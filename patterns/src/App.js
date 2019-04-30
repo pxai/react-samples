@@ -19,6 +19,8 @@ import CustomersContainer from "./container_component/CustomersContainer";
 import Composed from "./high_order_component/Composed";
 import LoginForm from "./state_hoisting/LoginForm";
 import ControlledInput from "./controlled_input/ControlledInput";
+import Emitter from "./event_bus/Emitter";
+import Receiver from "./event_bus/Receiver";
 
 class App extends Component {
   render() {
@@ -100,6 +102,9 @@ class App extends Component {
         <hr />
           <h3>Login Form</h3>
           <LoginForm /> 
+        <hr />
+          <Emitter />
+          <Receiver />
       </div>
     );
   }
