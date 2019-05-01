@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Disclaimer = () => <div>Use this code at your own risk</div>;
 

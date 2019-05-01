@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function About (props) {
     let version = props.version ? <p>version {props.version}</p> : this.defaultProps.version;

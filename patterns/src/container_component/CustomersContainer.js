@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Customers from "../spreading_props/Customers";
 import customers from "../customers.json";
 

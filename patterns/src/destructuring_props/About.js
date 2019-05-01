@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function AboutDes ({author = "None", version = "1.0.0"}) {
     let versionP = <p>version {version}</p>;

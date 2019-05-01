@@ -3,21 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js" afterPath="$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.js" afterPath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.test.js" afterPath="$PROJECT_DIR$/other/mocha-chai-sinon/greeter.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/App.js" afterPath="$PROJECT_DIR$/other/react-template/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/App.test.js" afterPath="$PROJECT_DIR$/other/react-template/src/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/index.js" afterPath="$PROJECT_DIR$/other/react-template/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/react-template/src/serviceWorker.js" afterPath="$PROJECT_DIR$/other/react-template/src/serviceWorker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.basic.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.dynamiclink.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.dynamiclink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.split.js" afterPath="$PROJECT_DIR$/other/webpack-react-sample/webpack.config.split.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-sample/webpack.config basic.js" afterPath="$PROJECT_DIR$/other/webpack-sample/webpack.config basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-sample/webpack.config.js" afterPath="$PROJECT_DIR$/other/webpack-sample/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/webpack-sample/webpack.csswithplugins.config.js" afterPath="$PROJECT_DIR$/other/webpack-sample/webpack.csswithplugins.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/App.js" afterPath="$PROJECT_DIR$/patterns/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/App.test.js" afterPath="$PROJECT_DIR$/patterns/src/App.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js" afterPath="$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/children_passthrough/Header.js" afterPath="$PROJECT_DIR$/patterns/src/children_passthrough/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/children_passthrough/HeaderPassThrough.js" afterPath="$PROJECT_DIR$/patterns/src/children_passthrough/HeaderPassThrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/children_types/RenderChildren.js" afterPath="$PROJECT_DIR$/patterns/src/children_types/RenderChildren.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/conditional_rendering/Footer1.js" afterPath="$PROJECT_DIR$/patterns/src/conditional_rendering/Footer1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/conditional_rendering/Footer2.js" afterPath="$PROJECT_DIR$/patterns/src/conditional_rendering/Footer2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/conditional_rendering/Footer3.js" afterPath="$PROJECT_DIR$/patterns/src/conditional_rendering/Footer3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/container_component/CustomersContainer.js" afterPath="$PROJECT_DIR$/patterns/src/container_component/CustomersContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/controlled_input/ControlledInput.js" afterPath="$PROJECT_DIR$/patterns/src/controlled_input/ControlledInput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/destructuring_props/About.js" afterPath="$PROJECT_DIR$/patterns/src/destructuring_props/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/destructuring_props/Customer.js" afterPath="$PROJECT_DIR$/patterns/src/destructuring_props/Customer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/event_bus/Emitter.js" afterPath="$PROJECT_DIR$/patterns/src/event_bus/Emitter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/event_bus/Receiver.js" afterPath="$PROJECT_DIR$/patterns/src/event_bus/Receiver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/event_switch/Input.js" afterPath="$PROJECT_DIR$/patterns/src/event_switch/Input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/function_children_render_prop/InputField.js" afterPath="$PROJECT_DIR$/patterns/src/function_children_render_prop/InputField.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/function_component/About.js" afterPath="$PROJECT_DIR$/patterns/src/function_component/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/function_component/Disclaimer.js" afterPath="$PROJECT_DIR$/patterns/src/function_component/Disclaimer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/high_order_component/Composed.js" afterPath="$PROJECT_DIR$/patterns/src/high_order_component/Composed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/index.js" afterPath="$PROJECT_DIR$/patterns/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/layout_component/Form.js" afterPath="$PROJECT_DIR$/patterns/src/layout_component/Form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/proxy_component/Button.js" afterPath="$PROJECT_DIR$/patterns/src/proxy_component/Button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/proxy_component/Password.js" afterPath="$PROJECT_DIR$/patterns/src/proxy_component/Password.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/serviceWorker.js" afterPath="$PROJECT_DIR$/patterns/src/serviceWorker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/spreading_props/Customers.js" afterPath="$PROJECT_DIR$/patterns/src/spreading_props/Customers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/state_hoisting/Login.js" afterPath="$PROJECT_DIR$/patterns/src/state_hoisting/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/state_hoisting/LoginForm.js" afterPath="$PROJECT_DIR$/patterns/src/state_hoisting/LoginForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/patterns/src/style_component/CommonDialog.js" afterPath="$PROJECT_DIR$/patterns/src/style_component/CommonDialog.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -104,11 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crypter.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crypter.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patterns/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -122,16 +146,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="victim.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/victim.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,6 +188,7 @@
       <dir>$PROJECT_DIR$/cap05</dir>
       <dir>$PROJECT_DIR$/es6</dir>
       <dir>$PROJECT_DIR$/other</dir>
+      <dir>$PROJECT_DIR$/patterns</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -182,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/es6/src/defaultParamenters.js" />
         <option value="$PROJECT_DIR$/es6/src/symbol.js" />
         <option value="$PROJECT_DIR$/es6/src/iterators.js" />
         <option value="$PROJECT_DIR$/es6/src/set.js" />
@@ -233,6 +247,7 @@
         <option value="$PROJECT_DIR$/cap04/hello-react-native/App.js" />
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
         <option value="$PROJECT_DIR$/other/mocha-chai-sinon/crypter.test.js" />
+        <option value="$PROJECT_DIR$/patterns/src/App.js" />
       </list>
     </option>
   </component>
@@ -414,7 +429,7 @@
       <workItem from="1556832207139" duration="1770000" />
       <workItem from="1556955572400" duration="52000" />
       <workItem from="1557069719171" duration="4932000" />
-      <workItem from="1557249416799" duration="1393000" />
+      <workItem from="1557249416799" duration="1421000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -504,7 +519,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115375000" />
+    <option name="totallyTimeSpent" value="115403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="319" y="77" width="1156" height="910" extended-state="0" />
@@ -755,20 +770,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="106" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Emitter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +824,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,6 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -931,6 +943,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>

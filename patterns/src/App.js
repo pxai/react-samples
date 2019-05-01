@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import About from "./function_component/About";
 import Disclaimer from "./function_component/Disclaimer";
 import AboutDes from "./destructuring_props/About";
@@ -79,7 +79,7 @@ class App extends Component {
           </HeaderPassThrough>
         <hr />
           <Password id="passwd" onChange={(e) => alert(e.target.value)} />
-          <Button action={() => alert('Clicked')} text="Click me!" />
+          <Button action={() => alert("Clicked")} text="Click me!" />
         <hr />
           <CommonDialog dialogClass="info" content="Info dialog txt" />
           <CommonDialog dialogClass="warning" content="Warning dialog txt" />

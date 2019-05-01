@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Button = ({action, text}) => <button onClick={action}>{text}</button>;
 

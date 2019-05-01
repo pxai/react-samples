@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import bus from "./Bus";
 
 class Receiver extends Component {

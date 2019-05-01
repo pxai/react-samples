@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Customer from "../destructuring_props/Customer";
 
 class Customers extends Component {
