@@ -1,45 +1,25 @@
-describe.only ("Task management", function () {
-    beforeEach (() => {
-        cy.visit ("http://localhost:3000");
-    });
+import React, { Component } from 'react';
+import bus from "./Bus";
 
-    it ("has data", () => {
-        cy.get (".Task-data").eq (0).should ("have.text", "1 - Just do");
-    });
+class Receiver extends Component {
+	constructor (props) {
+		super (props);
+		this.state = {message: null}
+		bus.on ("EVENT_HAPPENED", this.onEventReceived.bind (this));
+	}
 
-    it ("has links", () => {
-        cy.get (".Task-controls a").eq (0).should ("have.text", "Update");
-        cy.get (".Task-controls a").eq (1).should ("have.text", "Delete");
-    });
+	onEventReceived (receivedMessage) {
+		console.log ("Event received", receivedMessage);
+		this.setState ({message: receivedMessage});
+	}
 
-    it ("deletes task", () => {
-        cy.get (".Task-data").eq (0).should ("have.text", "1 - Just do");
-        cy.get (".Task-controls a").eq (1).click ();
-        cy.get (".Task-data").eq (0).should ("not.have.text", "1 - Just do");
-    });
+	render () {
+		return <div>
+			{this.state.message &&
+			<div>Event Received. Message: {this.state.message}</div>
+			}
+		</div>;
+	}
+}
 
-    it ("toggles update form", () => {
-        cy.get (".Task .Form").should ("not.exist");
-        cy.get (".Task-controls a").eq (0).click ();
-        cy.get (".Task .Form").should ("exist");
-        cy.get (".Task-controls a").eq (0).click ();
-        cy.get (".Task .Form").should ("not.exist");
-    });
-
-    it ("does not update if form empty", () => {
-        cy.get (".Task-controls a").eq (0).click ();
-        cy.get (".Task .Form input[type=text]").clear ();
-        cy.get (".Task .Form input[type=button]").click ();
-        cy.get (".Task .Form").should ("exist");
-    });
-
-    it ("should update task", () => {
-        cy.get (".Task-data").eq (0).should ("have.text", "1 - Just do");
-        cy.get (".Task-controls a").eq (0).click ();
-        cy.get (".Task .Form input[type=text]").clear ().type ("Change task");
-        cy.get (".Task .Form input[type=button]").click ();
-
-        cy.get (".Task-data").eq (0).should ("have.text", "1 - Change task");
-        cy.get (".Task .Form").should ("not.exist");
-    });
-});
+export default Receiver;
