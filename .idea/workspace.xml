@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/static.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/arrays.js" afterPath="$PROJECT_DIR$/js/arrays.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/basic-jest/src/Form.test.js" afterPath="$PROJECT_DIR$/testing/basic-jest/src/Form.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/basic-jest/src/Greet.test.js" afterPath="$PROJECT_DIR$/testing/basic-jest/src/Greet.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/basic-jest/src/Task.test.js" afterPath="$PROJECT_DIR$/testing/basic-jest/src/Task.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing/basic-jest/src/TaskList.test.js" afterPath="$PROJECT_DIR$/testing/basic-jest/src/TaskList.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/victim.js" afterPath="$PROJECT_DIR$/victim.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -432,7 +424,7 @@
       <workItem from="1557588097419" duration="2740000" />
       <workItem from="1557687862720" duration="792000" />
       <workItem from="1557780593742" duration="3433000" />
-      <workItem from="1557864493507" duration="2028000" />
+      <workItem from="1557864493507" duration="2627000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -522,7 +514,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133496000" />
+    <option name="totallyTimeSpent" value="134095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="619" y="50" width="1156" height="910" extended-state="0" />
