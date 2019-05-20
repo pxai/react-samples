@@ -68,3 +68,10 @@ class Car {
     a + b
 }*/
 
+class SomeClass {
+	hello () {
+		console.log ("Hey, it works");
+	}
+}
+
+export default SomeClass;
