@@ -1,17 +1,17 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
-function Clock (start) {
-    const [seconds, updateClock] = useState(0);
-    const formatClock = s => `${Math.floor(s/60)}:${s%60}`;
+function Clock () {
+	const [seconds, updateClock] = useState (0);
+	const formatClock = s => `${Math.floor (s / 60)}:${s % 60}`;
 
-    setTimeout(() => updateClock(seconds + 1), 1000);
+	setTimeout (() => updateClock (seconds + 1), 1000);
 
-    return (
-        <div>
-            <i>Time: </i>
-            <b>{formatClock(seconds)}</b>
-        </div>
-    );
+	return (
+		<div>
+			<i>Time: </i>
+			<b>{formatClock (seconds)}</b>
+		</div>
+	);
 }
 
 export default Clock;

@@ -1,21 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import Clock from "./Clock";
 import './App.css';
+import ClockEffect from './ClockEffect';
+import Countdown from './Countdown';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-          Learn React
-          <Clock start={0} />
-      </header>
-    </div>
-  );
+function App () {
+	return (
+		<div className="App">
+			<header className="App-header">
+				React Hooks Sample
+				<Clock start={0}/>
+				<ClockEffect start={42}/>
+				<Countdown start={10}/>
+			</header>
+		</div>
+	);
 }
 
 export default App;
