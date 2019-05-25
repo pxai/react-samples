@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es6/src/importing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/importing.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-complex-form/package.json" afterPath="$PROJECT_DIR$/cap02/react-complex-form/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-controlled-form/package.json" afterPath="$PROJECT_DIR$/cap02/react-controlled-form/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-css/package.json" afterPath="$PROJECT_DIR$/cap02/react-css/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-form-event/package.json" afterPath="$PROJECT_DIR$/cap02/react-form-event/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lang-detect/package-lock.json" afterPath="$PROJECT_DIR$/cap02/react-lang-detect/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-lifecycle/package.json" afterPath="$PROJECT_DIR$/cap02/react-lifecycle/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form-validation/package.json" afterPath="$PROJECT_DIR$/cap02/react-login-form-validation/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-login-form/package.json" afterPath="$PROJECT_DIR$/cap02/react-login-form/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-multiple-value-fields/package.json" afterPath="$PROJECT_DIR$/cap02/react-multiple-value-fields/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-properties/package.json" afterPath="$PROJECT_DIR$/cap02/react-properties/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/react-state/package.json" afterPath="$PROJECT_DIR$/cap02/react-state/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/es6/src/classes.js" afterPath="$PROJECT_DIR$/es6/src/classes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js" afterPath="$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js" afterPath="$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/victim.js" afterPath="$PROJECT_DIR$/victim.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,72 +25,42 @@
         <entry file="file://$PROJECT_DIR$/victim.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="19" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap02/react-fragments/src/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="26" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/src/classes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="76" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/App.tsx">
+      <file leaf-file-name="ValidationForm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="30" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Greet.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/Greet.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/src/importing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exporting.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/exporting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="importing.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/importing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -158,14 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cap04/react-flexbox/public/css/flexbox00.css" />
-        <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox00.html" />
-        <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox04basis.html" />
-        <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox05justify.html" />
-        <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox06align-items.html" />
-        <option value="$PROJECT_DIR$/cap04/react-flexbox/public/flexbox07align-self.html" />
-        <option value="$PROJECT_DIR$/cap04/react-native-components/ScrollViewSample.js" />
-        <option value="$PROJECT_DIR$/cap04/react-native-components/TextViewSample.js" />
         <option value="$PROJECT_DIR$/cap04/react-native-components/ImageSample.js" />
         <option value="$PROJECT_DIR$/cap04/mobile-flashcards/package.json" />
         <option value="$PROJECT_DIR$/testing/basic-jest/src/TaskList.js" />
@@ -204,11 +153,19 @@
         <option value="$PROJECT_DIR$/cap02/react-css/package.json" />
         <option value="$PROJECT_DIR$/cap02/react-properties/src/index.js" />
         <option value="$PROJECT_DIR$/cap02/react-properties/src/App.js" />
-        <option value="$PROJECT_DIR$/victim.js" />
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
         <option value="$PROJECT_DIR$/es6/src/importing.js" />
         <option value="$PROJECT_DIR$/js/exporting.js" />
         <option value="$PROJECT_DIR$/js/importing.js" />
+        <option value="$PROJECT_DIR$/cap02/react-hooks/src/Countdown.js" />
+        <option value="$PROJECT_DIR$/cap02/react-hooks/src/ClockEffect.js" />
+        <option value="$PROJECT_DIR$/cap02/react-hooks/src/Clock.js" />
+        <option value="$PROJECT_DIR$/cap02/react-hooks/src/App.js" />
+        <option value="$PROJECT_DIR$/cap02/react-fragments/src/App.js" />
+        <option value="$PROJECT_DIR$/cap02/react-fragments/src/Paragraphs.js" />
+        <option value="$PROJECT_DIR$/victim.js" />
+        <option value="$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js" />
+        <option value="$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js" />
       </list>
     </option>
   </component>
@@ -219,26 +176,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/cap01/hello-world/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/formik-sample/node_modules" />
-    <handled-path value="$PROJECT_DIR$/cap02/react-crud-api/node_modules" />
     <handled-path value="$PROJECT_DIR$/cap02/react-hooks/node_modules" />
-    <handled-path value="$PROJECT_DIR$/cap02/react-login-form/node_modules" />
-    <handled-path value="$PROJECT_DIR$/cap04/hello-react-native/node_modules" />
-    <handled-path value="$PROJECT_DIR$/cap04/mobile-flashcards/node_modules" />
-    <handled-path value="$PROJECT_DIR$/cap05/react-typescript-task/node_modules" />
-    <handled-path value="$PROJECT_DIR$/cap05/react-typescript/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/other/react-template/node_modules" />
-    <handled-path value="$PROJECT_DIR$/other/webpack-react-sample/node_modules" />
-    <handled-path value="$PROJECT_DIR$/other/webpack-sample/node_modules" />
-    <handled-path value="$PROJECT_DIR$/patterns/node_modules" />
-    <handled-path value="$PROJECT_DIR$/patterns/src/server_side_rendering/node_modules" />
-    <handled-path value="$PROJECT_DIR$/testing/basic-jest/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="576" />
-    <option name="y" value="127" />
+    <option name="x" value="2051" />
+    <option name="y" value="72" />
     <option name="width" value="1162" />
     <option name="height" value="910" />
   </component>
@@ -273,6 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,13 +228,20 @@
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap05" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
-              <item name="cap05" type="462c0819:PsiDirectoryNode" />
-              <item name="react-typescript-task" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
+              <item name="formik-sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="cap02" type="462c0819:PsiDirectoryNode" />
+              <item name="formik-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
@@ -316,15 +268,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -436,6 +386,9 @@
       <workItem from="1558256954558" duration="5608000" />
       <workItem from="1558290069580" duration="3957000" />
       <workItem from="1558332753478" duration="1265000" />
+      <workItem from="1558470660699" duration="1087000" />
+      <workItem from="1558645763353" duration="198000" />
+      <workItem from="1558770561557" duration="1534000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -525,22 +478,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149852000" />
+    <option name="totallyTimeSpent" value="152671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="576" y="127" width="1162" height="910" extended-state="0" />
+    <frame x="2051" y="72" width="1162" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.267642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996207" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,6 +500,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24965326" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,69 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.dynamiclink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/webpack-sample/webpack.config basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/src/event_bus/Receiver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/sample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/webpack-react-sample/webpack.config.clean.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/src/array_children/RenderArrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap01/hello-world/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -852,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/victim.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -869,14 +749,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/src/classes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="76" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,11 +776,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/es6/src/classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="76" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/Countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/ClockEffect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/Clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-fragments/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-fragments/src/Paragraphs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/importing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/victim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/react-fragments/src/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
