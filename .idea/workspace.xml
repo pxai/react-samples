@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap04/mobile-flashcards" afterPath="$PROJECT_DIR$/cap04/mobile-flashcards" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js" afterPath="$PROJECT_DIR$/cap02/formik-sample/src/SimpleForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js" afterPath="$PROJECT_DIR$/cap02/formik-sample/src/ValidationForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/victim.js" afterPath="$PROJECT_DIR$/victim.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -180,8 +176,7 @@
     <handled-path value="$PROJECT_DIR$/cap02/react-hooks/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2051" />
-    <option name="y" value="72" />
+    <option name="y" value="67" />
     <option name="width" value="1162" />
     <option name="height" value="910" />
   </component>
@@ -481,7 +476,7 @@
     <option name="totallyTimeSpent" value="152671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2051" y="72" width="1162" height="910" extended-state="0" />
+    <frame x="0" y="67" width="1162" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.267642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
