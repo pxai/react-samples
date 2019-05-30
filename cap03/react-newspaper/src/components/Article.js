@@ -6,25 +6,30 @@ import ArticleModal from "./ArticleModal";
 import { getByArticleAsync } from "../actions/comment";
 
 class Article extends Component {
-  state = {
-    articleModalOpen: false
+
+  constructor (props) {
+    super(props);
+    this.state = { articleModalOpen: false };
   }
-  openArticleModal = () => { this.setState(() => ({ articleModalOpen: true})) }
-  closeArticleModal = () => {
-    this.setState(() => ({
+  openArticleModal () { 
+    this.setState({ articleModalOpen: true});
+  }
+
+  closeArticleModal () {
+    this.setState({
       articleModalOpen: false
-    }))
+    });
   }
 
   getReadableDate (timestamp) {
     return new Date(timestamp).toISOString()
   }
 
-  updateArticle = (article) => {
+  updateArticle(article) {
     this.props.updateArticle(article);
   }
 
-  deleteArticle= () => {
+  deleteArticle () {
     console.log("Delete this article: " , this.props.article.id);
     this.props.deleteArticle(this.props.article.id);
   }

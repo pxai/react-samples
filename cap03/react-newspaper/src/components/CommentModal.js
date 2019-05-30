@@ -4,7 +4,7 @@ import  { uuid }  from "../utils/uuid"
 
 class CommentModal extends Component {
 
-  handleSubmit =  (e) => {
+  handleSubmit (e) {
     e.preventDefault();
     const values = serializeForm(e.target, {hash: true})
     if (this.props.comment.id === undefined) {
@@ -39,7 +39,7 @@ class CommentModal extends Component {
         </div>
         <div>    
             <label htmlFor="body">Article body</label>
-            <textarea className="u-full-width" placeholder="I"m Batman, I"m awesome..." id="body" name="body" defaultValue={comment.body} ></textarea>
+            <textarea className="u-full-width" placeholder="I'm Batman, I'm awesome..." id="body" name="body" defaultValue={comment.body} ></textarea>
         </div>
         <div>
         <button>Save comment</button>

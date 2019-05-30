@@ -11,58 +11,52 @@ import Comment from "./Comment";
 import AlertContainer from "react-alert"
 
 class Article extends Component {
-
-  state = {
-    articleModalOpen: false,
-    commentModalOpen: false,
-    article: {},
-    comment: {},
-    commentUpdate: false,
-    redirectAfterDelete: false
-  }
-
-  alertOptions = {
-    offset: 14,
-    position: "bottom left",
-    theme: "dark",
-    time: 2000,
-    transition: "scale"
-  }
-
   constructor ({match}) {
     super();        
+    this.state = {
+      articleModalOpen: false,
+      commentModalOpen: false,
+      article: {},
+      comment: {},
+      commentUpdate: false,
+      redirectAfterDelete: false
+    }
+
+    this.alertOptions = {
+      offset: 14,
+      position: "bottom left",
+      theme: "dark",
+      time: 2000,
+      transition: "scale"
+    };
   }
 
-  openArticleModal = () => {
-    this.setState(() => ({
-      articleModalOpen: true
-    }))
+  openArticleModal() { 
+    this.setState({ articleModalOpen: true});
   }
 
-  closeArticleModal = () => {
-    this.setState(() => ({
-      articleModalOpen: false
-    }))
+  closeArticleModal() { 
+    this.setState({ articleModalOpen: false});
   }
 
 
-  openCommentModal = (comment, isUpdate) => {
-    this.setState(() => ({
+  openCommentModal (comment, isUpdate) {
+    this.setState({
       commentModalOpen: true,
       comment,
       commentUpdate: isUpdate
-    }))
+    });
   }
 
-  closeCommentModal = () => {
-    this.setState(() => ({
+  closeCommentModal () {
+    this.setState({
       commentModalOpen: false,
       comment: {},
       commentUpdate: false
-    }))
+    });
   }
 
-  addComment = (comment) => {
+  addComment(comment) {
     if (this.state.commentUpdate) {
       this.props.updateComment(comment);
       this.showMsg("Comment updated");
@@ -77,28 +71,28 @@ class Article extends Component {
     this.msg.show(msg, { time: 2000, type: "success"});
   }
   
-  deleteComment = (id) => {
+  deleteComment (id) {
     this.props.deleteComment(id);
     this.showMsg("Comment deleted");
   }
 
-  updateArticle = (article) => {
+  updateArticle (article) {
     this.props.updateArticle(article);
     this.showMsg("Article updated");
   }
 
-  deleteArticle = (id) => {
+  deleteArticle(id) {
     this.props.deleteArticle(id);
     console.log("Deleted...", id);
     this.setState({redirectAfterDelete: true});
   }
 
-  voteArticle = (vote) => {
+  voteArticle (vote) {
     let option = {option: vote};
     this.props.voteArticle(this.props.articles[0].id, option);
   }
 
-  voteComment = (id, vote) => {
+  voteComment (id, vote) {
     let option = {option: vote};
     this.props.voteComment(id, option);
   }

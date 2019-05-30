@@ -3,7 +3,7 @@ import serializeForm from "form-serialize";
 import  {uniqueId}  from "../utils/uuid"
 
 class ArticleModal extends Component {
-  handleSubmit =  (e) => {
+  handleSubmit (e) {
     e.preventDefault();
     const values = serializeForm(e.target, {hash: true});
     values.timestamp = +Date.now();   // + makes valueOf to be returned
@@ -42,7 +42,7 @@ class ArticleModal extends Component {
         </div>
         <div>    
             <label htmlFor="body">Article body</label>
-            <textarea className="u-full-width" placeholder="I"m Batman, I"m awesome..." id="body" name="body"  defaultValue={article.body}></textarea>
+            <textarea className="u-full-width" placeholder="I'm Batman, I'm awesome..." id="body" name="body"  defaultValue={article.body}></textarea>
         </div>
         <div>
         <button>{this.props.title}</button>

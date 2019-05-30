@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 class Comment extends Component {
 
-  deleteComment= () => {
+  deleteComment() {
     console.log("Delete this: " , this.props.comment.id);
     this.props.deleteComment(this.props.comment.id);
   }

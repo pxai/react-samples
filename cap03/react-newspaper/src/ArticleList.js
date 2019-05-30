@@ -9,23 +9,28 @@ import  { getCategoriesAsync }  from "./actions/category";
 import AlertContainer from "react-alert"
 
 class ArticleList extends Component {
-  state = {
-    category: "",
-    articles: {},
-    articleModalOpen: false,
-    sortByDate: 0,
-    sortByVotes: 0
+  constructor () {
+    super();  
+    this.state = {
+      category: "",
+      articles: {},
+      articleModalOpen: false,
+      sortByDate: 0,
+      sortByVotes: 0
+    };
+
+    this.alertOptions = {
+      offset: 14,
+      position: "bottom left",
+      theme: "dark",
+      time: 3000,
+      transition: "scale"
+    }
   }
 
-  alertOptions = {
-    offset: 14,
-    position: "bottom left",
-    theme: "dark",
-    time: 3000,
-    transition: "scale"
+  openArticleModal() { 
+    this.setState({ articleModalOpen: true});
   }
-
-  openArticleModal = () => { this.setState(() => ({ articleModalOpen: true})) }
 
   setSortByDate (e) {
     e.preventDefault();
@@ -41,30 +46,28 @@ class ArticleList extends Component {
     this.setState({ sortByVotes: newValue});
   }
 
-  closeArticleModal = () => {
-    this.setState(() => ({
-      articleModalOpen: false
-    }))
+  closeArticleModal() { 
+    this.setState({ articleModalOpen: false});
   }
 
 
-  addArticle = (article) => {
+  addArticle(article) {
     article.voteScore = 1;
     this.props.addArticle(article);
     this.showMsg("Article successfully created!");
   }
   
-  updateArticle = (article) => {
+  updateArticle (article) {
     this.props.updateArticle(article);
     this.showMsg("Article updated");
   }
 
-  voteArticle = (id, vote) => {
+  voteArticle (id, vote)  {
     let option = {option: vote};
     this.props.voteArticle(id, option);
   }
 
-  deleteArticle = (id) => {
+  deleteArticle (id) {
     console.log("Delete article: " , id);
     this.props.deleteArticle(id);
     this.showMsg("Article was deleted!");
@@ -74,7 +77,7 @@ class ArticleList extends Component {
     this.msg.show(msg, { time: 2000, type: "success"});
   }
   
-  getByCategory = (e,category) => {
+  getByCategory (e,category) {
     e.preventDefault();
    // this.props.getArticlesByCategory(category);
     this.setState({category: category});
