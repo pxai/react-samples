@@ -6,7 +6,7 @@ const defaultData = {
   "8xf0y6ziyjabvozdd253nd": {
     id: "8xf0y6ziyjabvozdd253nd",
     timestamp: 1467166872634,
-    title: "React rules, you suck",
+    title: "React rules, you too",
     body: "This is not an opinion, it is a fact.",
     author: "nobody",
     category: "tech",
@@ -16,7 +16,7 @@ const defaultData = {
   "6ni6ok3ym7mf1p33lnez": {
     id: "6ni6ok3ym7mf1p33lnez",
     timestamp: 1468479767190,
-    title: "Vue rules, React sucks",
+    title: "Vue rules, not as much as React",
     body: "And you know it",
     author: "johndoe",
     category: "tech",

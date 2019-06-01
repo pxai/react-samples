@@ -1,15 +1,15 @@
 import React from 'react';
+import { OurContext } from './OurContext';
 
-class Paragraphs extends React.Component {
+class Footer extends React.Component {
 	render () {
 		return (
-			<React.Fragment>
-				{this.props.phrases.map (phrase =>
-					<p>{phrase}</p>
-				)}
-			</React.Fragment>
+			<footer>
+				<small>This is the footer {this.context.title}</small>
+			</footer>
 		);
 	}
 }
 
-export default Paragraphs;
+Footer.contextType = OurContext;
+export default Footer;
