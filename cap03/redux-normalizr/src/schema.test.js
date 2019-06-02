@@ -10,8 +10,8 @@ const mockProject = {
 			employee: {
 				id: 1,
 				name: "Richard",
-				department: { id: 1,  name: "Programming" }
-			}		
+				department: {id: 1, name: "Programming"}
+			}
 		},
 		{
 			id: 666,
@@ -19,17 +19,16 @@ const mockProject = {
 			employee: {
 				id: 15,
 				name: "Gilfoyle",
-				department: { id: 2,  name: "Systems Engineering" }
+				department: {id: 2, name: "Systems Engineering"}
 			}
 		}
-	]	
-	
+	]
 };
 
 
-describe("Project reducer", () => {
-	it("Shoud normalize", () => {
-		const normalizedData = normalize(mockProject, project);
-	console.log("Normalized: ", normalizedData);
+describe ("Project reducer", () => {
+	it ("Shoud normalize", () => {
+		const normalizedData = normalize (mockProject, project);
+		console.log ("my object: %o", normalizedData)
 	});
 });
