@@ -5,7 +5,8 @@ import Immutable from "seamless-immutable";
 const defaultState = Immutable({
 	project: [],
 	member: [],
-	employee: []	
+	employee: []	,
+	department: []
 });
 
 export default function projectReducer(state = defaultState, action) {

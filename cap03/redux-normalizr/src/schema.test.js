@@ -1,25 +1,25 @@
-import reducer from "./reducers/projects";
-import actions from "./actions/projects";
+import { normalize } from 'normalizr';
+import { project } from "./schemas";
 
 const mockProject = {
 	id: 42,
 	members: [
 		{
-			id: 666,
+			id: 333,
 			days: 356,
 			employee: {
-				id: 15,
-				name: "Dilbert",
-				department: "Engineering"
+				id: 1,
+				name: "Richard",
+				department: { id: 1,  name: "Programming" }
 			}		
 		},
 		{
 			id: 666,
-			days: 356,
+			days: 350,
 			employee: {
 				id: 15,
-				name: "Dilbert",
-				department: "Engineering"
+				name: "Gilfoyle",
+				department: { id: 2,  name: "Systems Engineering" }
 			}
 		}
 	]	
@@ -28,6 +28,8 @@ const mockProject = {
 
 
 describe("Project reducer", () => {
-	it("Shoud deserialize", () => {
+	it("Shoud normalize", () => {
+		const normalizedData = normalize(mockProject, project);
+	console.log("Normalized: ", normalizedData);
 	});
 });

@@ -1,4 +1,4 @@
-modules.exports = {
+module.exports = {
 	deserializeProject: (project) => {
 		return {
 			type: "DESERIALIZE_ORDER",

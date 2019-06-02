@@ -1,17 +1,22 @@
-import { Schema, arrayOf } from "normalizr";
+import { schema } from "normalizr";
 
-const projectSchema = Schema("projects");
-const membersSchema = Schema("members");
-const employeeSchema = Schema("empleoyee");
+const project = new schema.Entity("projects");
+const members = new schema.Entity("members");
+const employee = new schema.Entity("empleoyee");
+const department = new schema.Entity("department");
 
 // A project has an array of members:
-projectSchema.define({
-	members: arrayOf(membersSchema)
+project.define({
+	members: [members]
 });
 
-membersSchema.define({
-	employee: employeeSchema
+members.define({
+	employee: employee
+});
+
+employee.define({
+	department: department
 });
 
 
-export { projectSchema, membersSchema, productSchema };
+export { project, members, employee, department };
