@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AppRegistry, TextInput } from "react-native";
+import { StyleSheet, TextInput } from "react-native";
 
 export default class TextInputSample extends Component {
   constructor(props) {
@@ -8,16 +8,15 @@ export default class TextInputSample extends Component {
   }
 
   textChanged (event) {
-    this.setState({text: event.target.value});
+    this.setState({text: event.value});
     console.log("Text changed: ", this.state.text);
   }
 
   render() {
     return (
-      <TextInput
-        style={styles.textInput}
-        onChangeText={this.textChanged.bind(this)}
-        value={this.state.text}
+      <TextInput style={styles.textInput} 
+        onChangeText={this.textChanged.bind(this)} 
+        value={this.state.text} 
       />
     );
   }
@@ -25,6 +24,6 @@ export default class TextInputSample extends Component {
 
 const styles = StyleSheet.create({
     textInput: {
-        height: 40, borderColor: "gray", borderWidth: 1
+        padding: 1, borderColor: "gray", borderWidth: 1
     },
 });

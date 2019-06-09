@@ -3,22 +3,28 @@ import { StyleSheet, Text, View, ScrollView } from "react-native";
 
 export default class ScrollViewSample extends React.Component {
   render() {
+    const names = [ "React", "Vue", "Angular", "Ember", "Ionic", "Meteor", "Amplify"];
     return (
-      <ScrollView style={styles.scrollview}>
-        <Text>This is a ScrollView</Text>
-	  	<View>
-			<Text>Scroll views are nice</Text>
-		</View>
-	  	<View>
-            <Text>This component is awesome</Text>
-		</View>
+      <ScrollView>
+        { names.map((name, index) => (
+            <View key={index} style={styles.element}>
+              <Text>{name}</Text>
+            </View>
+          ))
+        }
       </ScrollView>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    height: 10
-  },
+  element: {
+    height: 60,
+    width: 400,
+    padding: 4,
+    margin: 2,
+    borderColor: '#000',
+    backgroundColor: 'lime',
+    borderWidth: 3
+ }
 });

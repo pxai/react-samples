@@ -1,9 +1,19 @@
 import React from "react";
-import { StyleSheet, Text, View, ScrollView } from "react-native";
+import { Font } from 'expo';
+import { StyleSheet, Text, View } from "react-native";
 
 export default class TextViewSample extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+          fontLoaded: false,
+        };
+      
+    }
+
+    async componentDidMount() {
+      await Font.loadAsync({'samplefont': require('./samplefont.ttf')});
+      this.setState({ fontLoaded: true });
     }
 
     message() {
@@ -12,28 +22,21 @@ export default class TextViewSample extends React.Component {
 
   render() {
     return (
-      <ScrollView style={styles.scrollview}>
-	  	<View>
-			<Text style={styles.title}>Text components</Text>
-		</View>
-	  	<View>
-            <Text>Text can have nested text like this
-                <Text>{this.messge()}</Text>
-                And it"s awesome.
-            </Text>
-		</View>
-      </ScrollView>
-    );
+      this.state.fontLoaded ? (
+        <View>
+          <Text style={{ fontFamily: 'samplefont', fontSize: 16 }}>Text components</Text>
+          <Text>Text can have nested text like this
+              <Text>{this.message()}</Text>
+              And it"s awesome.
+          </Text>
+        </View>
+    ): null);
   }
 }
 
 const styles = StyleSheet.create({
   title: {
-    fontFamily: "Verdana",
     fontSize: 14
   },
 });
 
-<Image
-    source={require("/react-native/img/favicon.png")}
-/>

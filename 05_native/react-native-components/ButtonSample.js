@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AppRegistry, Picker } from "react-native";
+import { StyleSheet, Button } from "react-native";
 
 export default class ButtonSample extends Component {
   constructor(props) {

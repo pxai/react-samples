@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AppRegistry, SectionList } from "react-native";
+import { StyleSheet, SectionList, Text } from "react-native";
 
 export default class SectionListSample extends Component {
   constructor(props) {
@@ -31,6 +31,6 @@ export default class SectionListSample extends Component {
 
 const styles = StyleSheet.create({
     sectionList: {
-      fontSize: "10pt", color: "green" 
+      fontSize: 10, color: "green" 
     }
 });

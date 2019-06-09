@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AppRegistry, Picker } from "react-native";
+import { StyleSheet, Picker, View, Text } from "react-native";
 
 export default class PickerSample extends Component {
   constructor(props) {
@@ -7,27 +7,30 @@ export default class PickerSample extends Component {
     this.state = { framework: "React" };
   }
 
-  selectionChanged (value, index) {
+  selectionChanged (value) {
     this.setState({framework: value});
-    console.log("Button was pressed: ", this.state.framwork);
+    console.log("Button was pressed: ", this.state.framework);
   }
 
   render() {
     return (
+      <View>
       <Picker
         selectedValue={this.state.framework}
-        style={style.picker}
-        onValueChange={this.selectionChanged.bind(this, value, index)}>
+        style={styles.picker}
+        onValueChange={this.selectionChanged.bind(this)}>
         <Picker.Item label="React" value="react" />
         <Picker.Item label="Vue" value="vue" />
         <Picker.Item label="Angular" value="angular" />
       </Picker>
+      <Text>Selected: {this.state.framework}</Text>
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
     picker: {
-      height: 50, width: 100
+      height: 50, width: 200
     },
 });

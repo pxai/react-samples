@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AppRegistry, Slider } from "react-native";
+import { StyleSheet, Slider, View, Text } from "react-native";
 
 export default class SliderSample extends Component {
   constructor(props) {
@@ -8,20 +8,23 @@ export default class SliderSample extends Component {
   }
 
   slideChanged (value) {
-    this.setState({speed: value});
+    this.setState({speed: Math.round(value)});
     console.log("Slider was changed: ", this.state.speed);
   }
 
   render() {
     return (
+      <View>
       <Slider
         minimumValue={0}
         maximumValue={100}
         value={this.state.speed}
-        style={style.picker}
-        onValueChange={this.slideChanged.bind(this, value)}
-        onSlidingComplete={this.slideChanged.bind(this, value)}>
+        style={styles.picker}
+        onValueChange={this.slideChanged.bind(this)}
+        onSlidingComplete={this.slideChanged.bind(this)}>
       </Slider>
+      <Text>{this.state.speed}</Text>
+      </View>
     );
   }
 }
