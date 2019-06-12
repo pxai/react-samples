@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/mobile-flashcards" afterPath="$PROJECT_DIR$/05_native/mobile-flashcards" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/ActivityIndicatorSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/ActivityIndicatorSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/ButtonSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/ButtonSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/FlatListSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/FlatListSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/IconsSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/IconsSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/ModalSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/ModalSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/PickerSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/PickerSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/ScrollViewSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/ScrollViewSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/SectionListSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/SectionListSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/SliderSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/SliderSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/SwitchSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/SwitchSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/TextInputSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/TextInputSample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/WebViewSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/WebViewSample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-native-components/TextViewSample.js" afterPath="$PROJECT_DIR$/05_native/react-native-components/TextViewSample.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IconsSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/IconsSample.js">
+      <file leaf-file-name="Deck.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/Deck.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -41,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScrollViewSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/ScrollViewSample.js">
+      <file leaf-file-name="DeckDetail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/DeckDetail.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="3" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -53,97 +42,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SectionListSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/SectionListSample.js">
+      <file leaf-file-name="Decks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/Decks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="576">
+              <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatListSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/FlatListSample.js">
+      <file leaf-file-name="NewCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/NewCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="426">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="105" selection-end-column="11" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextInputSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/TextInputSample.js">
+      <file leaf-file-name="NewDeck.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/NewDeck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="730">
+              <caret line="84" column="12" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="84" selection-end-column="12" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PickerSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/PickerSample.js">
+      <file leaf-file-name="StartQuiz.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/StartQuiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="440">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="180" selection-end-column="13" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwitchSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/SwitchSample.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="35" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityIndicatorSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/ActivityIndicatorSample.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModalSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/ModalSample.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebViewSample.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_native/react-native-components/WebViewSample.js">
+      <file leaf-file-name="TextButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/TextButton.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/flashcard/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/notifications/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="32" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,17 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing/basic-jest/src/TaskList.test.js" />
-        <option value="$PROJECT_DIR$/js/arrays.js" />
-        <option value="$PROJECT_DIR$/es6/src/awaitasync.js" />
-        <option value="$PROJECT_DIR$/cap01/hello/src/index.js" />
-        <option value="$PROJECT_DIR$/cap01/hello/src/App.js" />
-        <option value="$PROJECT_DIR$/cap01/hello/src/App.css" />
-        <option value="$PROJECT_DIR$/cap01/hello/src/App.test.js" />
-        <option value="$PROJECT_DIR$/cap01/hello-world/public/index.html" />
-        <option value="$PROJECT_DIR$/cap02/react-css/package.json" />
-        <option value="$PROJECT_DIR$/cap02/react-properties/src/index.js" />
-        <option value="$PROJECT_DIR$/cap02/react-properties/src/App.js" />
         <option value="$PROJECT_DIR$/es6/src/classes.js" />
         <option value="$PROJECT_DIR$/es6/src/importing.js" />
         <option value="$PROJECT_DIR$/js/exporting.js" />
@@ -250,6 +226,17 @@
         <option value="$PROJECT_DIR$/05_native/react-native-components/ActivityIndicatorSample.js" />
         <option value="$PROJECT_DIR$/05_native/react-native-components/ModalSample.js" />
         <option value="$PROJECT_DIR$/05_native/react-native-components/WebViewSample.js" />
+        <option value="$PROJECT_DIR$/05_native/react-native-components/TextViewSample.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/App.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/components/DeckDetail.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/components/Decks.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/components/NewCard.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/components/NewDeck.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/components/StartQuiz.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/components/TextButton.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/flashcard/index.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/notifications/index.js" />
+        <option value="$PROJECT_DIR$/05_native/mobile-flashcards/reducers/index.js" />
       </list>
     </option>
   </component>
@@ -264,7 +251,7 @@
     <handled-path value="$PROJECT_DIR$/05_native/react-native-components/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="537" />
+    <option name="x" value="536" />
     <option name="y" value="28" />
     <option name="width" value="960" />
     <option name="height" value="1018" />
@@ -300,6 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,14 +305,54 @@
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
               <item name="05_native" type="462c0819:PsiDirectoryNode" />
-              <item name="react-native-components" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="05_native" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="05_native" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="05_native" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="05_native" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="flashcard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="05_native" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="notifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-book" type="462c0819:PsiDirectoryNode" />
+              <item name="05_native" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,6 +485,7 @@
       <workItem from="1559595719956" duration="10000" />
       <workItem from="1559977329910" duration="2007000" />
       <workItem from="1560180728143" duration="410000" />
+      <workItem from="1560373947743" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -545,10 +575,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165312000" />
+    <option name="totallyTimeSpent" value="168153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="537" y="28" width="960" height="1018" extended-state="4" />
+    <frame x="536" y="28" width="960" height="1018" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -594,18 +624,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cap02/react-lifecycle/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/cap02/react-complex-form/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/cap02/jsx-events/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/App.tsx" />
-    <entry file="file://$PROJECT_DIR$/cap05/react-typescript-task/Greet.tsx" />
-    <entry file="file://$PROJECT_DIR$/js/exporting.js" />
-    <entry file="file://$PROJECT_DIR$/es6/src/importing.js" />
-    <entry file="file://$PROJECT_DIR$/es6/src/classes.js" />
-    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/Countdown.js" />
-    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/ClockEffect.js" />
-    <entry file="file://$PROJECT_DIR$/cap02/react-hooks/src/Clock.js" />
     <entry file="file://$PROJECT_DIR$/cap02/react-fragments/src/App.js" />
     <entry file="file://$PROJECT_DIR$/cap02/react-fragments/src/Paragraphs.js" />
     <entry file="file://$PROJECT_DIR$/js/importing.js" />
@@ -635,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,7 +682,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,7 +692,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="3" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,7 +702,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,7 +712,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_native/react-native-components/SwitchSample.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="544">
           <caret line="35" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -739,7 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_native/react-native-components/ActivityIndicatorSample.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="368">
           <caret line="24" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -749,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05_native/react-native-components/ModalSample.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -760,9 +770,127 @@
     <entry file="file://$PROJECT_DIR$/05_native/react-native-components/WebViewSample.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/react-native-components/TextViewSample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/Deck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/DeckDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/Decks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/NewCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="105" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/NewDeck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="84" column="12" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="84" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/StartQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="180" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/components/TextButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/flashcard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/notifications/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_native/mobile-flashcards/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
