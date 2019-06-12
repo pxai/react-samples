@@ -2,35 +2,35 @@ import React, { Component } from "react";
 import { StyleSheet, SectionList, Text } from "react-native";
 
 export default class SectionListSample extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { users : [{key: "JS"}, {key: "Java"}, {key: "PHP"}] };
-  }
+	constructor (props) {
+		super (props);
+		this.state = {users: [{key: "JS"}, {key: "Java"}, {key: "PHP"}]};
+	}
 
-  renderListItem (value) {
-    return <Text>{value}</Text>
-  }
+	renderListItem (value) {
+		return <Text>{value}</Text>
+	}
 
-  render() {
-    return (
-    <SectionList
-      renderItem={({item, index, section}) => <Text key={index}>{item}</Text>}
-      renderSectionHeader={({section: {title}}) => (
-        <Text style={{fontWeight: "bold"}}>{title}</Text>
-      )}
-      sections={[
-        {title: "John", data: ["js", "java", "perl"]},
-        {title: "Mike", data: ["rails", "ember"]},
-        {title: "Joe", data: ["cobol", "c++"]},
-      ]}
-      keyExtractor={(item, index) => item + index}
-    />
-    );
-  }
+	render () {
+		return (
+			<SectionList
+				renderItem={({item, index, section}) => <Text key={index}>{item}</Text>}
+				renderSectionHeader={({section: {title}}) => (
+					<Text style={{fontWeight: "bold"}}>{title}</Text>
+				)}
+				sections={[
+					{title: "John", data: ["js", "java", "perl"]},
+					{title: "Mike", data: ["rails", "ember"]},
+					{title: "Joe", data: ["cobol", "c++"]},
+				]}
+				keyExtractor={(item, index) => item + index}
+			/>
+		);
+	}
 }
 
-const styles = StyleSheet.create({
-    sectionList: {
-      fontSize: 10, color: "green" 
-    }
+const styles = StyleSheet.create ({
+	sectionList: {
+		fontSize: 10, color: "green"
+	}
 });
