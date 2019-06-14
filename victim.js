@@ -1,26 +1,46 @@
-html, body {
-	font-family: Helvetica, Sans, Verdana;
-	font-size: 0.9em;
-	margin: 0;
-}
-header {
-	background-color: cornflowerblue;
-	margin-bottom: 2em;
-}
-div {
-	border: 1px solid gray;
-	padding: 1em;
-	background-color: white;
-	margin-bottom: 1em;
-}
-.container {
-	display: flex;
-	background-color: #ddd;
-}
-.container2 {
-	display : inline-flex;
-	background-color: #ddd;
-}
-.child {
-	height: 4em;
+const webpack = require ("webpack");
+const path = require ("path");
+const HtmlWebpackPlugin = require ("html-webpack-plugin");
+const CleanWebpackPluglin = require ("clean-webpack-plugin");
+const vendors = ["react", "react-dom"];
+module.exports = {
+	entry: {
+		bundle: path.join (__dirname, 'src/index.js'),
+		vendor: vendors
+	},
+	output: {
+		path: path.resolve (__dirname, "build"),
+		filename: "[name].[chunkhash].js"
+	},
+	module: {
+		rules: [
+			{
+				use: "babel-loader",
+				test: /\.js$/,
+				exclude: /node_modules/
+			}
+		]
+	},
+	plugins: [
+		new HtmlWebpackPlugin ({
+			template: "index.html",
+			filename: "index.html"
+		}),
+		new CleanWebpackPluglin ({options: "build/*.*"})
+	],
+	optimization: {
+		splitChunks: {
+			cacheGroups: {
+				commons: {
+					test: /[\\/]node_modules[\\/]/,
+					name: "vendor",
+					chunks: "initial",
+				},
+			},
+		},
+	},
+	stats: {
+		colors: true
+	},
+	devtool: 'source-map'
 }
