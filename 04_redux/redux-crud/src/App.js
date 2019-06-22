@@ -8,11 +8,6 @@ import  NotFound  from "./components/NotFound"
 import  About  from "./components/About"
 
 class App extends Component {
-  change = () => {
-    console.log("Changed.");
-    this.props.appChangeName(this.refs.name.value);
-  }
-
   render() {
     return (
       <div className="app">
