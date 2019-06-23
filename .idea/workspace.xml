@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c2fc528-0a29-4d36-9066-55f7374ff8ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/Notes.js" afterPath="$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/Notes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_redux/redux-crud/src/App.js" afterPath="$PROJECT_DIR$/04_redux/redux-crud/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_redux/redux-crud/src/components/Notes.js" afterPath="$PROJECT_DIR$/04_redux/redux-crud/src/components/Notes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_native/react-flexbox/public/flexbox03grow.html" afterPath="$PROJECT_DIR$/05_native/react-flexbox/public/flexbox03grow.html" />
@@ -20,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Notes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_redux/redux-crud/src/components/Notes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/Notes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -82,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/importing.js" />
         <option value="$PROJECT_DIR$/cap02/react-hooks/src/Countdown.js" />
         <option value="$PROJECT_DIR$/cap02/react-hooks/src/ClockEffect.js" />
         <option value="$PROJECT_DIR$/cap02/react-hooks/src/Clock.js" />
@@ -133,6 +145,7 @@
         <option value="$PROJECT_DIR$/05_native/react-flexbox/public/flexbox03grow.html" />
         <option value="$PROJECT_DIR$/04_redux/redux-crud/src/App.js" />
         <option value="$PROJECT_DIR$/04_redux/redux-crud/src/components/Notes.js" />
+        <option value="$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/Notes.js" />
       </list>
     </option>
   </component>
@@ -142,12 +155,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/04_redux/redux-crud/node_modules" />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="228" />
-    <option name="y" value="118" />
+    <option name="x" value="225" />
+    <option name="y" value="117" />
     <option name="width" value="1545" />
     <option name="height" value="1018" />
   </component>
@@ -200,20 +210,20 @@
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
               <item name="04_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-crud-thunk-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
               <item name="04_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-crud-thunk-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-book" type="462c0819:PsiDirectoryNode" />
               <item name="04_redux" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-crud" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-crud-thunk-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -367,7 +377,7 @@
       <workItem from="1560604302386" duration="836000" />
       <workItem from="1560667668839" duration="703000" />
       <workItem from="1561273221900" duration="1195000" />
-      <workItem from="1561325365073" duration="1612000" />
+      <workItem from="1561325365073" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="Ok, go ahead">
       <created>1521897481595</created>
@@ -457,10 +467,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172499000" />
+    <option name="totallyTimeSpent" value="173829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="228" y="118" width="1545" height="1018" extended-state="0" />
+    <frame x="225" y="117" width="1545" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19935276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -715,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/Notes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/NoteForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
@@ -801,6 +801,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_redux/redux-crud-thunk-api/src/components/Notes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
